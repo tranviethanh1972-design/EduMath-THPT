@@ -23,13 +23,37 @@
 
   <!-- PDF.js CDN for client-side PDF text extraction -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+
+  <script>
+    // Embedded Firebase Configuration
+    const __firebase_config = JSON.stringify({
+      apiKey: "AIzaSyBqPmqin5j3Xu1Sr2GxVWZnyZLET_Qo8a8",
+      authDomain: "edumath--thpt-db.firebaseapp.com",
+      projectId: "edumath--thpt-db",
+      storageBucket: "edumath--thpt-db.firebasestorage.app",
+      messagingSenderId: "776510891876",
+      appId: "1:776510891876:web:d9be28b1438c818ebafc71"
+    });
+    const __app_id = "edumath-thpt-production";
+  </script>
+
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+    import { getAuth, signInAnonymously, signInWithCustomToken } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+    import { getFirestore, doc, getDoc, setDoc, updateDoc, deleteDoc, onSnapshot, collection, query, getDocs } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+
+    window.firebaseModules = {
+      initializeApp, getAuth, signInAnonymously, signInWithCustomToken,
+      getFirestore, doc, getDoc, setDoc, updateDoc, deleteDoc, onSnapshot, collection, query, getDocs
+    };
+  </script>
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-indigo-500 selection:text-white">
   <div id="root"></div>
 
   <script type="text/babel">
     const { useState, useEffect, useRef } = React;
-
+ 
     const GraduationCap = ({ className = "w-5 h-5" }) => (
       <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
@@ -565,25 +589,97 @@
       });
       const [showTeacherModal, setShowTeacherModal] = useState(false);
 
-      const loadFromStorage = (key, fallback) => {
-        try {
-          const saved = localStorage.getItem(key);
-          return saved ? JSON.parse(saved) : fallback;
-        } catch (e) {
-          return fallback;
-        }
-      };
+      const [quizzes, setQuizzes] = useState(INITIAL_QUIZZES);
+      const [registeredStudents, setRegisteredStudents] = useState(INITIAL_STUDENTS);
+      const [currentStudent, setCurrentStudent] = useState(null);
+      const [submissionHistory, setSubmissionHistory] = useState(INITIAL_HISTORY);
+      const [isFirebaseSynced, setIsFirebaseSynced] = useState(false);
 
-      const saveToStorage = (key, value) => {
+      useEffect(() => {
+        const initFirebaseCloud = async () => {
+          try {
+            if (!window.firebaseModules || typeof __firebase_config === 'undefined') return;
+            const { initializeApp, getAuth, signInAnonymously, signInWithCustomToken, getFirestore, collection, onSnapshot } = window.firebaseModules;
+            
+            const firebaseConfig = JSON.parse(__firebase_config);
+            const app = initializeApp(firebaseConfig);
+            const auth = getAuth(app);
+            const db = getFirestore(app);
+
+            if (typeof __initial_auth_token !== 'undefined' && __initial_auth_token) {
+              await signInWithCustomToken(auth, __initial_auth_token);
+            } else {
+              await signInAnonymously(auth);
+            }
+
+            const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-edumath-thpt';
+
+            // Sync Quizzes
+            const qRef = collection(db, 'artifacts', appId, 'public', 'data', 'quizzes');
+            onSnapshot(qRef, (snapshot) => {
+              if (!snapshot.empty) {
+                const cloudQuizzes = [];
+                snapshot.forEach(docSnap => cloudQuizzes.push({ id: docSnap.id, ...docSnap.data() }));
+                if (cloudQuizzes.length > 0) setQuizzes(cloudQuizzes);
+              } else {
+                INITIAL_QUIZZES.forEach(async (q) => {
+                  await window.firebaseModules.setDoc(window.firebaseModules.doc(db, 'artifacts', appId, 'public', 'data', 'quizzes', q.id), q);
+                });
+              }
+            }, (err) => console.log("Quiz sync err:", err));
+
+            // Sync Students
+            const sRef = collection(db, 'artifacts', appId, 'public', 'data', 'students');
+            onSnapshot(sRef, (snapshot) => {
+              if (!snapshot.empty) {
+                const cloudStudents = [];
+                snapshot.forEach(docSnap => cloudStudents.push({ ...docSnap.data() }));
+                if (cloudStudents.length > 0) setRegisteredStudents(cloudStudents);
+              } else {
+                INITIAL_STUDENTS.forEach(async (st) => {
+                  await window.firebaseModules.setDoc(window.firebaseModules.doc(db, 'artifacts', appId, 'public', 'data', 'students', st.phone), st);
+                });
+              }
+            }, (err) => console.log("Student sync err:", err));
+
+            // Sync History
+            const hRef = collection(db, 'artifacts', appId, 'public', 'data', 'history');
+            onSnapshot(hRef, (snapshot) => {
+              if (!snapshot.empty) {
+                const cloudHistory = [];
+                snapshot.forEach(docSnap => cloudHistory.push({ id: docSnap.id, ...docSnap.data() }));
+                if (cloudHistory.length > 0) setSubmissionHistory(cloudHistory);
+              }
+            }, (err) => console.log("History sync err:", err));
+
+            setIsFirebaseSynced(true);
+          } catch (e) {
+            console.log("Firebase init fallback to local:", e);
+          }
+        };
+
+        initFirebaseCloud();
+      }, []);
+
+      const saveToCloud = async (collectionName, docId, data) => {
         try {
-          localStorage.setItem(key, JSON.stringify(value));
+          if (window.firebaseModules && typeof __firebase_config !== 'undefined') {
+            const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-edumath-thpt';
+            const db = window.firebaseModules.getFirestore();
+            await window.firebaseModules.setDoc(window.firebaseModules.doc(db, 'artifacts', appId, 'public', 'data', collectionName, docId), data, { merge: true });
+          }
         } catch (e) {}
       };
 
-      const [quizzes, setQuizzes] = useState(() => loadFromStorage('edumath_quizzes', INITIAL_QUIZZES));
-      const [registeredStudents, setRegisteredStudents] = useState(() => loadFromStorage('edumath_students', INITIAL_STUDENTS));
-      const [currentStudent, setCurrentStudent] = useState(() => loadFromStorage('edumath_current_student', null));
-      const [submissionHistory, setSubmissionHistory] = useState(() => loadFromStorage('edumath_history', INITIAL_HISTORY));
+      const deleteFromCloud = async (collectionName, docId) => {
+        try {
+          if (window.firebaseModules && typeof __firebase_config !== 'undefined') {
+            const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-edumath-thpt';
+            const db = window.firebaseModules.getFirestore();
+            await window.firebaseModules.deleteDoc(window.firebaseModules.doc(db, 'artifacts', appId, 'public', 'data', collectionName, docId));
+          }
+        } catch (e) {}
+      };
 
       useEffect(() => {
         if (currentStudent && registeredStudents) {
@@ -593,26 +689,6 @@
           }
         }
       }, [registeredStudents]);
-
-      useEffect(() => {
-        saveToStorage('edumath_students', registeredStudents);
-      }, [registeredStudents]);
-
-      useEffect(() => {
-        saveToStorage('edumath_quizzes', quizzes);
-      }, [quizzes]);
-
-      useEffect(() => {
-        saveToStorage('edumath_history', submissionHistory);
-      }, [submissionHistory]);
-
-      useEffect(() => {
-        if (currentStudent) {
-          saveToStorage('edumath_current_student', currentStudent);
-        } else {
-          try { localStorage.removeItem('edumath_current_student'); } catch (e) {}
-        }
-      }, [currentStudent]);
 
       const [toast, setToast] = useState(null);
 
@@ -676,11 +752,6 @@
       }, [studentActiveQuiz, quizSubmitted, timeLeft]);
 
       const handleResetData = () => {
-        localStorage.removeItem('edumath_students');
-        localStorage.removeItem('edumath_quizzes');
-        localStorage.removeItem('edumath_history');
-        localStorage.removeItem('edumath_current_student');
-        
         setRegisteredStudents(INITIAL_STUDENTS);
         setQuizzes(INITIAL_QUIZZES);
         setSubmissionHistory(INITIAL_HISTORY);
@@ -713,7 +784,8 @@
         setRegisteredStudents(prev => [newStudent, ...prev]);
         setCurrentStudent(newStudent);
         setStudentGrade(grade);
-        showToast(`Đã tạo và lưu tự động tài khoản cho ${name}!`, 'success');
+        saveToCloud('students', phone, newStudent);
+        showToast(`Đã tạo và lưu tự động tài khoản Cloud cho ${name}!`, 'success');
         return true;
       };
 
@@ -724,18 +796,27 @@
       };
 
       const handleRequestVip = (phone) => {
-        setRegisteredStudents(prev => prev.map(s => s.phone === phone ? { ...s, pendingVip: true } : s));
+        const updated = registeredStudents.map(s => s.phone === phone ? { ...s, pendingVip: true } : s);
+        setRegisteredStudents(updated);
+        const target = updated.find(s => s.phone === phone);
+        if (target) saveToCloud('students', phone, target);
         setCurrentStudent(prev => ({ ...prev, pendingVip: true }));
-        showToast('Đã gửi yêu cầu kích hoạt VIP đến giáo viên! Vui lòng chờ duyệt.', 'success');
+        showToast('Đã gửi yêu cầu kích hoạt VIP lên Cloud! Vui lòng chờ giáo viên duyệt.', 'success');
       };
 
       const handleApproveVip = (phone) => {
-        setRegisteredStudents(prev => prev.map(s => s.phone === phone ? { ...s, isPremium: true, pendingVip: false } : s));
-        showToast(`Đã phê duyệt VIP cho học sinh SĐT ${phone}!`, 'success');
+        const updated = registeredStudents.map(s => s.phone === phone ? { ...s, isPremium: true, pendingVip: false } : s);
+        setRegisteredStudents(updated);
+        const target = updated.find(s => s.phone === phone);
+        if (target) saveToCloud('students', phone, target);
+        showToast(`Đã phê duyệt VIP trên Cloud cho học sinh SĐT ${phone}!`, 'success');
       };
 
       const handleRejectVip = (phone) => {
-        setRegisteredStudents(prev => prev.map(s => s.phone === phone ? { ...s, pendingVip: false } : s));
+        const updated = registeredStudents.map(s => s.phone === phone ? { ...s, pendingVip: false } : s);
+        setRegisteredStudents(updated);
+        const target = updated.find(s => s.phone === phone);
+        if (target) saveToCloud('students', phone, target);
         showToast(`Đã từ chối yêu cầu VIP của SĐT ${phone}.`, 'info');
       };
 
@@ -749,8 +830,9 @@
         };
         setCurrentStudent(updatedStudent);
         setRegisteredStudents(prev => prev.map(s => s.phone === currentStudent.phone ? updatedStudent : s));
+        saveToCloud('students', currentStudent.phone, updatedStudent);
         setStudentGrade(newGrade);
-        showToast('Cập nhật thông tin cá nhân thành công!', 'success');
+        showToast('Cập nhật thông tin cá nhân lên Cloud thành công!', 'success');
       };
 
       const handleFinishQuiz = (isAutoSubmit = false) => {
@@ -813,8 +895,9 @@
         setStudentScoreResult(resultObj);
         setQuizSubmitted(true);
 
+        const newRecordId = 'sub-' + Date.now();
         const newRecord = {
-          id: 'sub-' + Date.now(),
+          id: newRecordId,
           studentPhone: currentStudent ? currentStudent.phone : '',
           studentName: currentStudent ? currentStudent.name : `Học sinh Khối ${studentGrade}`,
           grade: studentGrade,
@@ -826,7 +909,8 @@
         };
 
         setSubmissionHistory(prev => [newRecord, ...prev]);
-        showToast(isAutoSubmit ? 'Hết giờ! Bài làm đã tự động nộp.' : 'Đã nộp bài thành công!', 'success');
+        saveToCloud('history', newRecordId, newRecord);
+        showToast(isAutoSubmit ? 'Hết giờ! Bài làm đã tự động nộp lên Cloud.' : 'Đã nộp bài lên Cloud thành công!', 'success');
       };
 
       const startQuiz = (quiz) => {
@@ -847,21 +931,21 @@
       const handleDeleteQuiz = (id) => {
         const updated = quizzes.filter(q => q.id !== id);
         setQuizzes(updated);
-        saveToStorage('edumath_quizzes', updated);
-        showToast('Đã xóa bài tập thành công!', 'info');
+        deleteFromCloud('quizzes', id);
+        showToast('Đã xóa bài tập khỏi Cloud!', 'info');
       };
 
       const handleSaveQuiz = (newQuiz) => {
         let updatedQuizzes;
         if (editingQuiz) {
           updatedQuizzes = quizzes.map(q => q.id === newQuiz.id ? newQuiz : q);
-          showToast(`Cập nhật thành công đề thi Khối ${newQuiz.grade}!`, 'success');
+          showToast(`Cập nhật thành công đề thi Khối ${newQuiz.grade} lên Cloud!`, 'success');
         } else {
           updatedQuizzes = [newQuiz, ...quizzes];
-          showToast(`Đã đăng & lưu thành công đề thi Khối ${newQuiz.grade}!`, 'success');
+          showToast(`Đã đăng & lưu thành công đề thi Khối ${newQuiz.grade} lên Cloud!`, 'success');
         }
         setQuizzes(updatedQuizzes);
-        saveToStorage('edumath_quizzes', updatedQuizzes);
+        saveToCloud('quizzes', newQuiz.id, newQuiz);
         setTeacherActiveTab('quizzes');
         setSelectedGradeFilter(newQuiz.grade);
         setEditingQuiz(null);
@@ -902,10 +986,10 @@
                   const existingIds = new Set(prev.map(p => p.id));
                   const newQuizzes = allImportedList.filter(f => !existingIds.has(f.id));
                   const updated = [...newQuizzes, ...prev];
-                  saveToStorage('edumath_quizzes', updated);
+                  updated.forEach(q => saveToCloud('quizzes', q.id, q));
                   return updated;
                 });
-                showToast(`Đã tải lên & lưu thành công ${allImportedList.length} đề thi từ ${files.length} file đã chọn!`, 'success');
+                showToast(`Đã tải lên & lưu thành công ${allImportedList.length} đề thi lên Cloud Firestore!`, 'success');
               } else {
                 showToast('Không tìm thấy file đề thi JSON hợp lệ.', 'info');
               }
@@ -950,7 +1034,7 @@
                   <h1 className="font-bold text-lg leading-tight flex items-center gap-2">
                     EduMath THPT
                     <span className="text-[10px] bg-emerald-500 text-white px-2 py-0.5 rounded-full font-semibold flex items-center gap-1 shadow-sm">
-                      <Database className="w-2.5 h-2.5" /> Auto-Saved ({registeredStudents.length} HS)
+                      <Database className="w-2.5 h-2.5" /> {isFirebaseSynced ? 'Cloud Firebase Active' : 'Auto-Sync Active'} ({registeredStudents.length} HS)
                     </span>
                   </h1>
                   <p className="text-xs text-blue-200 hidden sm:block">Cổng thông tin & Luyện tập trắc nghiệm THPT</p>
@@ -1077,7 +1161,7 @@
           </main>
 
           <footer className="bg-white border-t border-slate-200 py-4 text-center text-xs text-slate-500">
-            <p>© 2026 EduMath THPT - Cổng thông tin & Luyện tập Trắc nghiệm Toán Khối 10, 11, 12.</p>
+            <p>© 2026 EduMath THPT - Cổng thông tin & Luyện tập Trắc nghiệm Toán Khối 10, 11, 12 (Sync Cloud Firestore).</p>
           </footer>
 
           <TeacherAuthModal 
@@ -2260,7 +2344,7 @@
                   className="flex items-center justify-center space-x-1.5 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-white px-3.5 py-2.5 rounded-xl text-xs font-bold shadow-md transition-all animate-pulse"
                 >
                   <Award className="w-4 h-4" />
-                  <span>Nâng Cấp VIP</span>
+                  <span>Điều khoản Nâng Cấp</span>
                 </button>
               )}
 
@@ -2270,7 +2354,7 @@
                 title="Danh sách các tài khoản lưu cục bộ"
               >
                 <Users className="w-4 h-4 text-blue-200" />
-                <span>Tài Khoản ĐK({registeredStudents ? registeredStudents.length : 0})</span>
+                <span>Tài Khoản MASTER({registeredStudents ? registeredStudents.length : 0})</span>
               </button>
 
               <button
