@@ -1,0 +1,237 @@
+{
+  "id": "q10-1785909600416",
+  "grade": "11",
+  "title": "Dãy số-Cấp số cộng (19 câu)",
+  "duration": 45,
+  "description": "",
+  "questions": [
+    {
+      "id": 1785909580799,
+      "question": "Câu 1: Công thức nào sau đây đúng với cấp số cộng có số hạng đầu $u_1$, công sai $d$?",
+      "options": [
+        "$u_n = u_1 + nd$",
+        "$u_n = u_1 + (n - 1)d$",
+        "$u_n = u_1 + (n + 1)d$",
+        "$u_{n+1} = u_1 + nd$"
+      ],
+      "correct": 1,
+      "explanation": "Theo định nghĩa và công thức tính số hạng tổng quát của một cấp số cộng, số hạng thứ $n$ được tính theo công thức: $u_n = u_1 + (n - 1)d$ với $n \\ge 2$."
+    },
+    {
+      "id": 1785909580800,
+      "question": "Câu 2: Cho cấp số cộng $1, 8, 15, 22, 29, \\dots$ Công sai của cấp số cộng này là:",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correct": 0,
+      "explanation": "Công sai $d$ của cấp số cộng được tính bằng hiệu của hai số hạng liên tiếp: $d = u_2 - u_1 = 8 - 1 = 7$."
+    },
+    {
+      "id": 1785909580801,
+      "question": "Câu 3: Cho cấp số cộng $u_1 = -3, u_6 = 27$. Công sai của cấp số cộng đó là:",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct": 1,
+      "explanation": "Ta có công thức $u_6 = u_1 + 5d$. Thay số vào ta được: $27 = -3 + 5d \\Rightarrow 5d = 30 \\Rightarrow d = 6$."
+    },
+    {
+      "id": 1785909580802,
+      "question": "Câu 4: Cho cấp số cộng $u_1 = -0,1; d = 0,1$. Số hạng thứ 7 của cấp số cộng đó là:",
+      "options": [
+        "1,6",
+        "0,5",
+        "6",
+        "0,6"
+      ],
+      "correct": 1,
+      "explanation": "Số hạng thứ 7 là: $u_7 = u_1 + (7 - 1)d = -0,1 + 6 \\cdot 0,1 = -0,1 + 0,6 = 0,5$."
+    },
+    {
+      "id": 1785909580803,
+      "question": "Câu 5: Cho dãy số $(u_n)$ với $u_n = \\frac{2n - 1}{n + 1}$. Khẳng định nào sau đây đúng?",
+      "options": [
+        "$u_3 = \\frac{1}{3}$",
+        "$u_{10} = 0,7$",
+        "$u_{n+1} = \\frac{2n + 1}{n + 2}$",
+        "$u_{n-1} = \\frac{2n - 2}{n}$"
+      ],
+      "correct": 2,
+      "explanation": "Thay $n+1$ vào vị trí của $n$ trong công thức $u_n$: $u_{n+1} = \\frac{2(n+1) - 1}{(n+1) + 1} = \\frac{2n + 2 - 1}{n + 2} = \\frac{2n + 1}{n + 2}$."
+    },
+    {
+      "id": 1785909580804,
+      "question": "Câu 6: Cho dãy số $(u_n)$ với $u_n = \\frac{2n - 1}{2n + 1}$ ($n \\in \\mathbb{N}^*$). Khẳng định nào sau đây sai?",
+      "options": [
+        "$u_2 = \\frac{3}{5}$",
+        "$u_4 = \\frac{7}{9}$",
+        "$u_{n+1} = \\frac{2n + 1}{2n + 3}$",
+        "$u_{100} = 1$"
+      ],
+      "correct": 3,
+      "explanation": "Kiểm tra từng phương án:\n- $u_2 = \\frac{2(2)-1}{2(2)+1} = \\frac{3}{5}$ (Đúng).\n- $u_4 = \\frac{2(4)-1}{2(4)+1} = \\frac{7}{9}$ (Đúng).\n- $u_{n+1} = \\frac{2(n+1)-1}{2(n+1)+1} = \\frac{2n+1}{2n+3}$ (Đúng).\n- $u_{100} = \\frac{2(100)-1}{2(100)+1} = \\frac{199}{201} \\neq 1$ (Sai)."
+    },
+    {
+      "id": 1785909580805,
+      "question": "Câu 7: Cho dãy số $(u_n)$ với: $u_1 = 1; u_{n+1} = 2u_n + 1$. Khẳng định nào sau đây sai?",
+      "options": [
+        "$u_2 = 3$",
+        "$u_3 = 7$",
+        "$u_4 = 13$",
+        "$u_5 = 20$"
+      ],
+      "correct": 2,
+      "explanation": "Ta tính các số hạng của dãy:\n- $u_1 = 1$\n- $u_2 = 2u_1 + 1 = 2(1) + 1 = 3$\n- $u_3 = 2u_2 + 1 = 2(3) + 1 = 7$\n- $u_4 = 2u_3 + 1 = 2(7) + 1 = 15$. Vậy $u_4 = 13$ là khẳng định sai."
+    },
+    {
+      "id": 1785909580806,
+      "question": "Câu 8: Cho dãy số $(u_n)$ với $u_1 = 1, u_{n+1} = u_n + 2n + 1$ với $n \\ge 1$. Khẳng định nào sau đây là sai?",
+      "options": [
+        "$u_3 = 9$",
+        "$u_5 = 25$",
+        "$u_8 = 64$",
+        "$u_{10} = 120$"
+      ],
+      "correct": 3,
+      "explanation": "Dãy số có dạng $u_1=1, u_2=1+2(1)+1=4, u_3=4+2(2)+1=9$. Nhận thấy $u_n = n^2$. Kiểm tra: $u_{10} = 10^2 = 100$. Vậy khẳng định $u_{10} = 120$ là sai."
+    },
+    {
+      "id": 1785909580807,
+      "question": "Câu 9: Cho dãy số $(u_n)$ xác định bởi $u_1 = 2, u_{n+1} = u_n + 2n + 1$. Khẳng định nào sau đây là đúng?",
+      "options": [
+        "Số 5 là số hạng thứ 2 của dãy $(u_n)$ ",
+        "Số 8 là số hạng thứ 3 của dãy $(u_n)$ ",
+        "Số 17 là số hạng thứ 5 của dãy $(u_n)$ ",
+        "Số 12 là số hạng thứ 5 của dãy $(u_n)$ "
+      ],
+      "correct": 0,
+      "explanation": "Tính các số hạng đầu: $u_1 = 2$; $u_2 = u_1 + 2(1) + 1 = 2 + 3 = 5$. Vậy số 5 là số hạng thứ 2."
+    },
+    {
+      "id": 1785909580808,
+      "question": "Câu 10: Cho dãy số $(u_n)$ với $u_1 = 1, u_{n+1} = u_n + 3$. Tổng 3 số hạng đầu tiên của dãy bằng:",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "correct": 1,
+      "explanation": "Dãy số là cấp số cộng với $u_1 = 1$ và $d = 3$. Ba số hạng đầu là: $u_1 = 1, u_2 = 4, u_3 = 7$. Tổng của chúng là: $1 + 4 + 7 = 12$."
+    },
+    {
+      "id": 1785909580809,
+      "question": "Câu 11: Viết 5 số xen giữa hai số 25 và 1 để được cấp số cộng có bảy số hạng.",
+      "options": [
+        "21; 17; 13; 9; 5",
+        "21; -17; 13; -9; 5",
+        "-21; 17; -13; 9; 5",
+        "21; 16; 13; 9; 5"
+      ],
+      "correct": 0,
+      "explanation": "Giả sử cấp số cộng là $u_1, u_2, \\dots, u_7$. Ta có $u_1 = 25, u_7 = 1$. Áp dụng công thức: $u_7 = u_1 + 6d \\Rightarrow 1 = 25 + 6d \\Rightarrow 6d = -24 \\Rightarrow d = -4$. Năm số hạng xen giữa là: $u_2 = 21, u_3 = 17, u_4 = 13, u_5 = 9, u_6 = 5$."
+    },
+    {
+      "id": 1785909580810,
+      "question": "Câu 12: Cho cấp số cộng $(u_n)$ với $\\begin{cases} u_2 - u_3 + u_5 = 10 \\\\ u_4 + u_6 = 26 \\end{cases}$. Số hạng đầu và công sai là:",
+      "options": [
+        "$u_1 = 1; d = 3$",
+        "$u_1 = 2; d = 3$",
+        "$u_1 = 3; d = 1$",
+        "$u_1 = 3; d = 2$"
+      ],
+      "correct": 0,
+      "explanation": "Hệ phương trình tương đương: $\\begin{cases} (u_1+d) - (u_1+2d) + (u_1+4d) = 10 \\\\ (u_1+3d) + (u_1+5d) = 26 \\end{cases} \\Leftrightarrow \\begin{cases} u_1 + 3d = 10 \\\\ 2u_1 + 8d = 26 \\end{cases}$. Giải hệ ta được $u_1 = 1, d = 3$."
+    },
+    {
+      "id": 1785909580811,
+      "question": "Câu 13: Cho cấp số cộng $(u_n)$ với $u_7 = 27; u_{15} = 59$. Số hạng đầu và công sai của cấp số cộng lần lượt là:",
+      "options": [
+        "4 và 3",
+        "3 và 4",
+        "-4 và -3",
+        "-3 và -4"
+      ],
+      "correct": 1,
+      "explanation": "Ta có hệ: $\\begin{cases} u_1 + 6d = 27 \\\\ u_1 + 14d = 59 \\end{cases}$. Lấy phương trình dưới trừ phương trình trên ta được $8d = 32 \\Rightarrow d = 4$. Thay vào phương trình đầu: $u_1 + 6(4) = 27 \\Rightarrow u_1 = 3$."
+    },
+    {
+      "id": 1785909580812,
+      "question": "Câu 14: Cho cấp số cộng $(u_n)$ thỏa mãn $\\begin{cases} u_9 = 5u_2 \\\\ u_{13} = 2u_6 + 5 \\end{cases}$ khi đó:",
+      "options": [
+        "$u_1 = 3$ và $d = 4$",
+        "$u_1 = -3$ và $d = 4$",
+        "$u_1 = 4$ và $d = -3$",
+        "$u_1 = -4$ và $d = -3$"
+      ],
+      "correct": 0,
+      "explanation": "Hệ phương trình: $\\begin{cases} u_1+8d = 5(u_1+d) \\\\ u_1+12d = 2(u_1+5d) + 5 \\end{cases} \\Leftrightarrow \\begin{cases} 4u_1 - 3d = 0 \\\\ u_1 - 2d = -5 \\end{cases}$. Giải hệ bằng cách thế $u_1 = 2d - 5$ vào phương trình trên: $4(2d - 5) - 3d = 0 \\Rightarrow 5d = 20 \\Rightarrow d = 4$. Từ đó $u_1 = 2(4) - 5 = 3$."
+    },
+    {
+      "id": 1785909580813,
+      "question": "Câu 15: Cho cấp số cộng có $d = -2$ và $S_8 = 72$. Tìm $u_1$?",
+      "options": [
+        "16",
+        "-16",
+        "1/16",
+        "-1/16"
+      ],
+      "correct": 0,
+      "explanation": "Sử dụng công thức $S_n = \\frac{n}{2}[2u_1 + (n-1)d]$: $S_8 = 4[2u_1 + 7(-2)] = 72 \\Rightarrow 2u_1 - 14 = 18 \\Rightarrow 2u_1 = 32 \\Rightarrow u_1 = 16$."
+    },
+    {
+      "id": 1785909580814,
+      "question": "Câu 16: Số hạng tổng quát của cấp số cộng thỏa mãn $\\begin{cases} u_1 + u_3 + u_5 = -12 \\\\ u_6 = -13 \\end{cases}$ là:",
+      "options": [
+        "$u_n = 5 - 3n$",
+        "$u_n = 5 + 3n$",
+        "$u_n = 5n$",
+        "$u_n = 2 - 3n$"
+      ],
+      "correct": 0,
+      "explanation": "Hệ phương trình tương đương: $\\begin{cases} 3u_1 + 6d = -12 \\\\ u_1 + 5d = -13 \\end{cases} \\Leftrightarrow \\begin{cases} u_1 + 2d = -4 \\\\ u_1 + 5d = -13 \\end{cases} \\Rightarrow 3d = -9 \\Rightarrow d = -3, u_1 = 2$. Công thức tổng quát: $u_n = 2 + (n-1)(-3) = 2 - 3n + 3 = 5 - 3n$."
+    },
+    {
+      "id": 1785909580815,
+      "question": "Câu 17: Cho cấp số cộng có tổng của 4 số hạng đầu bằng 22, tổng bình phương của chúng bằng 166. Bốn số hạng của cấp số cộng này là:",
+      "options": [
+        "1; 4; 7; 10",
+        "1; 4; 5; 10",
+        "2; 3; 5; 10",
+        "2; 3; 4; 5"
+      ],
+      "correct": 0,
+      "explanation": "Kiểm tra phương án A: Tổng $= 1+4+7+10 = 22$. Tổng bình phương $= 1^2 + 4^2 + 7^2 + 10^2 = 1 + 16 + 49 + 100 = 166$. Thỏa mãn điều kiện đề bài."
+    },
+    {
+      "id": 1785909580816,
+      "question": "Câu 18: Cho cấp số cộng có $u_2 + u_{22} = 60$. Tổng của 23 số hạng đầu tiên là:",
+      "options": [
+        "690",
+        "680",
+        "600",
+        "500"
+      ],
+      "correct": 0,
+      "explanation": "Ta có tính chất $u_k + u_{n-k+1} = u_1 + u_n$. Ở đây $u_2 + u_{22} = u_1 + u_{23} = 60$. Tổng 23 số hạng đầu là: $S_{23} = \\frac{23}{2}(u_1 + u_{23}) = \\frac{23}{2} \\cdot 60 = 23 \\cdot 30 = 690$."
+    },
+    {
+      "id": 1785909580817,
+      "question": "Câu 19: Cho cấp số cộng $(u_n)$ thỏa mãn $\\begin{cases} u_2 + u_5 = 42 \\\\ u_3 + u_{10} = 66 \\end{cases}$. Tổng của 346 số hạng đầu là:",
+      "options": [
+        "242546",
+        "242000",
+        "241000",
+        "240000"
+      ],
+      "correct": 0,
+      "explanation": "Giải hệ: $\\begin{cases} 2u_1 + 5d = 42 \\\\ 2u_1 + 11d = 66 \\end{cases} \\Rightarrow 6d = 24 \\Rightarrow d = 4, u_1 = 11$. $S_{346} = \\frac{346}{2}[2(11) + 345(4)] = 173 \\cdot (22 + 1380) = 173 \\cdot 1402 = 242546$."
+    }
+  ]
+}

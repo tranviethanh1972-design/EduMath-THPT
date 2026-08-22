@@ -1,0 +1,177 @@
+{
+  "id": "ctm2025-1787147445283",
+  "grade": "11",
+  "title": "ĐỀ THI LŨY THỪA ÔN TẬP TOÁN THPT 2025 (Cấu Trúc Mới)",
+  "duration": 62,
+  "description": "Đề thi Cấu Trúc Mới 2025 (Trắc nghiệm, Đúng/Sai, Trả lời ngắn)",
+  "isCTM2025": true,
+  "part1": [
+    {
+      "question": "Rút gọn biểu thức $P = x^{\\frac{1}{6}} \\cdot \\sqrt[3]{x}$ với $x > 0$.",
+      "options": [
+        "A. $P = x$",
+        "B. $P = x^{\\frac{1}{8}}$",
+        "C. $P = x^{\\frac{2}{9}}$",
+        "D. $P = \\sqrt{x}$"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Cho $x, y > 0$ và $\\alpha, \\beta \\in \\mathbb{R}$. Đẳng thức nào sau đây là sai?",
+      "options": [
+        "A. $(xy)^\\alpha = x^\\alpha \\cdot y^\\alpha$",
+        "B. $(x+y)^\\alpha = x^\\alpha + y^\\alpha$",
+        "C. $(x^\\beta)^\\alpha = x^{\\alpha\\beta}$",
+        "D. $x^\\alpha \\cdot x^\\beta = x^{\\alpha+\\beta}$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Cho $a = 3^{\\sqrt{5}}$, $b = 3^2$ và $c = 3^{\\sqrt{6}}$. Mệnh đề nào dưới đây đúng?",
+      "options": [
+        "A. $a < b < c$",
+        "B. $b < a < c$",
+        "C. $c < a < b$",
+        "D. $b < c < a$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Cho $(\\sqrt{2}-1)^m < (\\sqrt{2}-1)^n$. Khi đó ta có kết luận gì về $m$ và $n$?",
+      "options": [
+        "A. $m = n$",
+        "B. $m < n$",
+        "C. $m > n$",
+        "D. $m \\neq n$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Cho $a$ là số thực dương khác $1$. Khi đó $\\sqrt[3]{a^2 \\cdot \\sqrt[4]{a}}$ bằng:",
+      "options": [
+        "A. $a^{\\frac{3}{2}}$",
+        "B. $a^{\\frac{8}{3}}$",
+        "C. $a^{\\frac{3}{4}}$",
+        "D. $a^{\\frac{6}{1}}$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Rút gọn biểu thức $P = \\frac{a^{\\sqrt{3}+1} \\cdot a^{2-\\sqrt{3}}}{(a^{\\sqrt{2}-2})^{\\sqrt{2}+2}}$ với $a > 0$.",
+      "options": [
+        "A. $P = a$",
+        "B. $P = a^3$",
+        "C. $P = a^4$",
+        "D. $P = a^5$"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Cho hai số thực dương $a, b$. Rút gọn biểu thức $A = \\frac{a^{\\frac{1}{3}}\\sqrt{b} + b^{\\frac{1}{3}}\\sqrt{a}}{\\sqrt[6]{a} + \\sqrt[6]{b}}$ ta thu được $A = a^m \\cdot b^n$. Tính tích $m \\cdot n$.",
+      "options": [
+        "A. $\\frac{1}{8}$",
+        "B. $\\frac{1}{21}$",
+        "C. $\\frac{1}{9}$",
+        "D. $\\frac{1}{18}$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Cho biểu thức $P = \\sqrt[3]{x^2 \\cdot \\sqrt[3]{x \\cdot \\sqrt[4]{x}}}$ với $x > 0$. Mệnh đề nào dưới đây đúng?",
+      "options": [
+        "A. $P = x^{\\frac{1}{2}}$",
+        "B. $P = x^{\\frac{7}{12}}$",
+        "C. $P = x^{\\frac{5}{8}}$",
+        "D. $P = x^{\\frac{13}{24}}$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Giá trị của biểu thức $(3+2\\sqrt{2})^{2024} \\cdot (\\sqrt{2}-1)^{2025}$ bằng:",
+      "options": [
+        "A. $(\\sqrt{2}+1)^{2025}$",
+        "B. $(\\sqrt{2}-1)^{2023}$",
+        "C. $(\\sqrt{2}-1)^{2025}$",
+        "D. $(\\sqrt{2}+1)^{2023}$"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Tìm tập tất cả các giá trị của $a$ để $a^{\\frac{5}{7}} > a^{\\frac{2}{21}}$?",
+      "options": [
+        "A. $a > 0$",
+        "B. $0 < a < 1$",
+        "C. $a > 1$",
+        "D. $\\frac{2}{21} < a < \\frac{5}{7}$"
+      ],
+      "correctAnswer": "C"
+    }
+  ],
+  "part2": [
+    {
+      "question": "Cho các số thực dương $a, b$ và các số thực $m, n$. Xét tính đúng sai của các mệnh đề sau:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Nếu $a > 1$ thì $a^m > a^n \\Leftrightarrow m > n$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "$(\\sqrt{3}-1)^{2024} > (\\sqrt{3}-1)^{2023}$ vì $2024 > 2023$.",
+          "isTrue": false
+        },
+        {
+          "label": "c",
+          "text": "Biểu thức $P = x^{\\frac{1}{2}} \\cdot x^{\\frac{1}{3}} \\cdot x^{\\frac{1}{6}}$ rút gọn thành $P = x$.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "Với mọi số thực $a$ tùy ý thì $(a^2+1)^0 = 1$.",
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "question": "Cho biểu thức $P = (7+4\\sqrt{3})^{2025} \\cdot (7-4\\sqrt{3})^{2024}$. Xét các khẳng định sau:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "$(7+4\\sqrt{3}) \\cdot (7-4\\sqrt{3}) = 1$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Giá trị của $P$ là một số hữu tỉ.",
+          "isTrue": false
+        },
+        {
+          "label": "c",
+          "text": "Rút gọn biểu thức ta được $P = 7 + 4\\sqrt{3}$.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "$P > 13$.",
+          "isTrue": true
+        }
+      ]
+    }
+  ],
+  "part3": [
+    {
+      "question": "Cho biểu thức $P = \\frac{a^{\\sqrt{7}+1} \\cdot a^{2-\\sqrt{7}}}{(a^{\\sqrt{2}-1})^{\\sqrt{2}+1}}$ với $a > 0$. Khi rút gọn $P$ về dạng $a^n$, giá trị của $n$ là bao nhiêu?",
+      "correctAnswer": "2"
+    },
+    {
+      "question": "Cho biểu thức $P = \\sqrt[3]{x^5 \\cdot \\sqrt[4]{x}}$ với $x > 0$. Viết $P$ dưới dạng lũy thừa với số mũ hữu tỉ $x^{\\frac{m}{n}}$ (với $\\frac{m}{n}$ là phân số tối giản). Tính giá trị của biểu thức $m - n$.",
+      "correctAnswer": "3"
+    },
+    {
+      "question": "Tính giá trị của biểu thức $A = (\\sqrt{2}-1)^{2024} \\cdot (\\sqrt{2}+1)^{2024} + 2024$.",
+      "correctAnswer": "2025"
+    }
+  ],
+  "questions": []
+}

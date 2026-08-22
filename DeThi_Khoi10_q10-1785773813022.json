@@ -1,0 +1,249 @@
+{
+  "id": "q10-1785773813022",
+  "grade": "10",
+  "title": "Đề thi trích xuất AI từ PDF (19 câu)",
+  "duration": 15,
+  "description": "",
+  "questions": [
+    {
+      "id": 1785773510096,
+      "question": "Cho các vectơ $\\vec{u} = (u_1; u_2)$ và $\\vec{v} = (v_1; v_2)$. Điều kiện để vectơ $\\vec{u} = \\vec{v}$ là:",
+      "options": [
+        "$\\begin{cases} u_1 = u_2 \\\\ v_1 = v_2 \\end{cases}$",
+        "$\\begin{cases} u_1 = -v_1 \\\\ u_2 = -v_2 \\end{cases}$",
+        "$\\begin{cases} u_1 = v_1 \\\\ u_2 = v_2 \\end{cases}$",
+        "$\\begin{cases} u_1 = v_2 \\\\ u_2 = v_1 \\end{cases}$"
+      ],
+      "correct": 2,
+      "explanation": "Theo định nghĩa về hai vectơ bằng nhau trong mặt phẳng tọa độ, hai vectơ bằng nhau khi và chỉ khi các tọa độ tương ứng của chúng bằng nhau: $\\vec{u} = \\vec{v} \\Leftrightarrow \\begin{cases} u_1 = v_1 \\\\ u_2 = v_2 \\end{cases}$."
+    },
+    {
+      "id": 1785773510097,
+      "question": "Trong mặt phẳng $Oxy$, cho $A(x_A; y_A)$ và $B(x_B; y_B)$. Tọa độ của vectơ $\\vec{AB}$ là:",
+      "options": [
+        "$\\vec{AB} = (y_A - y_B; x_A - x_B)$",
+        "$\\vec{AB} = (x_A + x_B; y_A + y_B)$",
+        "$\\vec{AB} = (x_A - x_B; y_A - y_B)$",
+        "$\\vec{AB} = (x_B - x_A; y_B - y_A)$"
+      ],
+      "correct": 3,
+      "explanation": "Tọa độ của vectơ $\\vec{AB}$ được tính bằng cách lấy tọa độ điểm cuối trừ tọa độ điểm đầu tương ứng: $\\vec{AB} = (x_B - x_A; y_B - y_A)$."
+    },
+    {
+      "id": 1785773510098,
+      "question": "Trong mặt phẳng $Oxy$, cho $A(x_A; y_A)$, $B(x_B; y_B)$ và $C(x_C; y_C)$. Tọa độ trọng tâm $G$ của tam giác $ABC$ là:",
+      "options": [
+        "$G\\left(\\frac{x_A - x_B + x_C}{3}; \\frac{y_A + y_B + y_C}{3}\\right)$",
+        "$G\\left(\\frac{x_A + x_B + x_C}{3}; \\frac{y_A + y_B + y_C}{2}\\right)$",
+        "$G\\left(\\frac{x_A + x_B + x_C}{3}; \\frac{y_A + y_B + y_C}{3}\\right)$",
+        "$G\\left(\\frac{x_A + x_B + x_C}{2}; \\frac{y_A + y_B + y_C}{3}\\right)$"
+      ],
+      "correct": 2,
+      "explanation": "Tọa độ trọng tâm $G$ của tam giác $ABC$ là trung bình cộng tọa độ các đỉnh của tam giác đó: $x_G = \\frac{x_A + x_B + x_C}{3}$ và $y_G = \\frac{y_A + y_B + y_C}{3}$."
+    },
+    {
+      "id": 1785773510099,
+      "question": "Trong mặt phẳng với hệ tọa độ $Oxy$, cho $\\vec{a} = 2\\vec{i} - 3\\vec{j}$. Khi đó, tọa độ của $\\vec{a}$ là:",
+      "options": [
+        "$\\vec{a} = (2; 3)$",
+        "$\\vec{a} = (-2; 3)$",
+        "$\\vec{a} = (2; -3)$",
+        "$\\vec{a} = (3; 2)$"
+      ],
+      "correct": 2,
+      "explanation": "Nếu $\\vec{a} = x\\vec{i} + y\\vec{j}$ thì $\\vec{a} = (x; y)$. Ở đây $\\vec{a} = 2\\vec{i} - 3\\vec{j} \\Rightarrow \\vec{a} = (2; -3)$."
+    },
+    {
+      "id": 1785773510100,
+      "question": "Trong mặt phẳng tọa độ $Oxy$, cho $A(5; 2), B(10; 8)$. Tọa độ của vectơ $\\vec{AB}$ là:",
+      "options": [
+        "$(2; 4)$",
+        "$(5; 6)$",
+        "$(5; 10)$",
+        "$(-5; -6)$"
+      ],
+      "correct": 1,
+      "explanation": "Ta có $\\vec{AB} = (x_B - x_A; y_B - y_A) = (10 - 5; 8 - 2) = (5; 6)$."
+    },
+    {
+      "id": 1785773510101,
+      "question": "Cho $\\vec{a} = (2; -2), \\vec{b} = (1; 4)$. Vectơ $\\vec{c} = (5; 0)$ được phân tích theo hai vectơ $\\vec{a}, \\vec{b}$ là:",
+      "options": [
+        "$\\vec{c} = 2\\vec{a} - \\vec{b}$",
+        "$\\vec{c} = 2\\vec{a} + \\vec{b}$",
+        "$\\vec{c} = \\vec{a} + 2\\vec{b}$",
+        "$\\vec{c} = \\vec{a} - 2\\vec{b}$"
+      ],
+      "correct": 1,
+      "explanation": "Giả sử $\\vec{c} = x\\vec{a} + y\\vec{b}$. Ta có hệ phương trình: $\\begin{cases} 2x + y = 5 \\\\ -2x + 4y = 0 \\end{cases}$. Giải hệ ta được $y = 1, x = 2$. Vậy $\\vec{c} = 2\\vec{a} + \\vec{b}$."
+    },
+    {
+      "id": 1785773510102,
+      "question": "Trong mặt phẳng tọa độ $Oxy$, cho $A(2; -1), B(3; -1)$. Gọi $C$ là điểm đối xứng của $B$ qua $A$. Tọa độ điểm $C$ là:",
+      "options": [
+        "$(1; -1)$",
+        "$(-1; -1)$",
+        "$(-1; 1)$",
+        "$(1; 1)$"
+      ],
+      "correct": 0,
+      "explanation": "$C$ đối xứng với $B$ qua $A$ nghĩa là $A$ là trung điểm của $BC$. Ta có: $\\begin{cases} x_A = \\frac{x_B + x_C}{2} \\\\ y_A = \\frac{y_B + y_C}{2} \\end{cases} \\Leftrightarrow \\begin{cases} x_C = 2x_A - x_B = 2(2) - 3 = 1 \\\\ y_C = 2y_A - y_B = 2(-1) - (-1) = -1 \\end{cases}$. Vậy $C(1; -1)$."
+    },
+    {
+      "id": 1785773510103,
+      "question": "Trong mặt phẳng $Oxy$, cho $A(-1; 3), B(7; -1)$. Tìm $h, k$ sao cho $\\vec{AB} = h\\vec{a} + k\\vec{b}$ với $\\vec{a} = (1; -2), \\vec{b} = (5; -7)$.",
+      "options": [
+        "$h = 12, k = -4$",
+        "$h = 12, k = 4$",
+        "$h = -12, k = -4$",
+        "$h = -12, k = 4$"
+      ],
+      "correct": 3,
+      "explanation": "Ta có $\\vec{AB} = (7 - (-1); -1 - 3) = (8; -4)$. Hệ phương trình: $\\begin{cases} h + 5k = 8 \\\\ -2h - 7k = -4 \\end{cases} \\Rightarrow \\begin{cases} 2h + 10k = 16 \\\\ -2h - 7k = -4 \\end{cases} \\Rightarrow 3k = 12 \\Rightarrow k = 4$. Thay vào ta tìm được $h = 8 - 5(4) = -12$. Vậy $h = -12, k = 4$."
+    },
+    {
+      "id": 1785773510104,
+      "question": "Trong mp $Oxy$ cho $\\Delta ABC$ có $A(2; -3), B(4; 7), C(1; 1)$. Tìm tọa độ điểm $D$ sao cho $ABCD$ là hình bình hành?",
+      "options": [
+        "$(-1; -9)$",
+        "$(-1; 9)$",
+        "$(1; 9)$",
+        "$(1; -9)$"
+      ],
+      "correct": 0,
+      "explanation": "$ABCD$ là hình bình hành khi $\\vec{AB} = \\vec{DC}$. Ta có $\\vec{AB} = (4 - 2; 7 - (-3)) = (2; 10)$. Gọi $D(x; y)$, ta có $\\vec{DC} = (1 - x; 1 - y)$. Suy ra $\\begin{cases} 1 - x = 2 \\\\ 1 - y = 10 \\end{cases} \\Leftrightarrow \\begin{cases} x = -1 \\\\ y = -9 \\end{cases}$."
+    },
+    {
+      "id": 1785773510105,
+      "question": "Trong mặt phẳng $Oxy$, cho $\\Delta ABC$ có trọng tâm $G\\left(\\frac{7}{3}; -\\frac{4}{3}\\right)$, $M(1; 1)$ và $N(2; -4)$ lần lượt là trung điểm của $AB$ và $BC$. Tìm tọa độ điểm $B$?",
+      "options": [
+        "$B(1; 2)$",
+        "$B(-1; 2)$",
+        "$B(-1; -2)$",
+        "$B(1; -2)$"
+      ],
+      "correct": 2,
+      "explanation": "Gọi $B(x_B; y_B)$. Vì $M$ là trung điểm $AB$ nên $A = 2M - B = (2 - x_B; 2 - y_B)$. Vì $N$ là trung điểm $BC$ nên $C = 2N - B = (4 - x_B; -8 - y_B)$. Trọng tâm $G$ thỏa mãn $3x_G = x_A + x_B + x_C \\Rightarrow 3(\\frac{7}{3}) = (2 - x_B) + x_B + (4 - x_B) \\Rightarrow 7 = 6 - x_B \\Rightarrow x_B = -1$. Tương tự $3y_G = y_A + y_B + y_C \\Rightarrow 3(-\\frac{4}{3}) = (2 - y_B) + y_B + (-8 - y_B) \\Rightarrow -4 = -6 - y_B \\Rightarrow y_B = -2$. Vậy $B(-1; -2)$."
+    },
+    {
+      "id": 1785773510106,
+      "question": "Trong mặt phẳng tọa độ $Oxy$, cho $A(2; -3), B(4; 7)$. Tọa độ trung điểm $I$ của đoạn thẳng $AB$ là:",
+      "options": [
+        "$(6; 4)$",
+        "$(3; 2)$",
+        "$(2; 10)$",
+        "$(8; -21)$"
+      ],
+      "correct": 1,
+      "explanation": "Tọa độ trung điểm $I$ của $AB$ là $I\\left(\\frac{x_A + x_B}{2}; \\frac{y_A + y_B}{2}\\right) = \\left(\\frac{2 + 4}{2}; \\frac{-3 + 7}{2}\\right) = (3; 2)$."
+    },
+    {
+      "id": 1785773510107,
+      "question": "Trong hệ trục $(O, \\vec{i}, \\vec{j})$, tọa độ của vectơ $\\vec{i} + \\vec{j}$ là:",
+      "options": [
+        "$(-1; 1)$",
+        "$(0; 1)$",
+        "$(1; 0)$",
+        "$(1; 1)$"
+      ],
+      "correct": 3,
+      "explanation": "Ta có $\\vec{i} = (1; 0)$ và $\\vec{j} = (0; 1)$. Do đó $\\vec{i} + \\vec{j} = (1 + 0; 0 + 1) = (1; 1)$."
+    },
+    {
+      "id": 1785773510108,
+      "question": "Trong mp $Oxy$ cho tam giác $ABC$ có $A(2; -3), B(4; 1)$, trọng tâm $G(-4; 2)$. Khi đó tọa độ điểm $C$ là:",
+      "options": [
+        "$(\\frac{2}{3}; 0)$",
+        "$(-18; 8)$",
+        "$(-6; 4)$",
+        "$(-10; 10)$"
+      ],
+      "correct": 1,
+      "explanation": "Ta có $x_C = 3x_G - x_A - x_B = 3(-4) - 2 - 4 = -18$ và $y_C = 3y_G - y_A - y_B = 3(2) - (-3) - 1 = 8$. Vậy $C(-18; 8)$."
+    },
+    {
+      "id": 1785773510109,
+      "question": "Trong mp $Oxy$, cho 2 điểm $M(5; 2), N(3; 2)$. Khi đó tọa độ vectơ $\\vec{MN}$ là:",
+      "options": [
+        "$(2; 0)$",
+        "$(8; 0)$",
+        "$(1; 2)$",
+        "$(-2; 0)$"
+      ],
+      "correct": 3,
+      "explanation": "$\\vec{MN} = (3 - 5; 2 - 2) = (-2; 0)$. Đề bài gốc có thể bị lỗi đánh máy ở các phương án nhưng theo tính toán kết quả là $(-2; 0)$."
+    },
+    {
+      "id": 1785773510110,
+      "question": "Cho tam giác $ABC$ có trọng tâm là gốc tọa độ $O$, hai đỉnh $A$ và $B$ có tọa độ là $A(-2; 2), B(3; 5)$. Tọa độ của đỉnh $C$ là:",
+      "options": [
+        "$(2; -2)$",
+        "$(-1; -7)$",
+        "$(-3; -5)$",
+        "$(1; 7)$"
+      ],
+      "correct": 1,
+      "explanation": "Vì $O(0; 0)$ là trọng tâm tam giác $ABC$ nên $\\begin{cases} x_C = 3x_O - x_A - x_B = 3(0) - (-2) - 3 = -1 \\\\ y_C = 3y_O - y_A - y_B = 3(0) - 2 - 5 = -7 \\end{cases}$. Vậy $C(-1; -7)$."
+    },
+    {
+      "id": 1785773510111,
+      "question": "Trong mặt phẳng $Oxy$, cho hình bình hành $ABCD$ biết $A(-2; 7), B(6; -1)$ và $C(3; 4)$. Tìm tọa độ điểm $D$?",
+      "options": [
+        "$D(5; -12)$",
+        "$D(-5; 12)$",
+        "$D(-1; -2)$",
+        "$D(1; 2)$"
+      ],
+      "correct": 1,
+      "explanation": "Trong hình bình hành $ABCD$, ta có $\\vec{AD} = \\vec{BC}$. Gọi $D(x; y)$. Ta có $\\vec{BC} = (3 - 6; 4 - (-1)) = (-3; 5)$. $\\vec{AD} = (x + 2; y - 7)$. Suy ra $\\begin{cases} x + 2 = -3 \\\\ y - 7 = 5 \\end{cases} \\Leftrightarrow \\begin{cases} x = -5 \\\\ y = 12 \\end{cases}$. Vậy $D(-5; 12)$."
+    },
+    {
+      "id": 1785773510112,
+      "question": "Cho tam giác $ABC$ có trọng tâm là gốc tọa độ $O$, hai đỉnh $A$ và $B$ có tọa độ là $A(-2; 2), B(3; 5)$. Tọa độ trung điểm của $OC$ là:",
+      "options": [
+        "$(-\\frac{3}{2}; -\\frac{5}{2})$",
+        "$(1; -1)$",
+        "$(-\\frac{1}{2}; -\\frac{7}{2})$",
+        "$(1; 7)$"
+      ],
+      "correct": 2,
+      "explanation": "Từ kết quả câu trước, ta tìm được $C(-1; -7)$. Trung điểm $I$ của $OC$ có tọa độ $I\\left(\\frac{0 + (-1)}{2}; \\frac{0 + (-7)}{2}\\right) = \\left(-\\frac{1}{2}; -\\frac{7}{2}\\right)$."
+    },
+    {
+      "id": 1785773510113,
+      "question": "Trong mp $Oxy$, cho ba điểm $A(-4; 1), B(2; 4), C(2; -2)$. Tìm tọa độ điểm $D$ để tứ giác $ABCD$ là hình bình hành:",
+      "options": [
+        "$D(-4; 7)$",
+        "$D(-4; -5)$",
+        "$D(-8; -1)$",
+        "$D(8; 1)$"
+      ],
+      "correct": 1,
+      "explanation": "$ABCD$ là hình bình hành $\\Leftrightarrow \\vec{AB} = \\vec{DC}$. Ta có $\\vec{AB} = (2 - (-4); 4 - 1) = (6; 3)$. Gọi $D(x; y)$, $\\vec{DC} = (2 - x; -2 - y)$. Suy ra $\\begin{cases} 2 - x = 6 \\\\ -2 - y = 3 \\end{cases} \\Leftrightarrow \\begin{cases} x = -4 \\\\ y = -5 \\end{cases}$."
+    },
+    {
+      "id": 1785773510114,
+      "question": "Cho hình thang $ABCD$ vuông tại $A$ và $D$, có $AD = CD = 4, AB = 8$. Tính độ dài của vectơ $\\vec{BA} - \\vec{AC}$?",
+      "options": [
+        "$2\\sqrt{2}$",
+        "$2\\sqrt{10}$",
+        "$4\\sqrt{10}$",
+        "$4\\sqrt{2}$"
+      ],
+      "correct": 2,
+      "explanation": "Chọn hệ trục tọa độ sao cho $D(0; 0), A(0; 4), C(4; 0), B(8; 4)$. Khi đó $\\vec{BA} = (0 - 8; 4 - 4) = (-8; 0)$ và $\\vec{AC} = (4 - 0; 0 - 4) = (4; -4)$. Ta có $\\vec{v} = \\vec{BA} - \\vec{AC} = (-8 - 4; 0 - (-4)) = (-12; 4)$. Độ dài $|\\vec{v}| = \\sqrt{(-12)^2 + 4^2} = \\sqrt{144 + 16} = \\sqrt{160} = 4\\sqrt{10}$."
+    },
+    {
+      "id": 1785773550399,
+      "question": "Trong mặt phẳng tọa độ $Oxy$, cho $A(2; 1), B(-1; 2)$. Gọi $C$ là điểm đối xứng của $A$ qua $B$. Tọa độ điểm $C$ là:",
+      "options": [
+        "$(-4; 3)$",
+        "$(4; 3)$",
+        "$(4; -3)$",
+        "$(3; -4)$"
+      ],
+      "correct": 0,
+      "explanation": "Lời giải chi tiết..."
+    }
+  ]
+}

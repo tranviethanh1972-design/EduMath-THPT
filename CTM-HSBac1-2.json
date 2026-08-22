@@ -1,0 +1,177 @@
+{
+  "id": "ctm2025-1786693401483",
+  "grade": "10",
+  "title": "ĐỀ THI HÀM SỐ BẬC NHẤT TOÁN THPT 2025 (Cấu Trúc Mới)",
+  "duration": 60,
+  "description": "Đề thi Cấu Trúc Mới 2025 (Trắc nghiệm, Đúng/Sai, Trả lời ngắn)",
+  "isCTM2025": true,
+  "part1": [
+    {
+      "question": "Đồ thị hàm số $y = -2x + 1$ song song với đồ thị hàm số nào sau đây?",
+      "options": [
+        "A. $y = 2x + 3$",
+        "B. $y = -2x - 1$",
+        "C. $y = -x$",
+        "D. $y = x + 2$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Trong các hàm số sau, hàm số nào là hàm số bậc nhất?",
+      "options": [
+        "A. $y = \\frac{1}{x} + 1$",
+        "B. $y = 1 - \\sqrt{x}$",
+        "C. $y = x + \\frac{1}{x}$",
+        "D. $y = 2x + 1$"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Hệ số góc của đường thẳng $y = 4 - 2x$ là:",
+      "options": [
+        "A. $-2$",
+        "B. $-2x$",
+        "C. $4$",
+        "D. $2$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Hàm số $y = (2 - m)x + 4$ đồng biến trên $\\mathbb{R}$ khi:",
+      "options": [
+        "A. $m < 2$",
+        "B. $m > 2$",
+        "C. $m \\leq 2$",
+        "D. $m \\geq 2$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Đường thẳng $y = 2x - 1$ cắt trục tung tại điểm nào?",
+      "options": [
+        "A. $(0; -1)$",
+        "B. $(1; 1)$",
+        "C. $(0; 2)$",
+        "D. $(2; 1)$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Đường thẳng $y = x - 2$ song song với đường thẳng nào sau đây?",
+      "options": [
+        "A. $y = x - 2$",
+        "B. $y = x + 2$",
+        "C. $y = -x$",
+        "D. $y = -x + 2$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Đường thẳng $d: y = 2x - 5$ vuông góc với đường thẳng nào sau đây?",
+      "options": [
+        "A. $y = -2x + 9$",
+        "B. $y = -\\frac{1}{2}x + 3$",
+        "C. $y = 2x + 1$",
+        "D. $y = \\frac{1}{2}x + 4$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Hai đường thẳng $y = -x + 2$ và $y = x + 2$ có vị trí tương đối là:",
+      "options": [
+        "A. Song song",
+        "B. Trùng nhau",
+        "C. Cắt nhau tại điểm có tung độ bằng 2",
+        "D. Cắt nhau tại điểm có hoành độ bằng 2"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Tọa độ giao điểm của hai đường thẳng $y = x + 1$ và $y = -x + 2$ là:",
+      "options": [
+        "A. $(\\frac{1}{2}; \\frac{3}{2})$",
+        "B. $(-\\frac{1}{2}; \\frac{3}{2})$",
+        "C. $(-\\frac{1}{2}; -\\frac{3}{2})$",
+        "D. $(\\frac{1}{2}; -\\frac{3}{2})$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Điểm nào sau đây nằm trên đồ thị hàm số $y = -2x - 1$?",
+      "options": [
+        "A. $(-1; 1)$",
+        "B. $(0; 1)$",
+        "C. $(2; -4)$",
+        "D. $(-1; -3)$"
+      ],
+      "correctAnswer": "A"
+    }
+  ],
+  "part2": [
+    {
+      "question": "Cho hàm số $y = 3x + 5$. Xét tính đúng sai của các khẳng định sau:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Đồ thị hàm số cắt trục tung tại điểm $(0; 5)$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Hàm số đã cho nghịch biến trên $\\mathbb{R}$.",
+          "isTrue": false
+        },
+        {
+          "label": "c",
+          "text": "Đồ thị hàm số cắt trục hoành tại điểm $(-\\frac{5}{3}; 0)$.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "Hệ số góc của đường thẳng là 3.",
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "question": "Cho hai đường thẳng $d_1: y = 2x + 3$ và $d_2: y = 2x - 3$. Xét tính đúng sai của các khẳng định sau:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Hai đường thẳng $d_1$ và $d_2$ song song với nhau.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Hai đường thẳng $d_1$ và $d_2$ vuông góc với nhau.",
+          "isTrue": false
+        },
+        {
+          "label": "c",
+          "text": "Đường thẳng $d_2$ đi qua điểm $(0; -3)$.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "Đường thẳng $d_1$ cắt trục tung tại điểm có tung độ bằng 3.",
+          "isTrue": true
+        }
+      ]
+    }
+  ],
+  "part3": [
+    {
+      "question": "Cho đường thẳng $y = 3x + b$. Nếu đường thẳng này đi qua điểm $(-2; 2)$ thì giá trị của $b$ bằng bao nhiêu?",
+      "correctAnswer": "8"
+    },
+    {
+      "question": "Cho đồ thị hàm số $y = ax + b$ đi qua hai điểm $A(0; -3)$ và $B(1; -5)$. Tìm giá trị của hệ số $a$.",
+      "correctAnswer": "-2"
+    },
+    {
+      "question": "Tìm hệ số góc của đường thẳng có phương trình $3x - y - 1 = 0$.",
+      "correctAnswer": "3"
+    }
+  ],
+  "questions": []
+}

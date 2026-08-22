@@ -1,0 +1,177 @@
+{
+  "id": "ctm2025-1786292634958",
+  "grade": "10",
+  "title": "ĐỀ THI ÔN TẬP TOÁN THPT 2025 (Cấu Trúc Mới)",
+  "duration": 90,
+  "description": "Đề thi Cấu Trúc Mới 2025 (Trắc nghiệm, Đúng/Sai, Trả lời ngắn)",
+  "isCTM2025": true,
+  "part1": [
+    {
+      "question": "Trong các bất phương trình sau, bất phương trình nào là bất phương trình bậc nhất hai ẩn?",
+      "options": [
+        "$2x^2 - 5y + 3z ≤ 0$",
+        " $3x^2 + 2x - 4 > 0$",
+        " $2x^2 + 5y > 3$",
+        " $2x + 3y < 5$"
+      ],
+      "correctAnswer": "$2x + 3y < 5$"
+    },
+    {
+      "question": "Điểm nào sau thuộc miền nghiệm của bất phương trình $2x + 3y - 3 > 0$?",
+      "options": [
+        "$Q(-1; -3)$",
+        " $M(1;\\frac{3}{2})$",
+        " $N(1; 1)$",
+        " $M(1;-\\frac{3}{2})$ "
+      ],
+      "correctAnswer": "$M(1; \frac{3}{2})$"
+    },
+    {
+      "question": "Trong các cặp số sau đây, cặp nào không là nghiệm của bất phương trình $2x + y < 1$?",
+      "options": [
+        "$(-2; 1)$",
+        " $(-3; 7)$",
+        " $(0; 1)$",
+        " $(0; 0)$"
+      ],
+      "correctAnswer": "$(-3; 7)$"
+    },
+    {
+      "question": "Cặp số  $(x; y) = (2; 3)$ là nghiệm của bất phương trình nào sau đây?",
+      "options": [
+        "$4x - 3y > 0$",
+        " $-3x + 7y < 0$",
+        " $2x - 3y - 1 > 0$",
+        " $x - y < 0$"
+      ],
+      "correctAnswer": "$x - y < 0$"
+    },
+    {
+      "question": "Miền nghiệm của bất phương trình  $3x - 2y + 1 ≤ 0$ không chứa điểm nào sau đây?",
+      "options": [
+        "$A(1; 2)$",
+        " $B(2; 1)$",
+        " $C(1; 2.5)$",
+        " $D(-1; 1)$"
+      ],
+      "correctAnswer": "$B(2; 1)$"
+    },
+    {
+      "question": "Miền nghiệm của bất phương trình $2x + y > 1$ không chứa điểm nào sau đây?",
+      "options": [
+        "$A(1; 1)$",
+        " $B(2; 2)$",
+        " $C(3; 3)$",
+        " $D(-1; -1)$"
+      ],
+      "correctAnswer": "$D(-1; -1)$"
+    },
+    {
+      "question": "Cho bất phương trình $2x + 4y < 5$ có tập nghiệm là  $S$. Khẳng định nào sau đây là đúng?",
+      "options": [
+        "$(1; 1) ∈ S$",
+        " $(1; 10) ∈ S$",
+        " $(1; -1) ∈ S$",
+        " $(1; 5) ∈ S$"
+      ],
+      "correctAnswer": "$(1; -1) ∈ S$"
+    },
+    {
+      "question": "Điểm nào sau đây thuộc miền nghiệm của bất phương trình $\\begin{cases} 2x - 5y - 1 > 0 \\\\ 2x + y + 5 > 0 \\\\ x + y + 1 < 0 \\end{cases}$?",
+      "options": [
+        "$(0; 0)$",
+        " $(1; 0)$",
+        " $(0; -2)$",
+        " $(0; 2)$"
+      ],
+      "correctAnswer": "$(0; -2)$"
+    },
+    {
+      "question": "Cho hệ bất phương trình $\\begin{cases} x + y > 0 \\\\ 2x + 5y < 0 \\end{cases}$ có tập nghiệm là $S$. Khẳng định nào sau đây là đúng?",
+      "options": [
+        "$(1; 1) ∈ S$",
+        " $(-1; -1) ∈ S$",
+        " $(1; -0.5) ∈ S$",
+        " $(2; -5) ∈ S$"
+      ],
+      "correctAnswer": "$(1; -0.5) ∈ S$"
+    },
+    {
+      "question": "Điểm nào sau đây không thuộc miền nghiệm của hệ bất phương trình $\\begin{cases} 2x + 3y - 1 > 0 \\\\ 5x - y + 4 < 0 \\end{cases}$?",
+      "options": [
+        "$(1; -4)$",
+        " $(-2; 4)$",
+        " $(0; 0)$",
+        " $(-3; 4)$"
+      ],
+      "correctAnswer": "$(0; 0)$"
+    }
+  ],
+  "part2": [
+    {
+      "question": "Cho bất phương trình bậc nhất 2 ẩn  $3x + 2y - 6 < 0$ có miền nghiệm là nửa mặt phẳng có bờ là đường thảng  $d: 3x + 2y - 6 = 0$.",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Đường thẳng  $d$ đi qua điểm $M(2; 0)$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Miền nghiệm của bất phương trình chứa gốc tọa độ  $O(0; 0)$.",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "Điểm $N(1; 2)$ thuộc miền nghiệm của bất phương trình",
+          "isTrue": false
+        },
+        {
+          "label": "d",
+          "text": "Miền nghiệm là nửa mặt phẳng bờ là  $d$ không chứa gốc tọa độ",
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "question": "Xét hệ bất phương trình $\\begin{cases} x + y > 0 \\\\ 2x + 5y < 0 \\end{cases}$. Khi đó:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Cặp số $(1; -1)$ là một nghiệm của hệ bất phương trình.",
+          "isTrue": false
+        },
+        {
+          "label": "b",
+          "text": "Cặp số $(-1; 2)$ là một nghiệm của hệ bất phương trình.",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "Điểm $A(1; -0.5)$ nằm trong miền nghiệm của hệ.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "Miền nghiệm của hệ là phần mặt phẳng nằm phía trên đường thẳng $x + y = 0$.",
+          "isTrue": true
+        }
+      ]
+    }
+  ],
+  "part3": [
+    {
+      "question": "Cho tập hợp các điểm  $X = \\{(1; 1), (1; 10), (1; -1), (1; 5)\\}$. Có bao nhiêu điểm thuộc miền nghiệm của bất phương trình $2x + 4y < 5$?",
+      "correctAnswer": "1"
+    },
+    {
+      "question": "Cho các điểm $A(1; 2), B(2; 1), C(1; 0.5), D(3; 1)$. Có bao nhiêu điểm thuộc miền nghiệm của bất phương trình $3x - 2y + 1 ≤ 0$?",
+      "correctAnswer": "1"
+    },
+    {
+      "question": "Tìm hoành độ giao điểm của đường thẳng  $3x + 2y - 6 = 0$ với trục hoành $Ox$.",
+      "correctAnswer": "2"
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,177 @@
+{
+  "id": "ctm2025-1787146331099",
+  "grade": "11",
+  "title": "ĐỀ THI LŨY THỪA TOÁN THPT 2025 (Cấu Trúc Mới)",
+  "duration": 60,
+  "description": "Đề thi Cấu Trúc Mới 2025 (Trắc nghiệm, Đúng/Sai, Trả lời ngắn)",
+  "isCTM2025": true,
+  "part1": [
+    {
+      "question": "Với $a$ là số thực dương tùy ý, biểu thức $a^{\\frac{1}{3}} \\cdot \\sqrt[3]{a^5}$ bằng:",
+      "options": [
+        "A. $a^5$",
+        "B. $a^2$",
+        "C. $a^9$",
+        "D. $a^4$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Cho $a > 0$ và $m, n \\in \\mathbb{R}$. Khẳng định nào sau đây đúng?",
+      "options": [
+        "A. $a^m \\cdot a^n = a^{m+n}$",
+        "B. $a^m \\cdot a^n = a^{mn}$",
+        "C. $(a^m)^n = a^{m+n}$",
+        "D. $a^m \\cdot a^n = a^{m-n}$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Rút gọn biểu thức $Q = b^{\\frac{5}{3}} : \\sqrt[3]{b}$ với $b > 0$.",
+      "options": [
+        "A. $Q = b^{\\frac{4}{3}}$",
+        "B. $Q = b^2$",
+        "C. $Q = b^{-\\frac{4}{3}}$",
+        "D. $Q = b^{\\frac{5}{9}}$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Cho $a$ là số thực dương. Giá trị rút gọn của biểu thức $P = a^{\\frac{4}{3}} \\cdot \\sqrt{a}$ bằng:",
+      "options": [
+        "A. $a^{\\frac{7}{3}}$",
+        "B. $a^{\\frac{5}{6}}$",
+        "C. $a^{\\frac{11}{6}}$",
+        "D. $a^{\\frac{10}{3}}$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Cho biểu thức $\\sqrt[3]{x^2 \\sqrt{x}} = x^{\\alpha}$ với $x > 0$. Giá trị của $\\alpha$ là:",
+      "options": [
+        "A. $\\frac{1}{2}$",
+        "B. $\\frac{5}{2}$",
+        "C. $\\frac{5}{6}$",
+        "D. $\\frac{3}{2}$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Cho các số thực $a = 3^{\\sqrt{5}}$, $b = 3^2$, $c = 3^{\\sqrt{6}}$. Mệnh đề nào sau đây đúng?",
+      "options": [
+        "A. $a < b < c$",
+        "B. $b < a < c$",
+        "C. $c < a < b$",
+        "D. $b < c < a$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Cho $(\\sqrt{2}-1)^m < (\\sqrt{2}-1)^n$. Khi đó:",
+      "options": [
+        "A. $m = n$",
+        "B. $m < n$",
+        "C. $m > n$",
+        "D. $m \\neq n$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Rút gọn biểu thức $P = \\frac{a^{\\sqrt{3}+1} \\cdot a^{2-\\sqrt{3}}}{(a^{\\sqrt{2}-2})^{\\sqrt{2}+2}}$ với $a > 0$.",
+      "options": [
+        "A. $P = a$",
+        "B. $P = a^3$",
+        "C. $P = a^4$",
+        "D. $P = a^5$"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Cho $a, b > 0$. Rút gọn biểu thức $P = \\frac{a^{\\frac{4}{3}}b + ab^{\\frac{4}{3}}}{\\sqrt[3]{a} + \\sqrt[3]{b}}$.",
+      "options": [
+        "A. $P = ab$",
+        "B. $P = a+b$",
+        "C. $P = a^{\\frac{4}{3}}b^{\\frac{4}{3}}$",
+        "D. $P = ab(a+b)$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Tính giá trị biểu thức $P = (7+4\\sqrt{3})^{2025} \\cdot (4\\sqrt{3}-7)^{2024}$.",
+      "options": [
+        "A. $P = 1$",
+        "B. $P = 7-4\\sqrt{3}$",
+        "C. $P = 7+4\\sqrt{3}$",
+        "D. $P = -1$"
+      ],
+      "correctAnswer": "C"
+    }
+  ],
+  "part2": [
+    {
+      "question": "Xét tính đúng sai của các khẳng định sau về lũy thừa:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Với số thực $a > 1$, nếu $\\alpha > \\beta$ thì $a^{\\alpha} > a^{\\beta}$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Với số thực $0 < a < 1$, nếu $\\alpha > \\beta$ thì $a^{\\alpha} > a^{\\beta}$.",
+          "isTrue": false
+        },
+        {
+          "label": "c",
+          "text": "Biểu thức $(\\sqrt{3}-1)^{2024} > (\\sqrt{3}-1)^{2025}$ là một khẳng định đúng.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "Với mọi số thực $a, b > 0$ và $m \\in \\mathbb{R}$, ta luôn có $(a+b)^m = a^m + b^m$.",
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "question": "Cho $a$ là số thực dương, xét các mệnh đề sau:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "$a^{\\frac{1}{2}} = \\sqrt{a}$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "$\\sqrt[n]{\\sqrt[m]{a}} = \\sqrt[n+m]{a}$ với $n, m$ là các số nguyên dương lớn hơn 1.",
+          "isTrue": false
+        },
+        {
+          "label": "c",
+          "text": "Lũy thừa với số mũ thực của một số dương luôn là một số dương.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "Nếu $a^{\\pi} < a^e$ thì $a < 1$.",
+          "isTrue": true
+        }
+      ]
+    }
+  ],
+  "part3": [
+    {
+      "question": "Cho biểu thức $P = \\sqrt[5]{8 \\sqrt[3]{2 \\sqrt{2}}} = 2^{\\frac{m}{n}}$, trong đó $\\frac{m}{n}$ là phân số tối giản. Tính giá trị của $m + n$.",
+      "correctAnswer": "17"
+    },
+    {
+      "question": "Tìm số mũ của $a$ sau khi rút gọn biểu thức $A = \\frac{a^{\\frac{11}{3}} \\cdot a^{-\\frac{7}{3}}}{a^{\\frac{4}{3}} \\cdot a^{-5}}$ với $a > 0$.",
+      "correctAnswer": "5"
+    },
+    {
+      "question": "Tính giá trị của biểu thức $P = (3+2\\sqrt{2})^{2024} \\cdot (\\sqrt{2}-1)^{4048}$.",
+      "correctAnswer": "1"
+    }
+  ],
+  "questions": []
+}

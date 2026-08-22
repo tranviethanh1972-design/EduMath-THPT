@@ -1,0 +1,177 @@
+{
+  "id": "ctm2025-1787157981335",
+  "grade": "11",
+  "title": "ĐỀ THI SONG SONG TOÁN THPT 2025 (Cấu Trúc Mới)",
+  "duration": 60,
+  "description": "Đề thi Cấu Trúc Mới 2025 (Trắc nghiệm, Đúng/Sai, Trả lời ngắn)",
+  "isCTM2025": true,
+  "part1": [
+    {
+      "question": "Trong không gian, yếu tố nào sau đây xác định một mặt phẳng duy nhất?",
+      "options": [
+        "A. Ba điểm bất kỳ.",
+        "B. Một điểm và một đường thẳng.",
+        "C. Hai đường thẳng cắt nhau.",
+        "D. Bốn điểm không thẳng hàng."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Trong không gian cho 4 điểm không đồng phẳng. Có thể xác định được nhiều nhất bao nhiêu mặt phẳng phân biệt từ các điểm đó?",
+      "options": [
+        "A. 2",
+        "B. 3",
+        "C. 4",
+        "D. 5"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Cho hình chóp $S.ABCD$ có đáy là tứ giác lồi có các cạnh đối không song song. Gọi $O$ là giao điểm của $AC$ và $BD$. Giao tuyến của hai mặt phẳng $(SAC)$ và $(SBD)$ là:",
+      "options": [
+        "A. $SI$",
+        "B. $SB$",
+        "C. $SC$",
+        "D. $SO$"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Cho đường thẳng $d$ và mặt phẳng $(P)$. Giả thiết nào sau đây cho phép kết luận $d // (P)$?",
+      "options": [
+        "A. $d // d'$ và $d' // (P)$.",
+        "B. $d \\cap (P) = \\emptyset$.",
+        "C. $d // d'$ với $d' \\subset (P)$.",
+        "D. $d \\subset (Q)$ và $(Q) // (P)$."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Cho tứ diện $ABCD$. Điểm $M$ nằm trên đoạn $AC$. Mặt phẳng $(P)$ đi qua $M$ và song song với $AB$ và $CD$. Thiết diện của $(P)$ với tứ diện là hình gì?",
+      "options": [
+        "A. Hình thang.",
+        "B. Hình bình hành.",
+        "C. Hình chữ nhật.",
+        "D. Hình vuông."
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Cho hình chóp $S.ABCD$ có đáy là tứ giác lồi có các cạnh đối không song song. Gọi $I$ là giao điểm của $AD$ và $BC$. Giao tuyến của hai mặt phẳng $(SAD)$ và $(SBC)$ là:",
+      "options": [
+        "A. $SI$",
+        "B. $SB$",
+        "C. $SC$",
+        "D. $SO$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Cho 4 điểm không đồng phẳng $A, B, C, D$. Gọi $M, N$ lần lượt là trung điểm của $AD$ và $BC$. Giao tuyến của mặt phẳng $(MBC)$ và mặt phẳng $(NDA)$ là:",
+      "options": [
+        "A. $AD$",
+        "B. $BC$",
+        "C. $AC$",
+        "D. $MN$"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Cho tứ diện $ABCD$. Gọi $M, N$ lần lượt là trung điểm của $AC$ và $BC$. Trên đoạn $BD$ lấy $P$ sao cho $BP = 2PD$. Giao điểm của đường thẳng $CD$ với mặt phẳng $(MNP)$ là:",
+      "options": [
+        "A. Giao điểm của $NP$ và $CD$.",
+        "B. Giao điểm của $MN$ và $CD$.",
+        "C. Giao điểm của $MP$ và $CD$.",
+        "D. Trung điểm của $CD$."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Cho hai mặt phẳng $(P)$ và $(Q)$ song song với nhau. Mệnh đề nào sau đây là sai?",
+      "options": [
+        "A. Nếu đường thẳng $a \\subset (Q)$ thì $a // (P)$.",
+        "B. Mọi đường thẳng qua $A \\in (P)$ và song song với $(Q)$ đều nằm trong $(P)$.",
+        "C. Nếu $d \\subset (P)$ và $d' \\subset (Q)$ thì $d // d'$.",
+        "D. Nếu đường thẳng $\\Delta$ cắt $(P)$ thì $\\Delta$ cũng cắt $(Q)$."
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Cho lăng trụ tam giác $ABC.A'B'C'$. Gọi $I, I'$ lần lượt là trung điểm của cạnh $BC$ và $B'C'$. Mệnh đề nào sau đây đúng?",
+      "options": [
+        "A. $AI // A'I'$ ",
+        "B. $AA'II'$ là hình chữ nhật.",
+        "C. $AC'$ cắt $A'I$.",
+        "D. $AI'$ cắt $AB'$."
+      ],
+      "correctAnswer": "A"
+    }
+  ],
+  "part2": [
+    {
+      "question": "Trong không gian, xét tính đúng/sai của các mệnh đề sau về vị trí tương đối giữa các đường thẳng:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Hai đường thẳng không có điểm chung thì chéo nhau.",
+          "isTrue": false
+        },
+        {
+          "label": "b",
+          "text": "Hai đường thẳng không cắt nhau và không song song thì chéo nhau.",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "Hai đường thẳng chéo nhau thì không có điểm chung.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "Hai đường thẳng phân biệt không song song thì cắt nhau.",
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "question": "Cho tứ diện $ABCD$. Gọi $M, N$ lần lượt là trung điểm của $AC$ và $BC$. Điểm $E \\in AD, P \\in BD$ sao cho $\\frac{DE}{DA} = \\frac{DP}{DB} = \\frac{1}{3}$. Khi đó:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Đường thẳng $MN$ song song với đường thẳng $AB$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "$MN = \\frac{3}{2} EP$.",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "Bốn điểm $M, N, E, P$ đồng phẳng.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "Đường thẳng $ME$ song song với đường thẳng $NP$.",
+          "isTrue": false
+        }
+      ]
+    }
+  ],
+  "part3": [
+    {
+      "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $M$ là trung điểm của cạnh $SC$. Gọi $N$ là giao điểm của đường thẳng $AM$ và mặt phẳng $(SBD)$. Tính tỉ số $\\frac{AN}{MN}$.",
+      "correctAnswer": "2"
+    },
+    {
+      "question": "Cho tứ diện $ABCD$. Gọi $M, N$ lần lượt là trung điểm của $AC, BC$. Điểm $E$ thuộc cạnh $AD$ sao cho $AE = \\frac{2}{3} AD$. Gọi $F$ là giao điểm của $BD$ và mặt phẳng $(MNE)$. Tính tỉ số $\\frac{BD}{DF}$.",
+      "correctAnswer": "3"
+    },
+    {
+      "question": "Trong không gian, cho 4 điểm không đồng phẳng. Hỏi từ 4 điểm này, ta có thể xác định được bao nhiêu mặt phẳng phân biệt?",
+      "correctAnswer": "4"
+    }
+  ],
+  "questions": []
+}

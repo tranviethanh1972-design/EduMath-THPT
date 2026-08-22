@@ -1,0 +1,189 @@
+{
+  "id": "q11-1786290751633",
+  "grade": "11",
+  "title": "Cấp số nhân (15 câu)",
+  "duration": 30,
+  "description": "",
+  "questions": [
+    {
+      "id": 1786290704323,
+      "question": "Dãy số nào sau đây không phải là cấp số nhân?",
+      "options": [
+        "$1; -1; 1; -1$",
+        "$1; -3; 9; 10$",
+        "$1; 0; 0; 0$",
+        "$32; 16; 8; 4$"
+      ],
+      "correct": 1,
+      "explanation": "Dãy số ở phương án B có $\\frac{-3}{1} = -3$ và $\\frac{9}{-3} = -3$ nhưng $\\frac{10}{9} \\neq -3$. Do đó không phải là cấp số nhân."
+    },
+    {
+      "id": 1786290704324,
+      "question": "Cho cấp số nhân $(u_n)$ với $u_1 = 3$ và $u_2 = 12$. Công bội của cấp số nhân đã cho bằng",
+      "options": [
+        "$9$",
+        "$-9$",
+        "$\\frac{1}{4}$",
+        "$4$"
+      ],
+      "correct": 3,
+      "explanation": "Công bội $q = \\frac{u_2}{u_1} = \\frac{12}{3} = 4$."
+    },
+    {
+      "id": 1786290704325,
+      "question": "Cho cấp số nhân $(u_n)$ với $u_1 = 4$ và công bội $q = 3$. Giá trị của $u_2$ bằng",
+      "options": [
+        "$64$",
+        "$81$",
+        "$12$",
+        "$\\frac{4}{3}$"
+      ],
+      "correct": 2,
+      "explanation": "$u_2 = u_1 \\cdot q = 4 \\cdot 3 = 12$."
+    },
+    {
+      "id": 1786290704326,
+      "question": "Cho cấp số nhân $(u_n)$ với $u_1 = 3$ và công bội $q = 3$. Số hạng tổng quát $u_n$ ($n \\ge 2$) bằng",
+      "options": [
+        "$3^{n-1}$",
+        "$3^{n+2}$",
+        "$3^{n+1}$",
+        "$3^n$"
+      ],
+      "correct": 3,
+      "explanation": "$u_n = u_1 \\cdot q^{n-1} = 3 \\cdot 3^{n-1} = 3^n$."
+    },
+    {
+      "id": 1786290704327,
+      "question": "Cho cấp số nhân $(u_n)$ có công bội $q = 3$ biết $u_4 = 54$. Tìm số hạng $u_1$.",
+      "options": [
+        "$u_1 = 2$",
+        "$u_1 = -2$",
+        "$u_1 = 3$",
+        "$u_1 = -3$"
+      ],
+      "correct": 0,
+      "explanation": "$u_4 = u_1 \\cdot q^3 \\Rightarrow 54 = u_1 \\cdot 3^3 \\Rightarrow 54 = 27u_1 \\Rightarrow u_1 = 2$."
+    },
+    {
+      "id": 1786290704328,
+      "question": "Biết $x-2; x; 8$ là ba số hạng liên tiếp của một cấp số nhân. Giá trị của $x$ bằng",
+      "options": [
+        "$x = 4$",
+        "$x = 5$",
+        "$x = 2$",
+        "$x = 1$"
+      ],
+      "correct": 0,
+      "explanation": "Theo tính chất cấp số nhân: $x^2 = (x-2) \\cdot 8 \\Rightarrow x^2 - 8x + 16 = 0 \\Rightarrow (x-4)^2 = 0 \\Rightarrow x = 4$."
+    },
+    {
+      "id": 1786290704329,
+      "question": "Cho cấp số nhân $(u_n)$ có $\\begin{cases} u_7 + u_3 = 198 \\\\ u_8 + u_4 = 396 \\end{cases}$. Khi đó, công bội của cấp số nhân $(u_n)$ là",
+      "options": [
+        "$2$",
+        "$3$",
+        "$4$",
+        "$1$"
+      ],
+      "correct": 0,
+      "explanation": "Ta có $u_8 + u_4 = q(u_7 + u_3) \\Rightarrow 396 = q \\cdot 198 \\Rightarrow q = 2$."
+    },
+    {
+      "id": 1786290704330,
+      "question": "Một cấp số nhân có số hạng đầu $u_1 = 3$, công bội $q = 2$. Biết rằng tổng $n$ số hạng đầu tiên bằng $21$, tìm $n$.",
+      "options": [
+        "$n = 10$",
+        "$n = 3$",
+        "$n = 7$",
+        "$n = 5$"
+      ],
+      "correct": 1,
+      "explanation": "$S_n = u_1 \\frac{q^n - 1}{q - 1} \\Rightarrow 21 = 3 \\frac{2^n - 1}{1} \\Rightarrow 7 = 2^n - 1 \\Rightarrow 2^n = 8 \\Rightarrow n = 3$."
+    },
+    {
+      "id": 1786290704331,
+      "question": "Cho cấp số nhân $(u_n)$ biết $u_3 = 9$ và công bội $q = -3$. Tính tổng $S_3$ của 3 số hạng đầu của cấp số nhân $(u_n)$.",
+      "options": [
+        "$7$",
+        "$36$",
+        "$-14$",
+        "$1$"
+      ],
+      "correct": 0,
+      "explanation": "$u_3 = u_1 q^2 \\Rightarrow 9 = u_1 (-3)^2 \\Rightarrow u_1 = 1$. Khi đó $u_2 = -3$. Vậy $S_3 = 1 - 3 + 9 = 7$."
+    },
+    {
+      "id": 1786290704332,
+      "question": "Cho $x, y$ là các số nguyên thỏa mãn: các số $x+y, 2x+3y, 9x+y$ lập thành cấp số cộng, đồng thời $x-1, y-1, 2y-2$ lập thành cấp số nhân. Tính tổng $T = x + y$.",
+      "options": [
+        "$T = 9$",
+        "$T = 7$",
+        "$T = 3$",
+        "$T = 5$"
+      ],
+      "correct": 3,
+      "explanation": "Từ CSC: $2(2x+3y) = (x+y) + (9x+y) \\Rightarrow 4x+6y = 10x+2y \\Rightarrow 4y = 6x \\Rightarrow y = 1.5x$. Từ CSN: $(y-1)^2 = (x-1)2(y-1)$. Vì $x,y$ nguyên, giải hệ ta được $x=2, y=3 \\Rightarrow T=5$."
+    },
+    {
+      "id": 1786290704333,
+      "question": "Một loại vi khuẩn sau mỗi phút số lượng tăng gấp đôi, biết rằng sau 5 phút người ta đếm được có 64000 con. Hỏi sau bao nhiêu phút thì có được 2048000 con?",
+      "options": [
+        "$10$",
+        "$11$",
+        "$26$",
+        "$50$"
+      ],
+      "correct": 0,
+      "explanation": "Gọi $u_n$ là số vi khuẩn sau phút thứ $n$. $u_n = u_0 \\cdot 2^n$. Ta có $u_5 = u_0 \\cdot 32 = 64000 \\Rightarrow u_0 = 2000$. Khi đó $2048000 = 2000 \\cdot 2^n \\Rightarrow 2^n = 1024 \\Rightarrow n = 10$."
+    },
+    {
+      "id": 1786290704334,
+      "question": "Một du khách vào trường đua ngựa đặt cược, lần đầu đặt 20.000 đồng, mỗi lần sau đặt gấp đôi lần tiền đặt cọc trước. Người đó thắng 9 lần liên tiếp và thua ở lần thứ 10. Hỏi vị khách trên thắng hay thua bao nhiêu?",
+      "options": [
+        "Hòa vốn",
+        "Thắng 20.000 đồng",
+        "Thua 20.000 đồng",
+        "Thắng 40.000 đồng"
+      ],
+      "correct": 2,
+      "explanation": "Tổng tiền thắng 9 lần đầu: $S_9 = 20000(2^9-1) = 10.220.000$. Số tiền thua lần thứ 10: $u_{10} = 20000 \\cdot 2^9 = 10.240.000$. Hiệu là $10.220.000 - 10.240.000 = -20.000$ (Thua)."
+    },
+    {
+      "id": 1786290704335,
+      "question": "Cho cấp số nhân $(u_n)$ với $u_1 = 2, u_4 = 16$ và $u_n = 2048$. Tính tổng $n$ số hạng đầu tiên của $(u_n)$.",
+      "options": [
+        "$2046$",
+        "$4094$",
+        "$4096$",
+        "$2048$"
+      ],
+      "correct": 1,
+      "explanation": "$u_4 = u_1 q^3 \\Rightarrow 16 = 2 q^3 \\Rightarrow q = 2$. $u_n = 2 \\cdot 2^{n-1} = 2^n = 2048 \\Rightarrow n = 11$. $S_{11} = u_1 \\frac{q^{11}-1}{q-1} = 2(2^{11}-1) = 4094$."
+    },
+    {
+      "id": 1786290704336,
+      "question": "Cho dãy số $(u_n)$ xác định bởi $u_1 = 1, u_{n+1} = \\frac{1}{8}u_n + \\frac{5}{8}$ và dãy số $(v_n)$ xác định bởi $v_n = u_n - \\frac{5}{7}$. Biết $(v_n)$ là một cấp số nhân có công bội $q = \\frac{a}{b}$ với $\\frac{a}{b}$ tối giản. Tính $a+b$.",
+      "options": [
+        "$9$",
+        "$7$",
+        "$13$",
+        "$15$"
+      ],
+      "correct": 0,
+      "explanation": "$v_{n+1} = u_{n+1} - \\frac{5}{7} = \\frac{1}{8}u_n + \\frac{5}{8} - \\frac{5}{7} = \\frac{1}{8}(u_n - \\frac{5}{7}) = \\frac{1}{8}v_n$. Vậy $q = \\frac{1}{8}$, do đó $a+b = 1+8 = 9$."
+    },
+    {
+      "id": 1786290704337,
+      "question": "Cho cấp số nhân $(u_n)$, với công bội khác 0 và thỏa mãn: $u_{20} = 8u_{17}$ và $u_1 + u_5 = 272$. Tìm số hạng $u_1$ của cấp số nhân đã cho.",
+      "options": [
+        "$16$",
+        "$-16$",
+        "$8$",
+        "$-8$"
+      ],
+      "correct": 0,
+      "explanation": "$u_{20} = u_{17} \\cdot q^3 \\Rightarrow q^3 = 8 \\Rightarrow q = 2$. $u_1 + u_1 q^4 = 272 \\Rightarrow u_1(1 + 16) = 272 \\Rightarrow 17u_1 = 272 \\Rightarrow u_1 = 16$."
+    }
+  ]
+}

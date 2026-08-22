@@ -1,0 +1,309 @@
+{
+  "id": "q12-1786692624011",
+  "grade": "10",
+  "title": "HÀM SỐ BẬC NHẤT (25 câu)",
+  "duration": 45,
+  "description": "",
+  "questions": [
+    {
+      "id": 1786692606992,
+      "question": "Điểm nằm trên đồ thị hàm số $y = -2x - 1$ là:",
+      "options": [
+        "$(-1; 1)$",
+        "$(0; 1)$",
+        "$(2; -4)$",
+        "$(-1; -3)$"
+      ],
+      "correct": 0,
+      "explanation": "Thay tọa độ các điểm vào hàm số, ta thấy với $x = -1$ thì $y = -2(-1) - 1 = 1$. Do đó điểm $(-1; 1)$ thuộc đồ thị."
+    },
+    {
+      "id": 1786692606993,
+      "question": "Hàm số nào sau đây là hàm số bậc nhất:",
+      "options": [
+        "$y = \\frac{1}{x} + 1$",
+        "$y = 1 - x$",
+        "$y = x + \\frac{1}{x}$",
+        "$y = 2$"
+      ],
+      "correct": 1,
+      "explanation": "Hàm số bậc nhất có dạng $y = ax + b$ với $a \\neq 0$. Trong các phương án, $y = 1 - x$ thỏa mãn."
+    },
+    {
+      "id": 1786692606994,
+      "question": "Trong các hàm số bậc nhất sau, hàm nào là hàm nghịch biến trên $\\mathbb{R}$:",
+      "options": [
+        "$y = 1 - 3x$",
+        "$y = 5x - 1$",
+        "$y = \\frac{1}{2}x - 5$",
+        "$y = -7 + 2x$"
+      ],
+      "correct": 0,
+      "explanation": "Hàm số bậc nhất nghịch biến khi hệ số góc $a < 0$. Ở đây $a = -3 < 0$."
+    },
+    {
+      "id": 1786692606995,
+      "question": "Trong các hàm số bậc nhất sau, hàm nào đồng biến trên $\\mathbb{R}$:",
+      "options": [
+        "$y = 1 - 3x$",
+        "$y = 5x - 1$",
+        "$y = 5 - \\frac{1}{2}x$",
+        "$y = -7 - 2x$"
+      ],
+      "correct": 1,
+      "explanation": "Hàm số bậc nhất đồng biến khi hệ số góc $a > 0$. Ở đây $a = 5 > 0$."
+    },
+    {
+      "id": 1786692606996,
+      "question": "Hệ số góc của đường thẳng $y = -4x + 9$ là:",
+      "options": [
+        "$-4$",
+        "$-4x$",
+        "$4$",
+        "$9$"
+      ],
+      "correct": 0,
+      "explanation": "Hệ số góc của đường thẳng $y = ax + b$ là $a$. Ở đây $a = -4$."
+    },
+    {
+      "id": 1786692606997,
+      "question": "Hệ số góc của đường thẳng $y = 4 - 2x$ là:",
+      "options": [
+        "$-2$",
+        "$-2x$",
+        "$4$",
+        "$2$"
+      ],
+      "correct": 0,
+      "explanation": "Viết lại hàm số dưới dạng $y = -2x + 4$, ta thấy hệ số góc $a = -2$."
+    },
+    {
+      "id": 1786692606998,
+      "question": "Hệ số góc của đường thẳng $3x - y - 1 = 0$ là:",
+      "options": [
+        "$3$",
+        "$1$",
+        "$-3$",
+        "$-1$"
+      ],
+      "correct": 0,
+      "explanation": "Chuyển vế ta được $y = 3x - 1$. Hệ số góc $a = 3$."
+    },
+    {
+      "id": 1786692606999,
+      "question": "Đường thẳng $y = 2x - 1$ cắt trục tung tại điểm nào:",
+      "options": [
+        "$(0; -1)$",
+        "$(1; 1)$",
+        "$(0; 2)$",
+        "$(2; 1)$"
+      ],
+      "correct": 0,
+      "explanation": "Giao điểm với trục tung có hoành độ $x = 0$. Khi đó $y = 2(0) - 1 = -1$."
+    },
+    {
+      "id": 1786692607000,
+      "question": "Hàm số bậc nhất $y = (k - 3)x - 6$ đồng biến khi:",
+      "options": [
+        "$k > 3$",
+        "$k \\neq -3$",
+        "$k > -3$",
+        "$k \\neq 3$"
+      ],
+      "correct": 0,
+      "explanation": "Hàm số đồng biến khi $a = k - 3 > 0 \\Leftrightarrow k > 3$."
+    },
+    {
+      "id": 1786692607001,
+      "question": "Hàm số $y = (m - 3)x + 1$ là hàm số nghịch biến khi:",
+      "options": [
+        "$m < 3$",
+        "$m > 3$",
+        "$m = 3$",
+        "$m > 1$"
+      ],
+      "correct": 0,
+      "explanation": "Hàm số nghịch biến khi $a = m - 3 < 0 \\Leftrightarrow m < 3$."
+    },
+    {
+      "id": 1786692607002,
+      "question": "Đường thẳng $y = 3x + b$ đi qua điểm $(-2; 2)$ thì hệ số $b$ bằng:",
+      "options": [
+        "$-8$",
+        "$8$",
+        "$4$",
+        "$-4$"
+      ],
+      "correct": 1,
+      "explanation": "Thay $x = -2, y = 2$ vào phương trình: $2 = 3(-2) + b \\Rightarrow 2 = -6 + b \\Rightarrow b = 8$."
+    },
+    {
+      "id": 1786692607003,
+      "question": "Đường thẳng $y = x - 2$ song song với đường thẳng nào sau đây:",
+      "options": [
+        "$y = x - 2$",
+        "$y = x + 2$",
+        "$y = -x$",
+        "$y = -x + 2$"
+      ],
+      "correct": 1,
+      "explanation": "Hai đường thẳng song song khi $a = a'$ và $b \\neq b'$. Ở đây $a = a' = 1$ và $-2 \\neq 2$."
+    },
+    {
+      "id": 1786692607004,
+      "question": "Hàm số $y = (2 - m)x + 4$ đồng biến khi:",
+      "options": [
+        "$m < 2$",
+        "$m > 2$",
+        "$m \\le 2$",
+        "$m \\ge 2$"
+      ],
+      "correct": 0,
+      "explanation": "Hàm số bậc nhất đồng biến khi $a > 0 \\Leftrightarrow 2 - m > 0 \\Leftrightarrow m < 2$."
+    },
+    {
+      "id": 1786692607005,
+      "question": "Đường thẳng $d: y = -2x - 5$ vuông góc với đường thẳng nào sau đây:",
+      "options": [
+        "$y = -2x + 9$",
+        "$y = -\\frac{1}{2}x + 3$",
+        "$y = 2x + 1$",
+        "$y = \\frac{1}{2}x + 4$"
+      ],
+      "correct": 3,
+      "explanation": "Hai đường thẳng vuông góc khi tích hệ số góc bằng $-1$. Ta có $(-2) \\cdot \\frac{1}{2} = -1$."
+    },
+    {
+      "id": 1786692607006,
+      "question": "Khẳng định nào về hàm số $y = 3x + 5$ là sai:",
+      "options": [
+        "Cắt Oy tại $(0; 5)$",
+        "Nghịch biến trên $\\mathbb{R}$",
+        "Cắt Ox tại $(-\\frac{5}{3}; 0)$",
+        "Đồng biến trên $\\mathbb{R}$"
+      ],
+      "correct": 1,
+      "explanation": "Hàm số có $a = 3 > 0$ nên phải là hàm đồng biến, khẳng định nghịch biến là sai."
+    },
+    {
+      "id": 1786692607007,
+      "question": "Cho hàm số $y = -x - 1$ có đồ thị là đường thẳng $(d)$. Đường thẳng nào đi qua gốc tọa độ và cắt đường thẳng $(d)$?",
+      "options": [
+        "$y = -2x - 1$",
+        "$y = -x$",
+        "$y = -2x$",
+        "$y = -x + 1$"
+      ],
+      "correct": 2,
+      "explanation": "Đường thẳng đi qua gốc tọa độ có dạng $y = ax$. Để cắt $(d)$, hệ số góc phải khác $-1$. Do đó $y = -2x$ thỏa mãn."
+    },
+    {
+      "id": 1786692607008,
+      "question": "Hai đường thẳng $y = (k - 2)x + m + 2$ và $y = 2x + 3 - m$ song song với nhau khi:",
+      "options": [
+        "$k = -4$ và $m = \\frac{1}{2}$",
+        "$k = 4$ và $m = \\frac{5}{2}$",
+        "$k = 4$ và $m \\neq \\frac{1}{2}$",
+        "$k = -4$ và $m \\neq \\frac{5}{2}$"
+      ],
+      "correct": 2,
+      "explanation": "Song song khi $k-2=2 \\Rightarrow k=4$ và $m+2 \\neq 3-m \\Rightarrow 2m \\neq 1 \\Rightarrow m \\neq \\frac{1}{2}$."
+    },
+    {
+      "id": 1786692607009,
+      "question": "Hai đường thẳng $y = -x + 2$ và $y = x + 2$ có vị trí:",
+      "options": [
+        "Song song",
+        "Cắt nhau tại điểm có tung độ bằng $2$",
+        "Trùng nhau",
+        "Cắt nhau tại điểm có hoành độ bằng $2$"
+      ],
+      "correct": 1,
+      "explanation": "Cả hai đường thẳng đều có hệ số tự do $b = 2$, do đó chúng cắt nhau tại điểm $(0; 2)$ trên trục tung."
+    },
+    {
+      "id": 1786692607010,
+      "question": "Khi $x = 4$, hàm số $y = ax - 1$ có giá trị bằng $-3$. Vậy $a = $?",
+      "options": [
+        "$1$",
+        "$-1$",
+        "$2$",
+        "Một kết quả khác"
+      ],
+      "correct": 3,
+      "explanation": "Thay $x=4, y=-3$ ta có: $-3 = 4a - 1 \\Rightarrow 4a = -2 \\Rightarrow a = -0,5$. Không có đáp án nào trùng khớp."
+    },
+    {
+      "id": 1786692607011,
+      "question": "Vị trí tương đối của hai đường thẳng $d_1: y = 3x + 1$ và $d_2: y = -2x + 1$ là:",
+      "options": [
+        "Cắt nhau trên trục tung",
+        "Cắt nhau trên trục hoành",
+        "Song song",
+        "Trùng nhau"
+      ],
+      "correct": 0,
+      "explanation": "Vì hai đường thẳng có cùng hệ số $b = 1$ nên chúng cắt nhau tại điểm $(0; 1)$ trên trục tung."
+    },
+    {
+      "id": 1786692607012,
+      "question": "Phương trình đường thẳng đi qua hai điểm $A(2; -1)$ và $B(-1; 5)$ là:",
+      "options": [
+        "$y = -2x + 3$",
+        "$y = -2x - 3$",
+        "$y = 2x + 3$",
+        "$y = 2x - 3$"
+      ],
+      "correct": 0,
+      "explanation": "Hệ số góc $a = (5 - (-1))/(-1 - 2) = -2$. Thay tọa độ A vào $y = -2x + b \\Rightarrow -1 = -2(2) + b \\Rightarrow b = 3$."
+    },
+    {
+      "id": 1786692607013,
+      "question": "Với giá trị nào của $m$ thì hàm số $y = (m - 2)x + 5$ đồng biến trên $\\mathbb{R}$:",
+      "options": [
+        "$m > 2$",
+        "$m < 2$",
+        "$m \\neq 2$",
+        "$m = 2$"
+      ],
+      "correct": 0,
+      "explanation": "Hàm số đồng biến khi hệ số góc $a = m - 2 > 0 \\Leftrightarrow m > 2$."
+    },
+    {
+      "id": 1786692607014,
+      "question": "Đường thẳng $y = -\\sqrt{3}x - 2$ tạo với chiều dương trục hoành một góc:",
+      "options": [
+        "$120^\\circ$",
+        "$60^\\circ$",
+        "$30^\\circ$",
+        "$150^\\circ$"
+      ],
+      "correct": 0,
+      "explanation": "Hệ số góc $a = -\\sqrt{3}$. Ta có $\\tan(\\alpha) = -\\sqrt{3} \\Rightarrow \\alpha = 120^\\circ$."
+    },
+    {
+      "id": 1786692607015,
+      "question": "Đường thẳng $d: (m-2)x + my = -6$ luôn đi qua điểm cố định nào:",
+      "options": [
+        "$(3; 1)$",
+        "$(1; -5)$",
+        "$(2; 1)$",
+        "$(3; -3)$"
+      ],
+      "correct": 3,
+      "explanation": "Thay $x=3, y=-3$ vào phương trình: $(m-2)3 + m(-3) = 3m - 6 - 3m = -6$. Đẳng thức luôn đúng với mọi $m$."
+    },
+    {
+      "id": 1786692607016,
+      "question": "Hàm số $y = \\sqrt{m^2 - 4}x + m - 2$ là hàm số bậc nhất khi:",
+      "options": [
+        "$m < -2$ hoặc $m > 2$",
+        "$m = 2$",
+        "$m \\ge 2$",
+        "$m \\le -2$"
+      ],
+      "correct": 0,
+      "explanation": "Để là hàm bậc nhất và căn thức có nghĩa với hệ số góc khác 0, ta cần $m^2 - 4 > 0 \\Leftrightarrow m > 2$ hoặc $m < -2$."
+    }
+  ]
+}

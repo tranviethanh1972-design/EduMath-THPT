@@ -1,0 +1,189 @@
+{
+  "id": "q10-1785849929586",
+  "grade": "11",
+  "title": "Đề thi trích xuất AI từ PDF (15 câu)",
+  "duration": 15,
+  "description": "",
+  "questions": [
+    {
+      "id": 1785849891971,
+      "question": "Cho dãy số $(u_n)$ với $u_n = \\frac{n-1}{n+1}$. Khẳng định nào sau đây là đúng?",
+      "options": [
+        "Năm số hạng đầu của dãy là: $-\\frac{1}{2}; -\\frac{2}{3}; -\\frac{3}{4}; -\\frac{4}{5}; -\\frac{5}{6}$",
+        "Năm số hạng đầu của dãy là: $0; \\frac{1}{3}; \\frac{1}{2}; \\frac{3}{5}; \\frac{2}{3}$",
+        "Là dãy số tăng.",
+        "Bị chặn trên bởi số 1."
+      ],
+      "correct": 2,
+      "explanation": "Xét hiệu $u_{n+1} - u_n = \\frac{n}{n+2} - \\frac{n-1}{n+1} = \\frac{n(n+1) - (n-1)(n+2)}{(n+1)(n+2)} = \\frac{n^2 + n - (n^2 + n - 2)}{(n+1)(n+2)} = \\frac{2}{(n+1)(n+2)} > 0$ với mọi $n \\in \\mathbb{N}^*$. Do đó dãy số $(u_n)$ là dãy số tăng. Ngoài ra, $u_n = 1 - \\frac{2}{n+1} < 1$ nên dãy cũng bị chặn trên bởi 1 (D đúng), tuy nhiên theo tính chất đặc trưng cơ bản của phân thức này, khẳng định về tính đơn điệu (tăng) thường được ưu tiên."
+    },
+    {
+      "id": 1785849891972,
+      "question": "Cho dãy số $(u_n)$ với $u_n = \\frac{1}{n^2 + n}$. Khẳng định nào sau đây là sai?",
+      "options": [
+        "Năm số hạng đầu của dãy là: $\\frac{1}{2}; \\frac{1}{6}; \\frac{1}{12}; \\frac{1}{20}; \\frac{1}{30}$",
+        "Là dãy số tăng.",
+        "Bị chặn trên bởi số $M = \\frac{1}{2}$.",
+        "Không bị chặn."
+      ],
+      "correct": 1,
+      "explanation": "Ta có $u_n = \\frac{1}{n(n+1)}$. Khi $n$ tăng thì $n(n+1)$ tăng, dẫn đến $u_n = \\frac{1}{n(n+1)}$ giảm. Do đó khẳng định 'Là dãy số tăng' là sai."
+    },
+    {
+      "id": 1785849891973,
+      "question": "Cho dãy số $(u_n)$ với $u_n = -\\frac{1}{n}$. Khẳng định nào sau đây là sai?",
+      "options": [
+        "Năm số hạng đầu của dãy là: $-1; -\\frac{1}{2}; -\\frac{1}{3}; -\\frac{1}{4}; -\\frac{1}{5}$",
+        "Bị chặn trên bởi số $M = -1$.",
+        "Bị chặn trên bởi số $M = 0$.",
+        "Là dãy số giảm và bị chặn dưới bởi số $m = -1$."
+      ],
+      "correct": 3,
+      "explanation": "Ta có $u_n = -\\frac{1}{n}$. Vì $n+1 > n \\implies \\frac{1}{n+1} < \\frac{1}{n} \\implies -\\frac{1}{n+1} > -\\frac{1}{n} \\implies u_{n+1} > u_n$. Vậy $(u_n)$ là dãy số tăng. Khẳng định dãy số giảm là sai."
+    },
+    {
+      "id": 1785849891974,
+      "question": "Cho dãy số có các số hạng đầu là: $5; 10; 15; 20; 25; \\dots$ Số hạng tổng quát của dãy số này là:",
+      "options": [
+        "$u_n = 5(n - 1)$",
+        "$u_n = 5n$",
+        "$u_n = 5n + 1$",
+        "$u_n = 5n + 5$"
+      ],
+      "correct": 1,
+      "explanation": "Các số hạng là bội của 5: $u_1 = 5 \\cdot 1, u_2 = 5 \\cdot 2, u_3 = 5 \\cdot 3, \\dots$ Suy ra công thức tổng quát là $u_n = 5n$."
+    },
+    {
+      "id": 1785849891975,
+      "question": "Cho dãy số có các số hạng đầu là: $8, 15, 22, 29, 36, \\dots$ Số hạng tổng quát của dãy số này là:",
+      "options": [
+        "$u_n = 7n + 7$",
+        "$u_n = 7n$",
+        "$u_n = 7n + 1$",
+        "Không viết được dưới dạng công thức."
+      ],
+      "correct": 2,
+      "explanation": "Ta thấy quy luật: $15-8=7, 22-15=7, 29-22=7$. Đây là cấp số cộng có $u_1 = 8$ và công sai $d = 7$. Số hạng tổng quát: $u_n = u_1 + (n-1)d = 8 + (n-1)7 = 7n + 1$."
+    },
+    {
+      "id": 1785849891976,
+      "question": "Cho dãy số có các số hạng đầu là: $0; \\frac{1}{2}; \\frac{2}{3}; \\frac{3}{4}; \\frac{4}{5}; \\dots$ Số hạng tổng quát của dãy số này là:",
+      "options": [
+        "$u_n = \\frac{n}{n+1}$",
+        "$u_n = \\frac{n+1}{n}$",
+        "$u_n = \\frac{n-1}{n}$",
+        "$u_n = \\frac{n^2-1}{n+1}$"
+      ],
+      "correct": 2,
+      "explanation": "Thử với các giá trị $n$: Với $n=1, u_1 = \\frac{1-1}{1} = 0$; với $n=2, u_2 = \\frac{2-1}{2} = \\frac{1}{2}$; với $n=3, u_3 = \\frac{3-1}{3} = \\frac{2}{3}$. Công thức $u_n = \\frac{n-1}{n}$ khớp với các số hạng đã cho."
+    },
+    {
+      "id": 1785849891977,
+      "question": "Cho dãy số có các số hạng đầu là: $-1, 1, -1, 1, -1, \\dots$ Số hạng tổng quát của dãy số này có dạng:",
+      "options": [
+        "$u_n = 1$",
+        "$u_n = -1$",
+        "$u_n = (-1)^n$",
+        "$u_n = (-1)^{n+1}$"
+      ],
+      "correct": 2,
+      "explanation": "Dãy số đan dấu bắt đầu từ $-1$: $u_1 = (-1)^1 = -1, u_2 = (-1)^2 = 1, u_3 = (-1)^3 = -1$. Công thức tổng quát là $u_n = (-1)^n$."
+    },
+    {
+      "id": 1785849891978,
+      "question": "Cho dãy số $(u_n)$ với $u_n = \\frac{(-1)^{n-1}}{n+1}$. Khẳng định nào sau đây là sai?",
+      "options": [
+        "Số hạng thứ 9 của dãy số là $\\frac{1}{10}$.",
+        "Số hạng thứ 10 của dãy số là $-\\frac{1}{11}$",
+        "Đây là một dãy số giảm.",
+        "Bị chặn trên bởi số $M = 1$."
+      ],
+      "correct": 2,
+      "explanation": "Số hạng của dãy: $u_1 = 1/2, u_2 = -1/3, u_3 = 1/4, \\dots$ Dãy số có các số hạng đan dấu nên không thể là dãy số giảm. Khẳng định C sai."
+    },
+    {
+      "id": 1785849891979,
+      "question": "Cho dãy số $(u_n)$ có $u_n = -n^2 + n + 1$. Khẳng định nào sau đây là đúng?",
+      "options": [
+        "5 số hạng đầu của dãy là: $-1; 1; 5; -5; -11; -19$",
+        "$u_{n+1} = -n^2 - n + 1$",
+        "$u_{n+1} - u_n = 1$",
+        "Là một dãy số giảm."
+      ],
+      "correct": 3,
+      "explanation": "Xét hàm số $f(x) = -x^2 + x + 1$ có $f'(x) = -2x + 1$. Với $x \\ge 1$ thì $f'(x) < 0$. Do đó dãy số $u_n = f(n)$ là dãy số giảm."
+    },
+    {
+      "id": 1785849891980,
+      "question": "Cho dãy số $(u_n)$ với $u_1 = 5$ và $u_{n+1} = u_n + n$. Số hạng tổng quát $u_n$ của dãy số là:",
+      "options": [
+        "$u_n = \\frac{n(n-1)}{2}$",
+        "$u_n = 5 + \\frac{n(n-1)}{2}$",
+        "$u_n = 5 + \\frac{n(n+1)}{2}$",
+        "$u_n = 5 + \\frac{(n+1)(n+2)}{2}$"
+      ],
+      "correct": 1,
+      "explanation": "Ta có: $u_2 = u_1 + 1$; $u_3 = u_2 + 2 = u_1 + 1 + 2; \\dots$ $u_n = u_1 + (1 + 2 + 3 + \\dots + n-1)$. Tổng $1+2+\\dots+(n-1) = \\frac{n(n-1)}{2}$. Vậy $u_n = 5 + \\frac{n(n-1)}{2}$."
+    },
+    {
+      "id": 1785849891981,
+      "question": "Cho dãy số $(u_n)$ với $u_1 = 2$ và $u_{n+1} = u_n + 2n - 1$. Số hạng tổng quát $u_n$ của dãy số là:",
+      "options": [
+        "$u_n = 2 + (n-1)^2$",
+        "$u_n = n^2 + 2$",
+        "$u_n = 2 + (n+1)^2$",
+        "$u_n = 2 - (n-1)^2$"
+      ],
+      "correct": 0,
+      "explanation": "Ta có $u_n = u_1 + \\sum_{k=1}^{n-1} (2k-1)$. Tổng của $n-1$ số lẻ đầu tiên là $(n-1)^2$. Vậy $u_n = 2 + (n-1)^2$."
+    },
+    {
+      "id": 1785849891982,
+      "question": "Cho dãy số $(u_n)$ với $u_1 = -1$ và $u_{n+1} = u_n + \\frac{1}{n(n+1)}$. Công thức số hạng tổng quát của dãy số này là:",
+      "options": [
+        "$u_n = \\frac{1-n}{n}$",
+        "$u_n = \\frac{1}{n}$",
+        "$u_n = -\\frac{1}{n}$",
+        "$u_n = \\frac{n}{n+1}$"
+      ],
+      "correct": 2,
+      "explanation": "Ta có $u_{n+1} - u_n = \\frac{1}{n} - \\frac{1}{n+1}$. Suy ra $u_n = u_1 + (\\frac{1}{1} - \\frac{1}{2}) + (\\frac{1}{2} - \\frac{1}{3}) + \\dots + (\\frac{1}{n-1} - \\frac{1}{n}) = -1 + 1 - \\frac{1}{n} = -\\frac{1}{n}$."
+    },
+    {
+      "id": 1785849891983,
+      "question": "Cho dãy số $(u_n)$ với $u_1 = \\frac{1}{2}$ và $u_{n+1} = u_n - 2$. Công thức số hạng tổng quát của dãy số này là:",
+      "options": [
+        "$u_n = \\frac{1}{2} + 2(n-1)$",
+        "$u_n = \\frac{1}{2} - 2(n-1)$",
+        "$u_n = \\frac{1}{2} - 2n$",
+        "$u_n = \\frac{1}{2} + 2n$"
+      ],
+      "correct": 1,
+      "explanation": "Đây là cấp số cộng với $u_1 = 1/2$ và công sai $d = -2$. Công thức tổng quát là $u_n = u_1 + (n-1)d = \\frac{1}{2} + (n-1)(-2) = \\frac{1}{2} - 2(n-1)$."
+    },
+    {
+      "id": 1785849891984,
+      "question": "Cho dãy số $(u_n)$ với $u_1 = \\frac{1}{2}$ và $u_{n+1} = \\frac{u_n}{2}$. Công thức số hạng tổng quát của dãy số này là:",
+      "options": [
+        "$u_n = \\frac{1}{2^{n-1}}$",
+        "$u_n = \\frac{1}{2^n}$",
+        "$u_n = 1 - 2^n$",
+        "$u_n = \\frac{1}{2^{n-2}}$"
+      ],
+      "correct": 1,
+      "explanation": "Đây là cấp số nhân với $u_1 = 1/2$ và công bội $q = 1/2$. Công thức tổng quát $u_n = u_1 \\cdot q^{n-1} = \\frac{1}{2} \\cdot (\\frac{1}{2})^{n-1} = \\frac{1}{2^n}$."
+    },
+    {
+      "id": 1785849891985,
+      "question": "Cho dãy số $(u_n)$ với $u_n = \\frac{n^2-1}{n^2+1}$. Khẳng định nào sau đây là sai?",
+      "options": [
+        "$u_{n+1} - 1 = \\frac{2}{(n+1)^2+1}$",
+        "$u_{n+1} > u_n$",
+        "Đây là một dãy số tăng.",
+        "Dãy số bị chặn dưới."
+      ],
+      "correct": 0,
+      "explanation": "Ta có $u_n = 1 - \\frac{2}{n^2+1}$. Khi đó $u_{n+1} - 1 = (1 - \\frac{2}{(n+1)^2+1}) - 1 = -\\frac{2}{(n+1)^2+1}$. Khẳng định A ghi kết quả dương là sai."
+    }
+  ]
+}

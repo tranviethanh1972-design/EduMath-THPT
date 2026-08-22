@@ -1,0 +1,177 @@
+{
+  "id": "ctm2025-1787128050732",
+  "grade": "10",
+  "title": "ĐỀ THI PHƯƠNG TRÌNH ĐƯỜNG TRÒN TOÁN THPT 2025 (Cấu Trúc Mới)",
+  "duration": 60,
+  "description": "Đề thi Cấu Trúc Mới 2025 (Trắc nghiệm, Đúng/Sai, Trả lời ngắn)",
+  "isCTM2025": true,
+  "part1": [
+    {
+      "question": "Trong mặt phẳng tọa độ $Oxy$, cho đường tròn $(C): (x - 1)^2 + (y + 3)^2 = 16$. Tọa độ tâm $I$ và bán kính $R$ của đường tròn là:",
+      "options": [
+        "A. $I(1; 3), R = 4$",
+        "B. $I(1; -3), R = 4$",
+        "C. $I(1; -3), R = 16$",
+        "D. $I(-1; 3), R = 16$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Cho đường tròn $(C): x^2 + y^2 - 6x - 2y + 6 = 0$. Tâm $I$ và bán kính $R$ của đường tròn lần lượt là:",
+      "options": [
+        "A. $I(3; -1), R = 4$",
+        "B. $I(3; 1), R = 4$",
+        "C. $I(3; -1), R = 2$",
+        "D. $I(3; 1), R = 2$"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Tọa độ tâm $I$ và bán kính $R$ của đường tròn $(C): x^2 + y^2 - 4x + 2y + 3 = 0$ là:",
+      "options": [
+        "A. $I(2; -1), R = \\sqrt{2}$",
+        "B. $I(2; 1), R = \\sqrt{2}$",
+        "C. $I(2; -1), R = 2$",
+        "D. $I(2; 1), R = 8$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Cho đường tròn $(C): x^2 + y^2 - 10x - 11 = 0$. Tâm $I$ và bán kính $R$ của đường tròn là:",
+      "options": [
+        "A. $I(10; 0), R = \\sqrt{111}$",
+        "B. $I(5; 0), R = 6$",
+        "C. $I(5; 0), R = 36$",
+        "D. $I(-5; 0), R = 6$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Đường tròn $(C): (x - 1)^2 + (y + 2)^2 = 25$ có dạng khai triển là:",
+      "options": [
+        "A. $x^2 + y^2 - 2x + 4y + 30 = 0$",
+        "B. $x^2 + y^2 - 2x + 4y - 20 = 0$",
+        "C. $x^2 + y^2 + 2x - 4y - 20 = 0$",
+        "D. $x^2 + y^2 - 2x - 4y - 30 = 0$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Phương trình tổng quát của đường tròn $(C): x^2 + y^2 - 12x + 14y + 4 = 0$ đưa về dạng chuẩn là:",
+      "options": [
+        "A. $(x - 6)^2 + (y + 7)^2 = 9$",
+        "B. $(x - 6)^2 + (y + 7)^2 = 81$",
+        "C. $(x + 6)^2 + (y - 7)^2 = 81$",
+        "D. $(x - 6)^2 + (y + 7)^2 = 89$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Đường tròn $(C)$ có tâm $I(1; -5)$ và đi qua điểm $O(0; 0)$ có phương trình là:",
+      "options": [
+        "A. $(x - 1)^2 + (y + 5)^2 = 26$",
+        "B. $(x + 1)^2 + (y - 5)^2 = 26$",
+        "C. $(x - 1)^2 + (y - 5)^2 = 26$",
+        "D. $(x + 1)^2 + (y + 5)^2 = 26$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Đường tròn đường kính $AB$ với $A(1; 1)$ và $B(7; 5)$ có phương trình là:",
+      "options": [
+        "A. $x^2 + y^2 - 8x - 6y + 12 = 0$",
+        "B. $x^2 + y^2 + 8x + 6y - 12 = 0$",
+        "C. $x^2 + y^2 - 8x - 6y - 12 = 0$",
+        "D. $x^2 + y^2 + 8x - 6y + 12 = 0$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Đường tròn $(C)$ có tâm $I(2; 3)$ và tiếp xúc với trục $Ox$ có phương trình là:",
+      "options": [
+        "A. $(x - 2)^2 + (y - 3)^2 = 9$",
+        "B. $(x - 2)^2 + (y - 3)^2 = 4$",
+        "C. $(x - 2)^2 + (y - 3)^2 = 3$",
+        "D. $(x + 2)^2 + (y + 3)^2 = 9$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Đường tròn $(C)$ có tâm $I(2; -3)$ và tiếp xúc với trục $Oy$ có phương trình là:",
+      "options": [
+        "A. $(x - 2)^2 + (y + 3)^2 = 4$",
+        "B. $(x - 2)^2 + (y + 3)^2 = 9$",
+        "C. $(x + 2)^2 + (y - 3)^2 = 4$",
+        "D. $(x - 2)^2 + (y - 3)^2 = 4$"
+      ],
+      "correctAnswer": "A"
+    }
+  ],
+  "part2": [
+    {
+      "question": "Cho đường tròn $(C)$ có phương trình $x^2 + y^2 - 12x + 14y + 4 = 0$. Xét tính đúng/sai của các mệnh đề sau:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Tọa độ tâm của đường tròn là $I(6; -7)$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Bán kính của đường tròn là $R = 9$.",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "Đường tròn $(C)$ đi qua gốc tọa độ $O(0; 0)$.",
+          "isTrue": false
+        },
+        {
+          "label": "d",
+          "text": "Khoảng cách từ tâm $I$ đến trục $Ox$ bằng $6$.",
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "question": "Xét đường tròn $(C)$ đi qua ba điểm $A(0; 4), B(2; 4), C(4; 0)$. Khi đó:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Tâm $I$ của đường tròn có tọa độ là $I(1; 1)$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Bán kính của đường tròn là $R = 10$.",
+          "isTrue": false
+        },
+        {
+          "label": "c",
+          "text": "Phương trình của đường tròn là $(x - 1)^2 + (y - 1)^2 = 10$.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "Điểm $M(2; 2)$ nằm bên ngoài đường tròn $(C)$.",
+          "isTrue": false
+        }
+      ]
+    }
+  ],
+  "part3": [
+    {
+      "question": "Cho đường tròn $(C): x^2 + y^2 - 10x + 1 = 0$. Khoảng cách từ tâm $I$ của đường tròn đến trục $Oy$ bằng bao nhiêu?",
+      "correctAnswer": "5"
+    },
+    {
+      "question": "Đường tròn $(C)$ có tâm $I(2; 1)$ và tiếp xúc với đường thẳng $\\Delta: 3x - 4y - 7 = 0$. Tính bán kính $R$ của đường tròn này.",
+      "correctAnswer": "1"
+    },
+    {
+      "question": "Cho đường tròn $(C)$ có phương trình $(x - 4)^2 + (y + 3)^2 = 25$. Đường tròn này cắt trục $Ox$ tại hai điểm. Tính độ dài đoạn thẳng nối hai điểm đó.",
+      "correctAnswer": "8"
+    }
+  ],
+  "questions": []
+}

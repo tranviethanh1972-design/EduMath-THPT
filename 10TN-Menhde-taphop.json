@@ -1,0 +1,189 @@
+{
+  "id": "q10-1785806495595",
+  "grade": "10",
+  "title": "Đề thi trích xuất AI từ PDF (15 câu)",
+  "duration": 15,
+  "description": "",
+  "questions": [
+    {
+      "id": 1785806457714,
+      "question": "Cho $A = (-\\infty; 5]$ và $B = [0; +\\infty)$. Tập hợp $A \\cap B$ là:",
+      "options": [
+        "$[0; 5]$",
+        "$(0; 5)$",
+        "$[0; 5)$",
+        "$(0; 5]$"
+      ],
+      "correct": 0,
+      "explanation": "Tập hợp $A \\cap B$ gồm các phần tử vừa thuộc $A$ vừa thuộc $B$. Vì $A = \\{x \\in \\mathbb{R} \\mid x \\le 5\\}$ và $B = \\{x \\in \\mathbb{R} \\mid x \\ge 0\\}$, nên $A \\cap B = \\{x \\in \\mathbb{R} \\mid 0 \\le x \\le 5\\} = [0; 5]$."
+    },
+    {
+      "id": 1785806457715,
+      "question": "Cho $A = (-\\infty; 5]$ và $B = [0; +\\infty)$. Tập hợp $A \\cup B$ là:",
+      "options": [
+        "$\\mathbb{R}$",
+        "$[0; 5]$",
+        "$(0; 5)$",
+        "$\\emptyset$"
+      ],
+      "correct": 0,
+      "explanation": "Tập hợp $A \\cup B$ gồm các phần tử thuộc $A$ hoặc thuộc $B$. Ta có $A \\cup B = (-\\infty; 5] \\cup [0; +\\infty) = (-\\infty; +\\infty) = \\mathbb{R}$."
+    },
+    {
+      "id": 1785806457716,
+      "question": "Mệnh đề nào sau đây đúng?",
+      "options": [
+        "$\\forall x \\in \\mathbb{R}, x^2 - x + 1 > 0$",
+        "$\\exists n \\in \\mathbb{N}, n < 0$",
+        "$\\exists x \\in \\mathbb{Q}, x^2 = 2$",
+        "$\\forall x \\in \\mathbb{Z}, \\frac{1}{x} > 0$"
+      ],
+      "correct": 0,
+      "explanation": "Xét biểu thức $x^2 - x + 1 = (x - \\frac{1}{2})^2 + \\frac{3}{4}$. Vì $(x - \\frac{1}{2})^2 \\ge 0$ nên $x^2 - x + 1 \\ge \\frac{3}{4} > 0$ với mọi $x \\in \\mathbb{R}$. Các phương án khác đều sai: $n \\in \\mathbb{N}$ thì $n \\ge 0$; $x^2=2 \\implies x = \\pm \\sqrt{2} \\notin \\mathbb{Q}$; $x$ có thể âm hoặc bằng $0$."
+    },
+    {
+      "id": 1785806457717,
+      "question": "Cho $A = \\{n \\in \\mathbb{N} \\mid n \\text{ là ước của } 20\\}$ và $B = \\{n \\in \\mathbb{N} \\mid n \\text{ là ước của } 25\\}$. Khi đó số phần tử của tập hợp $(A \\setminus B) \\cup \\{1, 3, 4\\}$ là:",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "1"
+      ],
+      "correct": 2,
+      "explanation": "Ta có $A = \\{1, 2, 4, 5, 10, 20\\}$ và $B = \\{1, 5, 25\\}$. Khi đó $A \\setminus B = \\{2, 4, 10, 20\\}$. Tập hợp $(A \\setminus B) \\cup \\{1, 3, 4\\} = \\{2, 4, 10, 20\\} \\cup \\{1, 3, 4\\} = \\{1, 2, 3, 4, 10, 20\\}$. Số phần tử là 6."
+    },
+    {
+      "id": 1785806457718,
+      "question": "Cho $A$ là tập hợp các hình thoi, $B$ là tập hợp các hình chữ nhật và $C$ là tập hợp các hình vuông. Khi đó khẳng định nào sau đây đúng?",
+      "options": [
+        "$A \\cup B = C$ ",
+        "$A \\cap B = C$ ",
+        "$A \\setminus B = C$ ",
+        "$B \\setminus A = C$"
+      ],
+      "correct": 1,
+      "explanation": "Hình vuông là hình vừa là hình thoi (có 4 cạnh bằng nhau) vừa là hình chữ nhật (có 4 góc vuông). Do đó, tập hợp hình vuông $C$ chính là giao của tập hợp hình thoi $A$ và tập hợp hình chữ nhật $B$."
+    },
+    {
+      "id": 1785806457719,
+      "question": "Cho $A = \\{x \\in \\mathbb{R} \\mid x^2 - 4 = 0\\}$. Tập hợp $A$ viết dưới dạng liệt kê là:",
+      "options": [
+        "$\\mathbb{R} \\setminus \\{-2; 2\\}$",
+        "$\\{-2; 2\\}$",
+        "$\\mathbb{R}$",
+        "$\\mathbb{R} \\setminus \\{2\\}$"
+      ],
+      "correct": 1,
+      "explanation": "Giải phương trình $x^2 - 4 = 0 \\iff x^2 = 4 \\iff x = \\pm 2$. Vì $-2$ và $2$ đều là số thực nên $A = \\{-2; 2\\}$."
+    },
+    {
+      "id": 1785806457720,
+      "question": "Cho $A = \\{x \\in \\mathbb{R} \\mid x^2 + 4 = 0\\}$. Tập hợp $A$ viết lại dưới dạng liệt kê là:",
+      "options": [
+        "$\\mathbb{R}$",
+        "$\\emptyset$",
+        "$\\{x \\mid |x-1| < 2\\}$",
+        "$\\{0\\}$"
+      ],
+      "correct": 1,
+      "explanation": "Phương trình $x^2 + 4 = 0 \\iff x^2 = -4$ không có nghiệm thực vì $x^2 \\ge 0$ với mọi $x$. Do đó $A$ là tập rỗng $\\emptyset$."
+    },
+    {
+      "id": 1785806457721,
+      "question": "Cho $A = [0; 4]$ và $B = (-2; 5)$. Tập hợp $A \\cap B$ là:",
+      "options": [
+        "$(-2; 0) \\cup (4; 5)$",
+        "$\\emptyset$",
+        "$\\{-2; 5\\}$",
+        "$[0; 4]$"
+      ],
+      "correct": 3,
+      "explanation": "Vì $0 > -2$ và $4 < 5$, ta thấy $[0; 4] \\subset (-2; 5)$. Do đó $A \\cap B = A = [0; 4]$."
+    },
+    {
+      "id": 1785806457722,
+      "question": "Cho $A = [2; 5]$. Khi đó $\\mathbb{R} \\setminus A$ là:",
+      "options": [
+        "$(-\\infty; 2) \\cup (5; +\\infty)$",
+        "$(-\\infty; 2] \\cup [5; +\\infty)$",
+        "$[2; 5]$",
+        "$(-\\infty; 2) \\cup [5; +\\infty)$"
+      ],
+      "correct": 0,
+      "explanation": "Phần bù của đoạn $[2; 5]$ trong $\\mathbb{R}$ là tập hợp các số thực nhỏ hơn $2$ hoặc lớn hơn $5$. Vậy $\\mathbb{R} \\setminus A = (-\\infty; 2) \\cup (5; +\\infty)$."
+    },
+    {
+      "id": 1785806457723,
+      "question": "Cho $A = (-\\infty; 5]$ và $B = (a; +\\infty)$ với $a$ là số thực. Tìm $a$ để $A \\cap B = \\emptyset$.",
+      "options": [
+        "$a \\ge 5$ ",
+        "$a < 5$ ",
+        "$a \\le 5$ ",
+        "$a > 5$"
+      ],
+      "correct": 0,
+      "explanation": "Để $(-\\infty; 5] \\cap (a; +\\infty) = \\emptyset$ thì điểm đầu của khoảng $B$ phải lớn hơn hoặc bằng điểm cuối của nửa khoảng $A$. Do đó $a \\ge 5$."
+    },
+    {
+      "id": 1785806457724,
+      "question": "Trong các tập hợp sau đây, tập hợp nào có đúng 2 phần tử?",
+      "options": [
+        "$A = \\{x \\in \\mathbb{Z} \\mid 1 < x < 10\\}$",
+        "$B = \\{x \\in \\mathbb{N}^* \\mid x^2 + x = 0\\}$",
+        "$C = \\{x \\in \\mathbb{Z} \\mid (x-1)(x-2)(2x+3) = 0\\}$",
+        "$D = \\{n \\in \\mathbb{N} \\mid -4 < 2n - 1 < 5\\}$"
+      ],
+      "correct": 2,
+      "explanation": "Xét $C$: $(x-1)(x-2)(2x+3) = 0 \\iff x \\in \\{1; 2; -3/2\\}$. Vì $x \\in \\mathbb{Z}$ nên $C = \\{1; 2\\}$ (có 2 phần tử). $A$ có 8 phần tử, $B = \\emptyset$, $D$ có 3 phần tử ($n \\in \\{0, 1, 2\\}$)."
+    },
+    {
+      "id": 1785806457725,
+      "question": "Cho các tập hợp $A$ là các số nguyên tố nhỏ hơn $11$, $B = \\{x \\in \\mathbb{Z} \\mid x^2 - 3x + 2 = 0\\}$. Khẳng định nào sau đây là đúng?",
+      "options": [
+        "Tập hợp $A$ có $4$ phần tử.",
+        "Tập hợp $B$ có $3$ phần tử.",
+        "Tập hợp $C = \\{x \\in \\mathbb{Z} \\mid (x^2-5x+6)(x+1)=0\\}$ có 2 phần tử.",
+        "Tập hợp $D = \\{x \\in \\mathbb{Z} \\mid |x| < 1\\}$ có 3 phần tử."
+      ],
+      "correct": 0,
+      "explanation": "Tập hợp $A = \\{2, 3, 5, 7\\}$ nên có 4 phần tử. Tập $B = \\{1, 2\\}$ có 2 phần tử. Tập $C = \\{2, 3, -1\\}$ có 3 phần tử. Tập $D = \\{0\\}$ có 1 phần tử."
+    },
+    {
+      "id": 1785806457726,
+      "question": "Cho tập $A = [-1; 5)$ và $B = (-5; 2)$. Tính tổng $S$ các phần tử nguyên của tập $A \\setminus B$.",
+      "options": [
+        "9",
+        "7",
+        "10",
+        "5"
+      ],
+      "correct": 0,
+      "explanation": "Ta có $A \\setminus B = [-1; 5) \\setminus (-5; 2) = [2; 5)$. Các số nguyên trong tập này là $\\{2, 3, 4\\}$. Tổng $S = 2 + 3 + 4 = 9$."
+    },
+    {
+      "id": 1785806457727,
+      "question": "Cho tập $A = \\{x \\in \\mathbb{Z} \\mid x^2 - 4 = 0\\}$, $B = \\{x \\in \\mathbb{Z} \\mid |x| < 2\\}$ và $C = \\{x \\in \\mathbb{Z} \\mid (x^2 - 4x)(2x - 1) = 0\\}$. Tìm số phần tử của tập hợp $(A \\cup B) \\setminus C$.",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "1"
+      ],
+      "correct": 1,
+      "explanation": "$A = \\{-2, 2\\}$; $B = \\{-1, 0, 1\\}$; $C = \\{0, 4\\}$. Khi đó $A \\cup B = \\{-2, -1, 0, 1, 2\\}$. Vậy $(A \\cup B) \\setminus C = \\{-2, -1, 1, 2\\}$. Số phần tử là 4."
+    },
+    {
+      "id": 1785806457728,
+      "question": "Có bao nhiêu tập hợp $X$ thỏa mãn điều kiện $\\{0; 1; a\\} \\subset X \\subset \\{0; 1; a; b; c\\}$?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correct": 1,
+      "explanation": "Tập hợp $X$ phải chứa các phần tử $\\{0, 1, a\\}$ và có thể chứa thêm các phần tử từ tập $\\{b, c\\}$. Số tập con của $\\{b, c\\}$ là $2^2 = 4$. Do đó có 4 tập $X$ thỏa mãn."
+    }
+  ]
+}

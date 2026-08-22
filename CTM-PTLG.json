@@ -1,0 +1,177 @@
+{
+  "id": "ctm2025-1786698400533",
+  "grade": "11",
+  "title": "ĐỀ THI PHƯƠNG TRÌNH LƯỢNG GIÁC TOÁN THPT 2025 (Cấu Trúc Mới)",
+  "duration": 60,
+  "description": "Đề thi Cấu Trúc Mới 2025 (Trắc nghiệm, Đúng/Sai, Trả lời ngắn)",
+  "isCTM2025": true,
+  "part1": [
+    {
+      "question": "Số nghiệm của phương trình $2\\sin x - \\sqrt{3} = 0$ trên đoạn $[0; 2\\pi]$ là:",
+      "options": [
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Số nghiệm của phương trình $2\\cos(x + \\frac{\\pi}{3}) = 1$ trên đoạn $[0; 2\\pi]$ là:",
+      "options": [
+        "A. 1",
+        "B. 2",
+        "C. 0",
+        "D. 3"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Số nghiệm của phương trình $2\\cos x = \\sqrt{3}$ trên đoạn $[0; \\frac{5\\pi}{2}]$ là:",
+      "options": [
+        "A. 2",
+        "B. 1",
+        "C. 3",
+        "D. 4"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Số nghiệm của phương trình $\\sin(x + \\frac{\\pi}{4}) = 1$ thuộc đoạn $[\\pi; 2\\pi]$ là:",
+      "options": [
+        "A. 3",
+        "B. 2",
+        "C. 0",
+        "D. 1"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Nghiệm lớn nhất của phương trình $2\\cos 2x - 1 = 0$ trong đoạn $[0; \\pi]$ là:",
+      "options": [
+        "A. $\\pi$",
+        "B. $\\frac{11\\pi}{12}$",
+        "C. $\\frac{2\\pi}{3}$",
+        "D. $\\frac{5\\pi}{6}$"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Tổng các nghiệm thuộc khoảng $(-\\frac{\\pi}{2}; \\frac{\\pi}{2})$ của phương trình $4\\sin^2 2x - 1 = 0$ bằng:",
+      "options": [
+        "A. $\\pi$",
+        "B. $\\frac{\\pi}{3}$",
+        "C. $0$",
+        "D. $\\frac{\\pi}{6}$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Phương trình $\\sin(x - \\frac{\\pi}{3}) = -\\frac{1}{2}$ có nghiệm dương bé nhất là:",
+      "options": [
+        "A. $\\frac{2\\pi}{3}$",
+        "B. $\\frac{3\\pi}{2}$",
+        "C. $\\frac{\\pi}{6}$",
+        "D. $\\frac{\\pi}{8}$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Phương trình $\\cos 2x + \\cos x = 0$ có bao nhiêu nghiệm thuộc khoảng $(-\\pi; \\pi)$?",
+      "options": [
+        "A. 2",
+        "B. 3",
+        "C. 1",
+        "D. 4"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Tổng các nghiệm của phương trình $\\tan 5x - \\tan x = 0$ trên nửa khoảng $[0; \\pi)$ bằng:",
+      "options": [
+        "A. $\\frac{5\\pi}{2}$",
+        "B. $\\pi$",
+        "C. $\\frac{3\\pi}{2}$",
+        "D. $2\\pi$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Số nghiệm của phương trình $\\cos(2x - \\frac{\\pi}{4}) = 1$ trên đoạn $[-8\\pi; 6\\pi]$ là:",
+      "options": [
+        "A. 12",
+        "B. 14",
+        "C. 8",
+        "D. 32"
+      ],
+      "correctAnswer": "B"
+    }
+  ],
+  "part2": [
+    {
+      "question": "Cho phương trình lượng giác $\\sin x = \\cos 2x$. Xét tính đúng sai của các mệnh đề sau:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Phương trình đã cho tương đương với phương trình $\\sin x = \\sin(\\frac{\\pi}{2} - 2x)$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Phương trình có một họ nghiệm là $x = \\frac{\\pi}{6} + k\\frac{2\\pi}{3}$ ($k \\in \\mathbb{Z}$).",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "Số nghiệm của phương trình thuộc đoạn $[0; 20\\pi]$ là 20 nghiệm.",
+          "isTrue": false
+        },
+        {
+          "label": "d",
+          "text": "Tổng các nghiệm của phương trình trên đoạn $[0; 2\\pi]$ bằng $2.5\\pi$.",
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "question": "Cho phương trình $8\\cos 2x \\sin 2x \\cos 4x = -\\sqrt{2}$. Xét tính đúng sai của các mệnh đề sau:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Phương trình đã cho tương đương với $2\\sin 8x = -\\sqrt{2}$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Nghiệm dương bé nhất của phương trình là $x = \\frac{5\\pi}{32}$.",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "Nghiệm của phương trình có dạng $x = -\\frac{\\pi}{32} + k\\frac{\\pi}{8}$ ($k \\in \\mathbb{Z}$).",
+          "isTrue": false
+        },
+        {
+          "label": "d",
+          "text": "Trên đoạn $[0; \\pi]$, phương trình có đúng 8 nghiệm.",
+          "isTrue": true
+        }
+      ]
+    }
+  ],
+  "part3": [
+    {
+      "question": "Số nghiệm thực của phương trình $2\\sin x + 1 = 0$ trên đoạn $[-\\frac{3\\pi}{2}; 10\\pi]$ là bao nhiêu?",
+      "correctAnswer": "11"
+    },
+    {
+      "question": "Biết các nghiệm của phương trình $\\cos 2x = -\\frac{1}{2}$ có dạng $x = \\frac{\\pi}{m} + k\\pi$ và $x = -\\frac{\\pi}{n} + k\\pi$ với $m, n$ là các số nguyên dương. Tính giá trị của $m + n$.",
+      "correctAnswer": "6"
+    },
+    {
+      "question": "Nghiệm của phương trình $\\cot(x + \\frac{\\pi}{3}) = \\sqrt{3}$ có dạng $x = -\\frac{\\pi}{m} + k\\frac{\\pi}{n}$ với $m, n$ là các số nguyên dương và $\\frac{1}{m}$ là phân số tối giản. Tính giá trị $m - n$.",
+      "correctAnswer": "5"
+    }
+  ],
+  "questions": []
+}

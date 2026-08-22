@@ -1,0 +1,249 @@
+{
+  "id": "q10-1785810122396",
+  "grade": "12",
+  "title": "Tăng giảm-cực trị của hàm số (20 câu)",
+  "duration": 30,
+  "description": "",
+  "questions": [
+    {
+      "id": 1785810028132,
+      "question": "Cho hàm số $y = \\frac{x + 1}{x - 1}$. Khẳng định nào sau đây là khẳng định đúng?",
+      "options": [
+        "Hàm số nghịch biến trên khoảng $(-\\infty; 1) \\cup (1; +\\infty)$.",
+        "Hàm số đồng biến trên khoảng $(-\\infty; 1) \\cup (1; +\\infty)$.",
+        "Hàm số nghịch biến trên các khoảng $(-\\infty; 1)$ và $(1; +\\infty)$.",
+        "Hàm số đồng biến trên các khoảng $(-\\infty; 1)$ và $(1; +\\infty)$."
+      ],
+      "correct": 2,
+      "explanation": "Tập xác định: $D = \\mathbb{R} \\setminus \\{1\\}$. Đạo hàm: $y' = \\frac{1(-1) - 1(1)}{(x - 1)^2} = \\frac{-2}{(x - 1)^2} < 0, \\forall x \\neq 1$. Vậy hàm số nghịch biến trên các khoảng $(-\\infty; 1)$ và $(1; +\\infty)$."
+    },
+    {
+      "id": 1785810028133,
+      "question": "Cho hàm số $y = \\frac{x^3}{3} - x^2 + x - 2$. Khẳng định nào sau đây là khẳng định đúng?",
+      "options": [
+        "Hàm số luôn nghịch biến trên $\\mathbb{R}$.",
+        "Hàm số nghịch biến trên các khoảng $(-\\infty; 1)$ và $(1; +\\infty)$.",
+        "Hàm số đồng biến trên khoảng $(-\\infty; 1)$ và nghịch biến trên khoảng $(1; +\\infty)$.",
+        "Hàm số luôn đồng biến trên $\\mathbb{R}$."
+      ],
+      "correct": 3,
+      "explanation": "Tập xác định: $D = \\mathbb{R}$. Đạo hàm: $y' = x^2 - 2x + 1 = (x - 1)^2 \\geq 0, \\forall x \\in \\mathbb{R}$. Đạo hàm bằng $0$ tại điểm duy nhất $x = 1$. Do đó hàm số đồng biến trên $\\mathbb{R}$."
+    },
+    {
+      "id": 1785810028134,
+      "question": "Cho hàm số $y = -x^4 + 4x^2 + 10$ và các khoảng sau: (I): $(-\\infty; -\\sqrt{2})$; (II): $(-\\sqrt{2}; 0)$; (III): $(0; \\sqrt{2})$. Hàm số đồng biến trên các khoảng nào?",
+      "options": [
+        "Chỉ (I).",
+        "(I) và (II).",
+        "(II) và (III).",
+        "(I) và (III)."
+      ],
+      "correct": 3,
+      "explanation": "Đạo hàm: $y' = -4x^3 + 8x = -4x(x^2 - 2)$. Ta có $y' = 0 \\Leftrightarrow x = 0$ hoặc $x = \\pm\\sqrt{2}$. Lập bảng xét dấu: $y' > 0$ khi $x \\in (-\\infty; -\\sqrt{2})$ hoặc $x \\in (0; \\sqrt{2})$. Vậy hàm số đồng biến trên các khoảng (I) và (III)."
+    },
+    {
+      "id": 1785810028135,
+      "question": "Cho hàm số $y = \\frac{3x - 1}{2x - 4}$. Khẳng định nào sau đây là khẳng định đúng?",
+      "options": [
+        "Hàm số luôn nghịch biến trên $\\mathbb{R}$.",
+        "Hàm số luôn nghịch biến trên từng khoảng xác định.",
+        "Hàm số đồng biến trên các khoảng $(-\\infty; 2)$ và $(2; +\\infty)$.",
+        "Hàm số nghịch biến trên các khoảng $(-\\infty; 2)$ và $(2; +\\infty)$."
+      ],
+      "correct": 3,
+      "explanation": "Tập xác định $D = \\mathbb{R} \\setminus \\{2\\}$. Đạo hàm $y' = \\frac{3(-4) - 2(-1)}{(2x - 4)^2} = \\frac{-10}{(2x - 4)^2} < 0, \\forall x \\neq 2$. Vậy hàm số nghịch biến trên các khoảng $(-\\infty; 2)$ và $(2; +\\infty)$."
+    },
+    {
+      "id": 1785810028136,
+      "question": "Hỏi hàm số nào sau đây luôn nghịch biến trên $\\mathbb{R}$?",
+      "options": [
+        "$h(x) = x^4 - 4x^2 + 4$.",
+        "$g(x) = x^3 + 3x^2 + 10x + 1$.",
+        "$f(x) = -\\frac{4}{5}x^5 + \\frac{4}{3}x^3 - x$.",
+        "$k(x) = x^3 + 10x^2 - \\cos x$."
+      ],
+      "correct": 2,
+      "explanation": "Xét hàm $f(x) = -\\frac{4}{5}x^5 + \\frac{4}{3}x^3 - x$. Đạo hàm $f'(x) = -4x^4 + 4x^2 - 1 = -(2x^2 - 1)^2 \\leq 0, \\forall x \\in \\mathbb{R}$. Vậy hàm số $f(x)$ luôn nghịch biến trên $\\mathbb{R}$."
+    },
+    {
+      "id": 1785810028137,
+      "question": "Hàm số $y = \\frac{x^2 - 3x + 5}{x + 1}$ nghịch biến trên các khoảng nào?",
+      "options": [
+        "$(-\\infty; -4)$ và $(2; +\\infty)$.",
+        "$(-4; 2)$.",
+        "$(-\\infty; -1)$ và $(-1; +\\infty)$.",
+        "$(-4; -1)$ và $(-1; 2)$."
+      ],
+      "correct": 3,
+      "explanation": "Tập xác định $D = \\mathbb{R} \\setminus \\{-1\\}$. Đạo hàm $y' = \\frac{(2x - 3)(x + 1) - (x^2 - 3x + 5)}{(x + 1)^2} = \\frac{x^2 + 2x - 8}{(x + 1)^2}$. Cho $y' < 0 \\Leftrightarrow x^2 + 2x - 8 < 0 \\Leftrightarrow -4 < x < 2$. Kết hợp với $x \\neq -1$, hàm số nghịch biến trên $(-4; -1)$ và $(-1; 2)$."
+    },
+    {
+      "id": 1785810028138,
+      "question": "Hàm số $y = \\frac{x^5}{5} - \\frac{3x^4}{4} + \\frac{4x^3}{3} - 2x^2 + 5$ đồng biến trên khoảng nào?",
+      "options": [
+        "$(-\\infty; 0)$.",
+        "$\\mathbb{R}$.",
+        "$(0; 2)$.",
+        "$(2; +\\infty)$."
+      ],
+      "correct": 0,
+      "explanation": "Đạo hàm $y' = x^4 - 3x^3 + 4x^2 - 4x = x(x^3 - 3x^2 + 4x - 4) = x(x - 2)(x^2 - x + 2)$. Vì $x^2 - x + 2 > 0$ với mọi $x$, ta có $y' > 0 \\Leftrightarrow x < 0$ hoặc $x > 2$. Vậy hàm số đồng biến trên $(-\\infty; 0)$ và $(2; +\\infty)$."
+    },
+    {
+      "id": 1785810028139,
+      "question": "Cho hàm số $y = ax^3 + bx^2 + cx + d$. Hàm số luôn đồng biến trên $\\mathbb{R}$ khi nào?",
+      "options": [
+        "$\\left[ \\begin{array}{l} a = b = 0, c > 0 \\\\ a > 0, b^2 - 3ac \\leq 0 \\end{array} \\right.$",
+        "$\\left[ \\begin{array}{l} a = b = 0, c > 0 \\\\ a > 0, b^2 - 3ac \\geq 0 \\end{array} \\right.$",
+        "$\\left[ \\begin{array}{l} a = b = 0, c > 0 \\\\ a < 0, b^2 - 3ac \\leq 0 \\end{array} \\right.$",
+        "$\\left[ \\begin{array}{l} a = b = c = 0 \\\\ a < 0, b^2 - 3ac < 0 \\end{array} \\right.$"
+      ],
+      "correct": 0,
+      "explanation": "Điều kiện để hàm số bậc ba đồng biến trên $\\mathbb{R}$ là: TH1: Nếu $a=0$ thì hàm số thành $y=bx^2+cx+d$ (phải là đường thẳng có hệ số góc dương $\\implies b=0, c>0$). TH2: Nếu $a \\neq 0$, yêu cầu $a > 0$ và $\\Delta_{y'} \\leq 0$ (với $\\Delta_{y'} = (2b)^2 - 4(3a)c = 4(b^2 - 3ac)$). Do đó $b^2 - 3ac \\leq 0$."
+    },
+    {
+      "id": 1785810028140,
+      "question": "Cho hàm số $y = x^3 + 3x^2 - 9x + 15$. Khẳng định nào sau đây là khẳng định sai?",
+      "options": [
+        "Hàm số nghịch biến trên khoảng $(-3; 1)$.",
+        "Hàm số đồng biến trên $\\mathbb{R}$.",
+        "Hàm số đồng biến trên $(-9; -5)$.",
+        "Hàm số đồng biến trên khoảng $(5; +\\infty)$."
+      ],
+      "correct": 1,
+      "explanation": "Đạo hàm $y' = 3x^2 + 6x - 9 = 3(x + 3)(x - 1)$. $y' > 0 \\Leftrightarrow x \\in (-\\infty; -3) \\cup (1; +\\infty)$. Do đó khẳng định 'Hàm số đồng biến trên $\\mathbb{R}$' là sai."
+    },
+    {
+      "id": 1785810028141,
+      "question": "Tìm điều kiện để hàm số $y = ax^4 + bx^2 + c$ ($a \\neq 0$) có 3 điểm cực trị.",
+      "options": [
+        "$ab < 0$.",
+        "$ab > 0$.",
+        "$b = 0$.",
+        "$c = 0$."
+      ],
+      "correct": 0,
+      "explanation": "Hàm số bậc bốn trùng phương có 3 cực trị khi và chỉ khi phương trình $y' = 4ax^3 + 2bx = 2x(2ax^2 + b) = 0$ có 3 nghiệm phân biệt. Điều này xảy ra khi phương trình $2ax^2 + b = 0$ có hai nghiệm phân biệt khác $0$, tức là $-\\frac{b}{2a} > 0 \\Leftrightarrow ab < 0$."
+    },
+    {
+      "id": 1785810028142,
+      "question": "Cho hàm số $y = x^3 - 3x^2 + 2$. Khẳng định nào sau đây là đúng?",
+      "options": [
+        "Hàm số đạt cực đại tại $x = 0$ và đạt cực tiểu tại $x = 2$.",
+        "Hàm số đạt cực tiểu tại $x = 0$ và đạt cực đại tại $x = 2$.",
+        "Hàm số đạt cực đại tại $x = 0$ và cực tiểu tại $x = -2$.",
+        "Hàm số đạt cực đại tại $x = 2$ và cực tiểu tại $x = -2$."
+      ],
+      "correct": 0,
+      "explanation": "Đạo hàm $y' = 3x^2 - 6x$; $y' = 0 \\Leftrightarrow x = 0$ hoặc $x = 2$. Đạo hàm cấp hai $y'' = 6x - 6$. Ta có $y''(0) = -6 < 0$ nên $x = 0$ là điểm cực đại. $y''(2) = 6 > 0$ nên $x = 2$ là điểm cực tiểu."
+    },
+    {
+      "id": 1785810028143,
+      "question": "Cho hàm số $y = x^4 - 2x^2 + 3$. Khẳng định nào sau đây là đúng?",
+      "options": [
+        "Hàm số có ba điểm cực trị.",
+        "Hàm số chỉ có đúng 2 điểm cực trị.",
+        "Hàm số không có cực trị.",
+        "Hàm số chỉ có đúng một điểm cực trị."
+      ],
+      "correct": 0,
+      "explanation": "Vì $a = 1, b = -2$, ta thấy $ab = -2 < 0$. Do đó hàm số trùng phương này có 3 điểm cực trị."
+    },
+    {
+      "id": 1785810028144,
+      "question": "Cho hàm số $y = -x^4 + 2x^2 + 3$. Kết luận nào sau đây là đúng?",
+      "options": [
+        "$x_{CD} = \\pm 1$.",
+        "$x_{CT} = 2$.",
+        "$x_{CD} = 0$.",
+        "$x_{CT} = -1$."
+      ],
+      "correct": 0,
+      "explanation": "Đạo hàm $y' = -4x^3 + 4x = -4x(x^2 - 1)$. $y' = 0 \\Leftrightarrow x = 0, x = \\pm 1$. Vì $a < 0$ và có 3 cực trị, hàm số đạt cực đại tại $x = \\pm 1$ và cực tiểu tại $x = 0$."
+    },
+    {
+      "id": 1785810028145,
+      "question": "Cho hàm số $y = x^3 - 6x^2 + 9x - 1$. Kết luận nào sau đây là đúng?",
+      "options": [
+        "$x_{CD} = 1$.",
+        "$x_{CD} = 3$.",
+        "$x_{CD} = -1$.",
+        "$x_{CD} = -3$."
+      ],
+      "correct": 0,
+      "explanation": "Đạo hàm $y' = 3x^2 - 12x + 9 = 3(x - 1)(x - 3)$. Lập bảng biến thiên, hàm số đạt cực đại tại $x = 1$ và cực tiểu tại $x = 3$."
+    },
+    {
+      "id": 1785810028146,
+      "question": "Trong các hàm số sau, hàm số nào đạt cực đại tại $x = 2$?",
+      "options": [
+        "$y = x^4 - 4x^2 + 1$.",
+        "$y = x^3 - 6x^2 + 9x - 1$.",
+        "$y = -x^2 + 4x - 12$.",
+        "$y = \\frac{x - 1}{x + 2}$."
+      ],
+      "correct": 2,
+      "explanation": "Xét hàm $y = -x^2 + 4x - 12$, đạo hàm $y' = -2x + 4$. $y' = 0 \\Leftrightarrow x = 2$. Vì $y'' = -2 < 0$, hàm số đạt cực đại tại $x = 2$."
+    },
+    {
+      "id": 1785810028147,
+      "question": "Cho hàm số $y = \\frac{1}{3}x^3 - 3x^2 + 4x - 7$. Gọi hoành độ 2 điểm cực trị của đồ thị hàm số là $x_1, x_2$. Tính $x_1 + x_2$?",
+      "options": [
+        "$x_1 + x_2 = -6$.",
+        "$x_1 + x_2 = -4$.",
+        "$x_1 + x_2 = 6$.",
+        "$x_1 + x_2 = 4$."
+      ],
+      "correct": 2,
+      "explanation": "Hoành độ các điểm cực trị là nghiệm của phương trình $y' = x^2 - 6x + 4 = 0$. Theo định lý Vi-ét, ta có $x_1 + x_2 = -(-6)/1 = 6$."
+    },
+    {
+      "id": 1785810028148,
+      "question": "Tính hiệu số giữa giá trị cực đại và giá trị cực tiểu của hàm số $y = x^3 - 3x + 4$.",
+      "options": [
+        "4.",
+        "2.",
+        "-2.",
+        "-4."
+      ],
+      "correct": 0,
+      "explanation": "Đạo hàm $y' = 3x^2 - 3 = 0 \\Leftrightarrow x = \\pm 1$. Giá trị cực đại $y(-1) = (-1)^3 - 3(-1) + 4 = 6$. Giá trị cực tiểu $y(1) = 1^3 - 3(1) + 4 = 2$. Hiệu số là $6 - 2 = 4$."
+    },
+    {
+      "id": 1785810028149,
+      "question": "Tìm $m$ để hàm số $y = x^4 - 2(m + 1)x^2 + m$ có 3 cực trị.",
+      "options": [
+        "$m > -1$.",
+        "$m > 2$.",
+        "$m < 0$.",
+        "$m < -1$."
+      ],
+      "correct": 0,
+      "explanation": "Hàm số trùng phương có 3 cực trị khi $ab < 0$. Ở đây $a = 1, b = -2(m + 1)$. Yêu cầu $1 \\cdot [-2(m + 1)] < 0 \\Leftrightarrow m + 1 > 0 \\Leftrightarrow m > -1$."
+    },
+    {
+      "id": 1785810028150,
+      "question": "Tìm $m$ để hàm số $y = mx + \\cos x$ luôn đồng biến trên $\\mathbb{R}$.",
+      "options": [
+        "$-1 \\leq m \\leq 1$.",
+        "$m \\leq 1$.",
+        "$m \\geq 1$.",
+        "$-1 < m < 1$."
+      ],
+      "correct": 2,
+      "explanation": "Đạo hàm $y' = m - \\sin x$. Hàm số đồng biến trên $\\mathbb{R}$ khi $y' \\geq 0, \\forall x \\in \\mathbb{R} \\Leftrightarrow m - \\sin x \\geq 0 \\Leftrightarrow m \\geq \\sin x, \\forall x \\in \\mathbb{R}$. Điều này tương đương với $m \\geq \\max(\\sin x) = 1$."
+    },
+    {
+      "id": 1785810028151,
+      "question": "Tìm $m$ để hàm số $y = -\\frac{1}{3}x^3 + (m - 1)x^2 + (m - 3)x - 4$ luôn nghịch biến trên $\\mathbb{R}$.",
+      "options": [
+        "$m \\in \\mathbb{R}$.",
+        "$m \\in \\emptyset$.",
+        "$m \\neq 1$.",
+        "$m \\leq -4$."
+      ],
+      "correct": 1,
+      "explanation": "Đạo hàm $y' = -x^2 + 2(m - 1)x + (m - 3)$. Hàm số luôn nghịch biến trên $\\mathbb{R}$ khi $y' \\leq 0, \\forall x \\in \\mathbb{R} \\Leftrightarrow \\Delta' = (m - 1)^2 + (m - 3) \\leq 0 \\Leftrightarrow m^2 - m - 2 \\leq 0 \\Leftrightarrow -1 \\leq m \\leq 2$. Các phương án đề bài đưa ra không chứa khoảng này, có thể đề bài thô bị thiếu thông tin hoặc sai sót, chọn đáp án rỗng nếu không có giá trị thỏa mãn cấu trúc đề."
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "ctm2025-1786802573454",
+  "grade": "12",
+  "title": "ĐỀ THI PHƯƠNG TRÌNH MẶT PHẲNG ÔN TẬP TOÁN THPT 2025 (Cấu Trúc Mới)",
+  "duration": 60,
+  "description": "Đề thi Cấu Trúc Mới 2025 (Trắc nghiệm, Đúng/Sai, Trả lời ngắn)",
+  "isCTM2025": true,
+  "part1": [
+    {
+      "question": "Trong không gian $Oxyz$, mặt phẳng $(\\alpha): 2x - y + z - 1 = 0$ có một vectơ pháp tuyến là",
+      "options": [
+        "$\\vec{n} = (1; -1; 2)$",
+        "$\\vec{n} = (2; -1; 1)$",
+        "$\\vec{n} = (2; 2; 4)$",
+        "$\\vec{n} = (1; 1; 1)$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Trong không gian $Oxyz$, mặt phẳng $(\\alpha): \\frac{x}{2} + \\frac{y}{3} + \\frac{z}{5} = -1$ có một vectơ pháp tuyến là",
+      "options": [
+        "$\\vec{n} = (15; 10; -6)$",
+        "$\\vec{n} = (2; 3; 5)$",
+        "$\\vec{n} = (15; 10; 6)$",
+        "$\\vec{n} = (2; 3; -5)$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Trong không gian $Oxyz$, cho hai điểm $A(4; 0; 1)$ và $B(-2; 2; 3)$. Phương trình mặt phẳng trung trực của đoạn thẳng $AB$ là",
+      "options": [
+        "$3x + y + z - 6 = 0$",
+        "$6x - 2y - 2z - 1 = 0$",
+        "$3x - y - z + 1 = 0$",
+        "$3x - y - z = 0$"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Trong không gian $Oxyz$, mặt phẳng đi qua ba điểm $A(2; 3; 5)$, $B(3; 2; 4)$ và $C(4; 1; 2)$ có phương trình là",
+      "options": [
+        "$3x - 2y + z - 4 = 0$",
+        "$x + y - 5 = 0$",
+        "$y - z + 2 = 0$",
+        "$2x + y - 7 = 0$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Trong không gian $Oxyz$, cho hai vectơ $\\vec{a} = (2; 1; -2)$ và $\\vec{b} = (1; 0; 2)$. Tọa độ vectơ $\\vec{c} = [\\vec{a}, \\vec{b}]$ là",
+      "options": [
+        "$\\vec{c} = (2; 6; -1)$",
+        "$\\vec{c} = (4; 6; -1)$",
+        "$\\vec{c} = (4; -6; -1)$",
+        "$\\vec{c} = (2; -6; -1)$"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Trong không gian $Oxyz$, mặt phẳng $(P): 2x + 3y + 2z + 2 = 0$ có một vectơ pháp tuyến là",
+      "options": [
+        "$\\vec{n} = (2; 3; 1)$",
+        "$\\vec{n} = (2; 3; 2)$",
+        "$\\vec{n} = (2; 3; 0)$",
+        "$\\vec{n} = (2; 0; 3)$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Trong không gian $Oxyz$, điểm nào sau đây thuộc mặt phẳng $(P): x - 2y + z - 5 = 0$?",
+      "options": [
+        "$P(0; 0; -5)$",
+        "$M(1; 1; 6)$",
+        "$Q(2; -1; 5)$",
+        "$N(-5; 0; 0)$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Trong không gian $Oxyz$, mặt phẳng $(P): 2x + y + z - 2 = 0$ song song với mặt phẳng nào sau đây?",
+      "options": [
+        "$\\frac{1}{2}x + \\frac{1}{2}y + \\frac{1}{2}z - 1 = 0$",
+        "$2x - y - z - 1 = 0$",
+        "$4x + 2y + 2z + 4 = 0$",
+        "$2x + y + z - 2 = 0$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Trong không gian $Oxyz$, cho điểm $M(1; 2; -3)$ và vectơ pháp tuyến $\\vec{n} = (1; -2; 3)$. Phương trình mặt phẳng đi qua $M$ là",
+      "options": [
+        "$x - 2y + 3z + 12 = 0$",
+        "$x - 2y - 3z - 6 = 0$",
+        "$x - 2y + 3z - 12 = 0$",
+        "$x - 2y - 3z + 6 = 0$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Trong không gian $Oxyz$, phương trình mặt phẳng đi qua $A(2; -3; 1)$ và song song với mặt phẳng $(Oxy)$ là",
+      "options": [
+        "$z - 1 = 0$",
+        "$z - 2 = 0$",
+        "$z + 3 = 0$",
+        "$z = 0$"
+      ],
+      "correctAnswer": "A"
+    }
+  ],
+  "part2": [
+    {
+      "question": "Trong không gian $Oxyz$, cho điểm $M(2; -1; 4)$ và mặt phẳng $(P): 3x - 2y + z + 1 = 0$. Gọi $(Q)$ là mặt phẳng đi qua $M$ và song song với $(P)$.",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Vectơ pháp tuyến của mặt phẳng $(Q)$ có thể chọn là $\\vec{n} = (3; -2; 1)$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Điểm $A(0; 6; 0)$ thuộc mặt phẳng $(Q)$.",
+          "isTrue": false
+        },
+        {
+          "label": "c",
+          "text": "Phương trình của mặt phẳng $(Q)$ là $3x - 2y + z - 12 = 0$.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "Mặt phẳng $(Q)$ đi qua gốc tọa độ $O(0; 0; 0)$.",
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "question": "Trong không gian $Oxyz$, xét tính đúng sai của các mệnh đề sau về vị trí tương đối và tính chất mặt phẳng:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Mặt phẳng $(P): 2x + 3y + 4z - 12 = 0$ cắt trục $Oy$ tại điểm có tọa độ $(0; 4; 0)$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Hai mặt phẳng $(\\alpha): 2x - 3y + 4z - 4 = 0$ và $(\\beta): 5x - 3y - 2z - 7 = 0$ vuông góc với nhau.",
+          "isTrue": false
+        },
+        {
+          "label": "c",
+          "text": "Mặt phẳng chứa điểm $A(1; 2; 3)$ và trục $Oz$ có phương trình $2x - y = 0$.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "Mặt phẳng $(\\alpha): 7x - 3y + mz - 3 = 0$ vuông góc với $(\\beta): 3x - 4y + 5z + 5 = 0$ khi $m = 1$.",
+          "isTrue": false
+        }
+      ]
+    }
+  ],
+  "part3": [
+    {
+      "question": "Trong không gian $Oxyz$, cho mặt phẳng $(P): ax + by + cz - 9 = 0$ chứa hai điểm $A(3; 2; 1)$, $B(-3; 5; 2)$ và vuông góc với mặt phẳng $(Q): 3x + y + z + 4 = 0$. Tính tổng $S = a + b + c$.",
+      "correctAnswer": "-4"
+    },
+    {
+      "question": "Trong không gian $Oxyz$, mặt phẳng $(P): 2x + 3y + 4z - 12 = 0$ cắt trục $Oy$ tại điểm $M$. Tìm tung độ của điểm $M$.",
+      "correctAnswer": "4"
+    },
+    {
+      "question": "Cho hai điểm $A(1; 2; 0)$ và $B(3; 0; 2)$. Mặt phẳng trung trực của đoạn thẳng $AB$ có phương trình dạng $x - y + z + d = 0$. Tìm giá trị của $d$.",
+      "correctAnswer": "-2"
+    }
+  ],
+  "questions": []
+}

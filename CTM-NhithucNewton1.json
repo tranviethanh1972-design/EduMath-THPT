@@ -1,0 +1,177 @@
+{
+  "id": "ctm2025-1786864695061",
+  "grade": "10",
+  "title": "ĐỀ THI NHỊ THỨC NEWTON  TOÁN THPT 2025 (Cấu Trúc Mới)",
+  "duration": 60,
+  "description": "Đề thi Cấu Trúc Mới 2025 (Trắc nghiệm, Đúng/Sai, Trả lời ngắn)",
+  "isCTM2025": true,
+  "part1": [
+    {
+      "question": "Trong khai triển $(2x + 3)^8$, hệ số của số hạng chứa $x^5$ là:",
+      "options": [
+        "A. $C_8^3 \\cdot 2^3 \\cdot 3^5$",
+        "B. $C_8^3 \\cdot 2^5 \\cdot 3^3$",
+        "C. $-C_8^5 \\cdot 2^5 \\cdot 3^3$",
+        "D. $C_8^5 \\cdot 2^3 \\cdot 3^5$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Tìm hệ số của $x^7$ trong khai triển nhị thức $(x + 2)^{10}$.",
+      "options": [
+        "A. $C_{10}^3 \\cdot 2^7$",
+        "B. $C_{10}^3$",
+        "C. $C_{10}^3 \\cdot 2^3$",
+        "D. $C_{10}^7 \\cdot 2^3$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Hệ số của số hạng chứa $x^{10}y^{19}$ trong khai triển $(x - 2y)^{29}$ là:",
+      "options": [
+        "A. $C_{29}^{19} \\cdot 2^{19}$",
+        "B. $-C_{29}^{19} \\cdot 2^{19}$",
+        "C. $C_{29}^{10}$",
+        "D. $-C_{29}^{10}$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Hệ số của $x^7$ trong khai triển của $(3 - x)^9$ là:",
+      "options": [
+        "A. $C_9^7$",
+        "B. $-C_9^7$",
+        "C. $9C_9^7$",
+        "D. $-9C_9^7$"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Ba số hạng đầu tiên theo lũy thừa tăng dần của $x$ trong khai triển của $(1 + 2x)^{10}$ là:",
+      "options": [
+        "A. $1, 45x, 120x^2$",
+        "B. $1, 20x, 180x^2$",
+        "C. $10, 45x, 120x^2$",
+        "D. $1, 4x, 4x^2$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Hệ số của $x^{12}$ trong khai triển $(2x - x^2)^{10}$ là:",
+      "options": [
+        "A. $C_{10}^8$",
+        "B. $C_{10}^2 \\cdot 2^8$",
+        "C. $C_{10}^2$",
+        "D. $-C_{10}^8 \\cdot 2^8$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Biết khai triển $(\\sqrt[3]{3} + \\sqrt{2})^{20}$ có tất cả 21 số hạng. Số số hạng là số nguyên trong khai triển này là:",
+      "options": [
+        "A. 3",
+        "B. 4",
+        "C. 5",
+        "D. 2"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Hệ số của $x^7$ trong khai triển $(x - \\frac{1}{x})^{13}$ là:",
+      "options": [
+        "A. $-C_{13}^4$",
+        "B. $C_{13}^4$",
+        "C. $-C_{13}^3$",
+        "D. $C_{13}^3$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Trong khai triển $(a - 2b)^8$, hệ số của số hạng chứa $a^4 b^4$ là:",
+      "options": [
+        "A. $1120$",
+        "B. $560$",
+        "C. $140$",
+        "D. $70$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Cho tổng $A = C_n^0 + 5C_n^1 + 5^2C_n^2 + \\dots + 5^nC_n^n$. Kết quả thu gọn của $A$ là:",
+      "options": [
+        "A. $7^n$",
+        "B. $5^n$",
+        "C. $6^n$",
+        "D. $4^n$"
+      ],
+      "correctAnswer": "C"
+    }
+  ],
+  "part2": [
+    {
+      "question": "Cho khai triển biểu thức $P(x) = (2x - 1)^{10}$. Xét tính đúng sai của các mệnh đề sau:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Số lượng các số hạng trong khai triển trên là 11.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Hệ số của số hạng chứa $x^{10}$ là $1024$.",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "Hệ số của số hạng chứa $x^8$ là $11520$.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "Tổng các hệ số của đa thức khai triển bằng $0$.",
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "question": "Xét biểu thức $S = C_{100}^0 - 5C_{100}^1 + 5^2C_{100}^2 - 5^3C_{100}^3 + \\dots + 5^{100}C_{100}^{100}$.",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Biểu thức $S$ là khai triển của nhị thức $(1 - 5)^{100}$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Giá trị của biểu thức $S = (-4)^{100}$.",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "Giá trị của biểu thức $S = 4^{100}$.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "Biểu thức $S$ có giá trị là một số thực âm.",
+          "isTrue": false
+        }
+      ]
+    }
+  ],
+  "part3": [
+    {
+      "question": "Tìm số nguyên dương $n$ thỏa mãn phương trình: $C_n^1 + C_n^2 + \\dots + C_n^{n-1} = 126$.",
+      "correctAnswer": "7"
+    },
+    {
+      "question": "Với giá trị $n$ vừa tìm được ở câu trên, tìm hệ số của $x^3$ trong khai triển $(1 + x)^n$.",
+      "correctAnswer": "35"
+    },
+    {
+      "question": "Tìm hệ số chứa $x^9$ trong khai triển đa thức sau: $Q(x) = (1+x)^9 + (1+x)^{10} + (1+x)^{11} + (1+x)^{12} + (1+x)^{13} + (1+x)^{14} + (1+x)^{15}$.",
+      "correctAnswer": "8008"
+    }
+  ],
+  "questions": []
+}

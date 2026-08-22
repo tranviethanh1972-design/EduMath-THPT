@@ -1,0 +1,249 @@
+{
+  "id": "q10-1787124998203",
+  "grade": "10",
+  "title": "PHƯƠNG TRÌNH ĐƯỜNG THẲNG (20 câu)",
+  "duration": 45,
+  "description": "",
+  "questions": [
+    {
+      "id": 1787124977009,
+      "question": "Cho đường thẳng $\\Delta$ có hệ số góc $k = -\\frac{5}{2}$. Vectơ nào sau đây là một vectơ chỉ phương của $\\Delta$?",
+      "options": [
+        "$\\vec{u} = (-2; 5)$",
+        "$\\vec{u} = (2; 5)$",
+        "$\\vec{u} = (-2; -5)$",
+        "$\\vec{u} = (4; -5)$"
+      ],
+      "correct": 0,
+      "explanation": "Hệ số góc $k = \\frac{u_y}{u_x} = -\\frac{5}{2}$. Nếu chọn $u_x = -2$ thì $u_y = 5$. Vậy $\\vec{u} = (-2; 5)$ là một vectơ chỉ phương."
+    },
+    {
+      "id": 1787124977010,
+      "question": "Đường thẳng $\\Delta$ đi qua hai điểm $A(3; -2)$ và $B(-1; 3)$ có vectơ chỉ phương là:",
+      "options": [
+        "$\\vec{u} = (3; 5)$",
+        "$\\vec{u} = (-3; 5)$",
+        "$\\vec{u} = (-4; 5)$",
+        "$\\vec{u} = (-4; -5)$"
+      ],
+      "correct": 2,
+      "explanation": "Vectơ chỉ phương $\\vec{u} = \\overrightarrow{AB} = (-1 - 3; 3 - (-2)) = (-4; 5)$."
+    },
+    {
+      "id": 1787124977011,
+      "question": "Cho hai điểm $M(2; 3)$ và $N(-2; 5)$. Đường thẳng $MN$ có vectơ chỉ phương là:",
+      "options": [
+        "$\\vec{u} = (4; 2)$",
+        "$\\vec{u} = (4; -2)$",
+        "$\\vec{u} = (-4; -2)$",
+        "$\\vec{u} = (-2; 4)$"
+      ],
+      "correct": 1,
+      "explanation": "Vectơ chỉ phương $\\vec{u} = \\overrightarrow{MN} = (-2 - 2; 5 - 3) = (-4; 2)$. Vectơ đối của nó là $(4; -2)$ cũng là vectơ chỉ phương."
+    },
+    {
+      "id": 1787124977012,
+      "question": "Cho đường thẳng $\\Delta$ đi qua điểm $M(2; 1)$ và song song với đường thẳng $AB$, biết $A(1; -2)$ và $B(-1; 4)$. Khi đó vectơ chỉ phương của $\\Delta$ là:",
+      "options": [
+        "$\\vec{u} = (-2; 5)$",
+        "$\\vec{u} = (-2; 6)$",
+        "$\\vec{u} = (2; 6)$",
+        "$\\vec{u} = (5; 6)$"
+      ],
+      "correct": 1,
+      "explanation": "Vì $\\Delta \\parallel AB$ nên vectơ chỉ phương của $\\Delta$ là $\\overrightarrow{AB} = (-1 - 1; 4 - (-2)) = (-2; 6)$."
+    },
+    {
+      "id": 1787124977013,
+      "question": "Cho hai điểm $A(1; -4)$ và $B(3; 2)$. Viết phương trình tổng quát đường trung trực của đoạn thẳng $AB$.",
+      "options": [
+        "$3x + y + 1 = 0$",
+        "$x + 3y + 1 = 0$",
+        "$3x - y + 4 = 0$",
+        "$x + y - 1 = 0$"
+      ],
+      "correct": 1,
+      "explanation": "Trung điểm $M(2; -1)$. $\\overrightarrow{AB} = (2; 6)$. Đường trung trực đi qua $M$ và có VTPT $\\vec{n} = (1; 3)$. Phương trình: $1(x-2) + 3(y+1) = 0 \\Leftrightarrow x + 3y + 1 = 0$."
+    },
+    {
+      "id": 1787124977014,
+      "question": "Cho phương trình tham số của đường thẳng $\\Delta: \\begin{cases} x = 1 + 2t \\\\ y = -3 - 3t \\end{cases}$. Vectơ chỉ phương của $\\Delta$ là:",
+      "options": [
+        "$\\vec{u} = (2; 3)$",
+        "$\\vec{u} = (3; 2)$",
+        "$\\vec{u} = (3; -2)$",
+        "$\\vec{u} = (2; -3)$"
+      ],
+      "correct": 3,
+      "explanation": "Dựa vào phương trình tham số, hệ số của $t$ là tọa độ vectơ chỉ phương: $\\vec{u} = (2; -3)$."
+    },
+    {
+      "id": 1787124977015,
+      "question": "Đường thẳng $\\Delta$ có vectơ chỉ phương $\\vec{u} = (-1; 3)$. Hệ số góc của $\\Delta$ là:",
+      "options": [
+        "$k = 3$",
+        "$k = -3$",
+        "$k = -3$",
+        "$k = 3$"
+      ],
+      "correct": 1,
+      "explanation": "Hệ số góc $k = \\frac{u_y}{u_x} = \\frac{3}{-1} = -3$."
+    },
+    {
+      "id": 1787124977016,
+      "question": "Viết phương trình tổng quát của đường thẳng đi qua hai điểm $A(3; -1)$ và $B(1; 5)$.",
+      "options": [
+        "$3x - y + 10 = 0$",
+        "$3x + y - 8 = 0$",
+        "$3x - y + 6 = 0$",
+        "$-x + 3y + 6 = 0$"
+      ],
+      "correct": 1,
+      "explanation": "$\\overrightarrow{AB} = (-2; 6) \\Rightarrow \\vec{n} = (3; 1)$. Phương trình: $3(x-1) + 1(y-5) = 0 \\Leftrightarrow 3x + y - 8 = 0$."
+    },
+    {
+      "id": 1787124977017,
+      "question": "Viết phương trình của đường thẳng đi qua hai điểm $A(0; -5)$ và $B(3; 0)$.",
+      "options": [
+        "$\\frac{x}{3} + \\frac{y}{5} = 1$",
+        "$\\frac{x}{3} + \\frac{y}{-5} = 1$",
+        "$\\frac{x}{5} - \\frac{y}{3} = 1$",
+        "$\\frac{x}{3} - \\frac{y}{5} = 1$"
+      ],
+      "correct": 1,
+      "explanation": "Sử dụng phương trình đường thẳng theo đoạn chắn: $\\frac{x}{a} + \\frac{y}{b} = 1 \\Rightarrow \\frac{x}{3} + \\frac{y}{-5} = 1$."
+    },
+    {
+      "id": 1787124977018,
+      "question": "Tìm tọa độ giao điểm của hai đường thẳng $\\Delta: 4x - 3y - 26 = 0$ và $d: 3x + 4y - 7 = 0$.",
+      "options": [
+        "$(2; -6)$",
+        "$(5; 2)$",
+        "$(5; -2)$",
+        "Không giao điểm"
+      ],
+      "correct": 2,
+      "explanation": "Giải hệ phương trình $\\begin{cases} 4x - 3y = 26 \\\\ 3x + 4y = 7 \\end{cases}$ ta được $x = 5, y = -2$."
+    },
+    {
+      "id": 1787124977019,
+      "question": "Viết phương trình tổng quát của đường thẳng đi qua điểm $O(0; 0)$ và song song với đường thẳng $6x - 4y + 1 = 0$.",
+      "options": [
+        "$4x + 6y = 0$",
+        "$3x - 2y = 0$",
+        "$3x - y - 1 = 0$",
+        "$6x - 4y - 1 = 0$"
+      ],
+      "correct": 1,
+      "explanation": "Đường thẳng song song có dạng $6x - 4y + c = 0$. Đi qua $O(0;0) \\Rightarrow c=0$. Phương trình $6x - 4y = 0 \\Leftrightarrow 3x - 2y = 0$."
+    },
+    {
+      "id": 1787124977020,
+      "question": "Viết phương trình tổng quát của đường thẳng đi qua điểm $I(-1; 2)$ và vuông góc với đường thẳng $2x - y + 4 = 0$.",
+      "options": [
+        "$x + 2y = 0$",
+        "$x - 2y + 5 = 0$",
+        "$x + 2y - 3 = 0$",
+        "$-x + 2y - 5 = 0$"
+      ],
+      "correct": 2,
+      "explanation": "Đường thẳng vuông góc có dạng $x + 2y + c = 0$. Đi qua $I(-1; 2) \\Rightarrow -1 + 2(2) + c = 0 \\Rightarrow c = -3$. Vậy $x + 2y - 3 = 0$."
+    },
+    {
+      "id": 1787124977021,
+      "question": "Đường thẳng $\\Delta$ đi qua $M(3; -2)$ nhận $\\vec{u} = (4; -5)$ làm vectơ chỉ phương. Phương trình tham số của $\\Delta$ là:",
+      "options": [
+        "$\\begin{cases} x = 3 + t \\\\ y = -2 + 5t \\end{cases}$",
+        "$\\begin{cases} x = 3 + 4t \\\\ y = -2 - 5t \\end{cases}$",
+        "$\\begin{cases} x = 4 + 3t \\\\ y = -5 - 2t \\end{cases}$",
+        "$\\begin{cases} x = 3 - 2t \\\\ y = 4 - 5t \\end{cases}$"
+      ],
+      "correct": 1,
+      "explanation": "PTTS có dạng: $x = x_0 + a t, y = y_0 + b t \\Rightarrow x = 3 + 4t, y = -2 - 5t$."
+    },
+    {
+      "id": 1787124977022,
+      "question": "Xác định vị trí tương đối của 2 đường thẳng $\\Delta_1: 11x - 12y + 1 = 0$ và $\\Delta_2: 12x + 11y + 9 = 0$.",
+      "options": [
+        "Song song",
+        "Cắt nhau nhưng không vuông góc",
+        "Trùng nhau",
+        "Vuông góc nhau"
+      ],
+      "correct": 3,
+      "explanation": "Tích vô hướng hai VTPT: $n_1 \\cdot n_2 = 11 \\cdot 12 + (-12) \\cdot 11 = 0$. Vậy hai đường thẳng vuông góc."
+    },
+    {
+      "id": 1787124977023,
+      "question": "Cho $\\triangle ABC$ có $A(1; 1), B(0; -2), C(4; 2)$. Viết phương trình tổng quát của trung tuyến $AM$.",
+      "options": [
+        "$2x + y - 3 = 0$",
+        "$x + 2y - 3 = 0$",
+        "$x + y - 2 = 0$",
+        "$x - y = 0$"
+      ],
+      "correct": 2,
+      "explanation": "Trung điểm $M$ của $BC$ là $M(2; 0)$. Đường thẳng $AM$ đi qua $A(1; 1)$ và $M(2; 0)$ có $\\overrightarrow{AM} = (1; -1) \\Rightarrow \\vec{n} = (1; 1)$. PT: $1(x-2) + 1(y-0) = 0 \\Leftrightarrow x + y - 2 = 0$."
+    },
+    {
+      "id": 1787124977024,
+      "question": "Cho $\\triangle ABC$ có $A(2; -1), B(4; 5), C(-3; 2)$. Viết phương trình tổng quát của đường cao $AH$.",
+      "options": [
+        "$3x + 7y + 1 = 0$",
+        "$-3x + 7y + 13 = 0$",
+        "$7x + 3y + 13 = 0$",
+        "$7x + 3y - 11 = 0$"
+      ],
+      "correct": 3,
+      "explanation": "Đường cao $AH$ đi qua $A(2; -1)$ và vuông góc với $BC$ .Với $\\overrightarrow{BC} = (-7; -3)$. Chọn $\\vec{n} = (7; 3)$. PT: $7(x-2) + 3(y+1) = 0 \\Leftrightarrow 7x + 3y - 11 = 0$."
+    },
+    {
+      "id": 1787124977025,
+      "question": "Tìm tọa độ giao điểm của đường thẳng $d: 5x + 2y - 10 = 0$ và trục hoành $Ox$.",
+      "options": [
+        "$(0; 5)$",
+        "$(-2; 0)$",
+        "$(2; 0)$",
+        "$(0; 2)$"
+      ],
+      "correct": 2,
+      "explanation": "Giao với trục $Ox$ thì $y = 0 \\Rightarrow 5x - 10 = 0 \\Rightarrow x = 2$. Tọa độ là $(2; 0)$."
+    },
+    {
+      "id": 1787124977026,
+      "question": "Tìm tọa độ giao điểm của đường thẳng $\\Delta: 15x - 2y - 10 = 0$ và trục tung $Oy$.",
+      "options": [
+        "$(\\frac{3}{2}; 5)$",
+        "$(0; -5)$",
+        "$(0; 5)$",
+        "$(-5; 0)$"
+      ],
+      "correct": 1,
+      "explanation": "Giao với trục $Oy$ thì $x = 0 \\Rightarrow -2y - 10 = 0 \\Rightarrow y = -5$. Tọa độ là $(0; -5)$."
+    },
+    {
+      "id": 1787124977027,
+      "question": "Xác định vị trí tương đối của 2 đường thẳng $d_1: x - 2y + 1 = 0$ và $d_2: -3x + 6y - 10 = 0$.",
+      "options": [
+        "Song song",
+        "Cắt nhau nhưng không vuông góc",
+        "Trùng nhau",
+        "Vuông góc nhau"
+      ],
+      "correct": 0,
+      "explanation": "Ta có $\\frac{1}{-3} = \\frac{-2}{6} \\neq \\frac{1}{-10}$. Vậy hai đường thẳng song song."
+    },
+    {
+      "id": 1787125207739,
+      "question": "Viết phương trình tổng quát của đường thẳng đi qua hai điểm $M(2; 1)$ và $N(-1; 3)$.",
+      "options": [
+        "$2x -3y -1 = 0$",
+        "$x - 2y + 10 = 0$",
+        "$2x +3y - 7 = 0$",
+        "$3x + y + 1= 0$"
+      ],
+      "correct": 2,
+      "explanation": "$\\overrightarrow{MN} = (-3; 2) \\Rightarrow \\vec{n} = (2; 3)$. Phương trình: $2(x-2) + 3(y-1) = 0 \\Leftrightarrow 2x + 3y - 7 = 0$."
+    }
+  ]
+}

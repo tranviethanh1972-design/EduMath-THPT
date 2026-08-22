@@ -1,0 +1,369 @@
+{
+  "id": "q10-1785904335954",
+  "grade": "10",
+  "title": "Hệ thức lượng trong tam giác (30 câu)",
+  "duration": 60,
+  "description": "",
+  "questions": [
+    {
+      "id": 1785904261367,
+      "question": "Trong tam giác $ABC$ có mệnh đề nào sau đây đúng?",
+      "options": [
+        "$a = 2R \\cos A$",
+        "$a = 2R \\sin A$",
+        "$a = 2R \\tan A$",
+        "$a = R \\sin A$"
+      ],
+      "correct": 1,
+      "explanation": "Theo định lý hàm số sin: $\\frac{a}{\\sin A} = 2R \\Rightarrow a = 2R \\sin A$."
+    },
+    {
+      "id": 1785904261368,
+      "question": "Cho tam giác $ABC$ bất kỳ có $BC=a, AC=b, AB=c$. Đẳng thức nào sai?",
+      "options": [
+        "$b^2 = a^2 + c^2 - 2ac \\cos B$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$c^2 = b^2 + a^2 + 2ab \\cos C$",
+        "$c^2 = b^2 + a^2 - 2ab \\cos C$"
+      ],
+      "correct": 2,
+      "explanation": "Theo định lý hàm số cos: $c^2 = a^2 + b^2 - 2ab \\cos C$. Do đó, phương án C sai dấu ở hạng tử cuối."
+    },
+    {
+      "id": 1785904261369,
+      "question": "Trong tam giác $ABC$ với $BC=a, AC=b, AB=c$. Mệnh đề nào dưới đây sai?",
+      "options": [
+        "$\\frac{b}{\\sin B} = \\frac{a}{\\sin A}$",
+        "$\\frac{c}{\\sin C} = \\frac{a}{\\sin A}$",
+        "$a = 2R \\sin A$",
+        "$b = 2R \\tan B$"
+      ],
+      "correct": 3,
+      "explanation": "Theo định lý hàm số sin: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R$. Suy ra $b = 2R \\sin B$. Vậy mệnh đề $b = 2R \\tan B$ là sai."
+    },
+    {
+      "id": 1785904261370,
+      "question": "Cho tam giác $ABC$ có các cạnh $BC=a, AC=b, AB=c$. Diện tích của $\\Delta ABC$ là:",
+      "options": [
+        "$S = \\frac{1}{2} ac \\sin C$",
+        "$S = \\frac{1}{2} bc \\sin B$",
+        "$S = \\frac{1}{2} ac \\sin B$",
+        "$S = \\frac{1}{2} bc \\sin C$"
+      ],
+      "correct": 2,
+      "explanation": "Công thức tính diện tích tam giác là $S = \\frac{1}{2} ab \\sin C = \\frac{1}{2} bc \\sin A = \\frac{1}{2} ac \\sin B$."
+    },
+    {
+      "id": 1785904261371,
+      "question": "Cho tam giác $ABC$ có độ dài ba cạnh là $BC=a, AC=b, AB=c$. Gọi $m_a$ là độ dài đường trung tuyến kẻ từ đỉnh $A$, $R$ là bán kính đường tròn ngoại tiếp và $S$ là diện tích tam giác. Mệnh đề nào sau đây sai?",
+      "options": [
+        "$m_a^2 = \\frac{b^2 + c^2}{2} - \\frac{a^2}{4}$",
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$S = \\frac{abc}{4R}$",
+        "$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R$"
+      ],
+      "correct": 1,
+      "explanation": "Định lý hàm số cos phát biểu rằng $a^2 = b^2 + c^2 - 2bc \\cos A$. Phương án B ghi dấu cộng là sai."
+    },
+    {
+      "id": 1785904261372,
+      "question": "Cho tam giác $ABC$ có $a=8, b=10$, góc $C = 60^\\circ$. Độ dài cạnh $c$ là:",
+      "options": [
+        "$3\\sqrt{21}$",
+        "$7\\sqrt{2}$",
+        "$2\\sqrt{11}$",
+        "$2\\sqrt{21}$"
+      ],
+      "correct": 3,
+      "explanation": "Áp dụng định lý hàm số cos: $c^2 = a^2 + b^2 - 2ab \\cos C = 8^2 + 10^2 - 2 \\cdot 8 \\cdot 10 \\cdot \\cos 60^\\circ = 64 + 100 - 80 = 84$. Vậy $c = \\sqrt{84} = 2\\sqrt{21}$."
+    },
+    {
+      "id": 1785904261373,
+      "question": "Cho tam giác $ABC$ có $b=6, c=8, A=60^\\circ$. Độ dài cạnh $a$ là:",
+      "options": [
+        "$2\\sqrt{13}$",
+        "$3\\sqrt{12}$",
+        "$2\\sqrt{37}$",
+        "$20$"
+      ],
+      "correct": 0,
+      "explanation": "Áp dụng định lý hàm số cos: $a^2 = b^2 + c^2 - 2bc \\cos A = 6^2 + 8^2 - 2 \\cdot 6 \\cdot 8 \\cdot \\cos 60^\\circ = 36 + 64 - 48 = 52$. Vậy $a = \\sqrt{52} = 2\\sqrt{13}$."
+    },
+    {
+      "id": 1785904261374,
+      "question": "Cho tam giác $ABC$ có $B=60^\\circ, a=8, c=5$. Độ dài cạnh $b$ bằng:",
+      "options": [
+        "$7$",
+        "$\\sqrt{129}$",
+        "$49$",
+        "$129$"
+      ],
+      "correct": 0,
+      "explanation": "Áp dụng định lý hàm số cos: $b^2 = a^2 + c^2 - 2ac \\cos B = 8^2 + 5^2 - 2 \\cdot 8 \\cdot 5 \\cdot \\cos 60^\\circ = 64 + 25 - 40 = 49$. Vậy $b = \\sqrt{49} = 7$."
+    },
+    {
+      "id": 1785904261375,
+      "question": "Cho tam giác $ABC$ có $AB=9, BC=8, \\hat{B}=60^\\circ$. Tính độ dài $AC$.",
+      "options": [
+        "$\\sqrt{73}$",
+        "$\\sqrt{217}$",
+        "$8$",
+        "$\\sqrt{113}$"
+      ],
+      "correct": 0,
+      "explanation": "Áp dụng định lý hàm số cos trong tam giác $ABC$: $AC^2 = AB^2 + BC^2 - 2AB \\cdot BC \\cos B = 9^2 + 8^2 - 2 \\cdot 9 \\cdot 8 \\cdot \\cos 60^\\circ = 81 + 64 - 72 = 73$. Vậy $AC = \\sqrt{73}$."
+    },
+    {
+      "id": 1785904261376,
+      "question": "Cho tam giác $ABC$ có $AB=2, AC=1$ và $A=60^\\circ$. Tính độ dài cạnh $BC$.",
+      "options": [
+        "$2$",
+        "$1$",
+        "$\\sqrt{3}$",
+        "$\\sqrt{2}$"
+      ],
+      "correct": 2,
+      "explanation": "Áp dụng định lý hàm số cos: $BC^2 = AB^2 + AC^2 - 2AB \\cdot AC \\cos A = 2^2 + 1^2 - 2 \\cdot 2 \\cdot 1 \\cdot \\cos 60^\\circ = 4 + 1 - 2 = 3$. Vậy $BC = \\sqrt{3}$."
+    },
+    {
+      "id": 1785904261377,
+      "question": "Tam giác $ABC$ có $a=8, c=3, B=60^\\circ$. Độ dài cạnh $b$ bằng bao nhiêu?",
+      "options": [
+        "$\\sqrt{49}$",
+        "$\\sqrt{97}$",
+        "$7$",
+        "$\\sqrt{61}$"
+      ],
+      "correct": 2,
+      "explanation": "Áp dụng định lý hàm số cos: $b^2 = a^2 + c^2 - 2ac \\cos B = 8^2 + 3^2 - 2 \\cdot 8 \\cdot 3 \\cdot \\cos 60^\\circ = 64 + 9 - 24 = 49$. Vậy $b = 7$."
+    },
+    {
+      "id": 1785904261378,
+      "question": "Tam giác $ABC$ có $\\hat{C}=150^\\circ, BC=\\sqrt{3}, AC=2$. Tính cạnh $AB$.",
+      "options": [
+        "$\\sqrt{13}$",
+        "$3$",
+        "$\\sqrt{10}$",
+        "$1$"
+      ],
+      "correct": 0,
+      "explanation": "Áp dụng định lý hàm số cos: $AB^2 = AC^2 + BC^2 - 2AC \\cdot BC \\cos C = 2^2 + (\\sqrt{3})^2 - 2 \\cdot 2 \\cdot \\sqrt{3} \\cdot \\cos 150^\\circ = 4 + 3 - 4\\sqrt{3} \\cdot (-\\frac{\\sqrt{3}}{2}) = 7 + 6 = 13$. Vậy $AB = \\sqrt{13}$."
+    },
+    {
+      "id": 1785904261379,
+      "question": "Cho $a, b, c$ là độ dài 3 cạnh của tam giác $ABC$. Biết $b=7, c=5, \\cos A = \\frac{4}{5}$. Tính độ dài của $a$.",
+      "options": [
+        "$3\\sqrt{2}$",
+        "$\\frac{7\\sqrt{2}}{2}$",
+        "$\\frac{23}{8}$",
+        "$\"\\sqrt{6}$"
+      ],
+      "correct": 0,
+      "explanation": "Áp dụng định lý hàm số cos: $a^2 = b^2 + c^2 - 2bc \\cos A = 7^2 + 5^2 - 2 \\cdot 7 \\cdot 5 \\cdot \\frac{4}{5} = 49 + 25 - 56 = 18$. Vậy $a = \\sqrt{18} = 3\\sqrt{2}$."
+    },
+    {
+      "id": 1785904261380,
+      "question": "Cho góc $\\widehat{xOy} = 30^\\circ$. Gọi $A, B$ là 2 điểm di động lần lượt trên $Ox, Oy$ sao cho $AB=2$. Độ dài lớn nhất của $OB$ bằng bao nhiêu?",
+      "options": [
+        "$4$",
+        "$3$",
+        "$6$",
+        "$2$"
+      ],
+      "correct": 0,
+      "explanation": "Xét tam giác $OAB$, áp dụng định lý hàm số sin: $\\frac{AB}{\\sin O} = \\frac{OB}{\\sin A} \\Rightarrow OB = \\frac{AB \\sin A}{\\sin O} = \\frac{2 \\sin A}{\\sin 30^\\circ} = 4 \\sin A$. Vì $\\sin A \\le 1$ nên $OB_{max} = 4$ khi $\\sin A = 1$ ($A=90^\\circ$)."
+    },
+    {
+      "id": 1785904261381,
+      "question": "Tam giác $ABC$ có $AB=9$ cm, $BC=15$ cm, $AC=12$ cm. Khi đó độ dài đường trung tuyến $AM$ của tam giác là:",
+      "options": [
+        "$10$ cm",
+        "$9$ cm",
+        "$7,5$ cm",
+        "$8$ cm"
+      ],
+      "correct": 2,
+      "explanation": "Nhận thấy $AB^2 + AC^2 = 9^2 + 12^2 = 81 + 144 = 225 = 15^2 = BC^2$. Do đó tam giác $ABC$ vuông tại $A$. Đường trung tuyến $AM$ ứng với cạnh huyền $BC$ nên $AM = \\frac{1}{2} BC = \\frac{15}{2} = 7,5$ cm."
+    },
+    {
+      "id": 1785904261382,
+      "question": "Cho tam giác $ABC$ có $AB=3, BC=5$ và độ dài đường trung tuyến $BM = \\sqrt{13}$. Tính độ dài $AC$.",
+      "options": [
+        "$11$",
+        "$4$",
+        "$\\frac{9}{2}$",
+        "$10$"
+      ],
+      "correct": 1,
+      "explanation": "Công thức trung tuyến: $BM^2 = \\frac{AB^2 + BC^2}{2} - \\frac{AC^2}{4} \\Rightarrow 13 = \\frac{3^2 + 5^2}{2} - \\frac{AC^2}{4} \\Rightarrow 13 = 17 - \\frac{AC^2}{4} \\Rightarrow \\frac{AC^2}{4} = 4 \\Rightarrow AC^2 = 16 \\Rightarrow AC = 4$."
+    },
+    {
+      "id": 1785904261383,
+      "question": "Cho $\\Delta ABC$ vuông ở $A$, biết $AB=3, \\hat{C}=30^\\circ$. Tính độ dài trung tuyến $AM$?",
+      "options": [
+        "$3$",
+        "$4$",
+        "$\\frac{5}{2}$",
+        "$\\frac{7}{2}$"
+      ],
+      "correct": 0,
+      "explanation": "Trong tam giác vuông $ABC$: $BC = \\frac{AB}{\\sin C} = \\frac{3}{\\sin 30^\\circ} = 6$. Trung tuyến ứng với cạnh huyền $AM = \\frac{1}{2} BC = 3$."
+    },
+    {
+      "id": 1785904261384,
+      "question": "Cho tam giác $ABC$ có $AB=4$ cm, $BC=7$ cm, $AC=9$ cm. Tính $\\cos A$.",
+      "options": [
+        "$\\cos A = -\\frac{2}{3}$",
+        "$\\cos A = \\frac{1}{2}$",
+        "$\\cos A = \\frac{1}{3}$",
+        "$\\cos A = \\frac{2}{3}$"
+      ],
+      "correct": 3,
+      "explanation": "Áp dụng hệ quả định lý hàm số cos: $\\cos A = \\frac{AB^2 + AC^2 - BC^2}{2 AB \\cdot AC} = \\frac{4^2 + 9^2 - 7^2}{2 \\cdot 4 \\cdot 9} = \\frac{16 + 81 - 49}{72} = \\frac{48}{72} = \\frac{2}{3}$."
+    },
+    {
+      "id": 1785904261385,
+      "question": "Cho tam giác $ABC$, biết $a=24, b=13, c=15$. Tính góc $A$?",
+      "options": [
+        "$33^\\circ 34'$",
+        "$117^\\circ 49'$",
+        "$28^\\circ 37'$",
+        "$58^\\circ 24'$"
+      ],
+      "correct": 1,
+      "explanation": "Ta có $\\cos A = \\frac{b^2 + c^2 - a^2}{2bc} = \\frac{13^2 + 15^2 - 24^2}{2 \\cdot 13 \\cdot 15} = \\frac{169 + 225 - 576}{390} = -\\frac{182}{390} \\approx -0,4666$. Suy ra $A \\approx 117^\\circ 49'$."
+    },
+    {
+      "id": 1785904261386,
+      "question": "Cho tam giác $ABC$, biết $a=13, b=14, c=15$. Tính góc $B$?",
+      "options": [
+        "$59^\\circ 49'$",
+        "$53^\\circ 7'$",
+        "$59^\\circ 29'$",
+        "$62^\\circ 22'$"
+      ],
+      "correct": 2,
+      "explanation": "Ta có $\\cos B = \\frac{a^2 + c^2 - b^2}{2ac} = \\frac{13^2 + 15^2 - 14^2}{2 \\cdot 13 \\cdot 15} = \\frac{169 + 225 - 196}{390} = \\frac{198}{390} = \\frac{33}{65}$. Suy ra $B \\approx 59^\\circ 29'$."
+    },
+    {
+      "id": 1785904261387,
+      "question": "Cho tam giác $ABC$ thỏa mãn hệ thức $(b^2 - a^2)b = (c^2 - a^2)c$ với $b \\ne c$. Khi đó góc $\\widehat{BAC}$ bằng:",
+      "options": [
+        "$45^\\circ$",
+        "$60^\\circ$",
+        "$90^\\circ$",
+        "$120^\\circ$"
+      ],
+      "correct": 3,
+      "explanation": "Biến đổi: $(b^2 - a^2)b = (c^2 - a^2)c \\Leftrightarrow b^3 - a^2b = c^3 - a^2c \\Leftrightarrow (b^3 - c^3) - a^2(b - c) = 0 \\Leftrightarrow (b - c)(b^2 + bc + c^2 - a^2) = 0$. Do $b \\ne c$ nên $b^2 + bc + c^2 - a^2 = 0 \\Rightarrow a^2 = b^2 + c^2 + bc$. Theo định lý cos: $a^2 = b^2 + c^2 - 2bc \\cos A$. Suy ra $-2 \\cos A = 1 \\Rightarrow \\cos A = -1/2 \\Rightarrow A = 120^\\circ$."
+    },
+    {
+      "id": 1785904261388,
+      "question": "Tam giác $ABC$ có $a=6, b=4\\sqrt{2}, c=2$. $M$ là điểm trên cạnh $BC$ sao cho $BM=3$. Độ dài đoạn $AM$ bằng bao nhiêu?",
+      "options": [
+        "$9$",
+        "$\\sqrt{9}$",
+        "$3$",
+        "$\\frac{1}{2} \\sqrt{108}$"
+      ],
+      "correct": 2,
+      "explanation": "Vì $a=6, BM=3$ nên $M$ là trung điểm của $BC$. $AM$ là đường trung tuyến kẻ từ $A$. $AM^2 = \\frac{b^2 + c^2}{2} - \\frac{a^2}{4} = \\frac{(4\\sqrt{2})^2 + 2^2}{2} - \\frac{6^2}{4} = \\frac{32 + 4}{2} - 9 = 18 - 9 = 9$. Vậy $AM = 3$."
+    },
+    {
+      "id": 1785904261389,
+      "question": "Cho $\\Delta ABC$ có $AB=2, AC=3, \\hat{A}=60^\\circ$. Tính độ dài đường phân giác trong góc $A$ của tam giác $ABC$.",
+      "options": [
+        "$\\frac{12}{5}$",
+        "$\\frac{6\\sqrt{2}}{5}$",
+        "$\\frac{6\\sqrt{3}}{5}$",
+        "$\\frac{6}{5}$"
+      ],
+      "correct": 2,
+      "explanation": "Độ dài đường phân giác trong góc $A$ tính theo công thức: $l_a = \\frac{2bc \\cos(A/2)}{b+c} = \\frac{2 \\cdot 2 \\cdot 3 \\cdot \\cos 30^\\circ}{2+3} = \\frac{12 \\cdot \\frac{\\sqrt{3}}{2}}{5} = \\frac{6\\sqrt{3}}{5}$."
+    },
+    {
+      "id": 1785904261390,
+      "question": "Cho $\\Delta ABC$ với các cạnh $AB=c, AC=b, BC=a$. Gọi $R, r, S$ lần lượt là bán kính đường tròn ngoại tiếp, nội tiếp và diện tích tam giác. Phát biểu nào sau đây sai?",
+      "options": [
+        "$S = \\frac{abc}{4R}$",
+        "$\\frac{a}{\\sin A} = R$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$c^2 = a^2 + b^2 - 2ab \\cos C$"
+      ],
+      "correct": 1,
+      "explanation": "Định lý hàm số sin là $\\frac{a}{\\sin A} = 2R$. Vậy phương án $\\frac{a}{\\sin A} = R$ là sai."
+    },
+    {
+      "id": 1785904261391,
+      "question": "Cho tam giác $ABC$ có góc $\\widehat{BAC} = 60^\\circ$ và cạnh $BC = \\sqrt{3}$. Tính bán kính $R$ của đường tròn ngoại tiếp tam giác $ABC$.",
+      "options": [
+        "$R = 4$",
+        "$R = 1$",
+        "$R = 2$",
+        "$R = 3$"
+      ],
+      "correct": 1,
+      "explanation": "Theo định lý hàm số sin: $R = \\frac{a}{2 \\sin A} = \\frac{\\sqrt{3}}{2 \\sin 60^\\circ} = \\frac{\\sqrt{3}}{2 \\cdot \\frac{\\sqrt{3}}{2}} = 1$."
+    },
+    {
+      "id": 1785904261392,
+      "question": "Trong mặt phẳng, cho tam giác $ABC$ có $AC = 4$ cm, góc $\\hat{A} = 60^\\circ, \\hat{B} = 45^\\circ$. Độ dài cạnh $BC$ là:",
+      "options": [
+        "$2\\sqrt{6}$",
+        "$2 + 2\\sqrt{3}$",
+        "$2\\sqrt{3} - 2$",
+        "$\\sqrt{6}$"
+      ],
+      "correct": 0,
+      "explanation": "Áp dụng định lý hàm số sin: $\\frac{BC}{\\sin A} = \\frac{AC}{\\sin B} \\Rightarrow BC = \\frac{AC \\sin A}{\\sin B} = \\frac{4 \\cdot \\sin 60^\\circ}{\\sin 45^\\circ} = \\frac{4 \\cdot \\frac{\\sqrt{3}}{2}}{\\frac{\\sqrt{2}}{2}} = \\frac{4\\sqrt{3}}{\\sqrt{2}} = 2\\sqrt{6}$ cm."
+    },
+    {
+      "id": 1785904261393,
+      "question": "Tam giác $ABC$ có $\\hat{A} = 68^\\circ 12', \\hat{B} = 34^\\circ 44', AB = 117$. Tính $AC$.",
+      "options": [
+        "$68$",
+        "$168$",
+        "$118$",
+        "$200$"
+      ],
+      "correct": 0,
+      "explanation": "Góc $\\hat{C} = 180^\\circ - (68^\\circ 12' + 34^\\circ 44') = 77^\\circ 04'$. Áp dụng định lý hàm số sin: $\\frac{AC}{\\sin B} = \\frac{AB}{\\sin C} \\Rightarrow AC = \\frac{117 \\cdot \\sin 34^\\circ 44'}{\\sin 77^\\circ 04'} \\approx 68$."
+    },
+    {
+      "id": 1785904261394,
+      "question": "Cho hình thoi $ABCD$ có cạnh bằng $a$. Góc $\\widehat{BAD} = 30^\\circ$. Diện tích hình thoi $ABCD$ là:",
+      "options": [
+        "$\\frac{a^2}{4}$",
+        "$\\frac{a^2}{2}$",
+        "$\\frac{a^2\\sqrt{3}}{2}$",
+        "$a^2$"
+      ],
+      "correct": 1,
+      "explanation": "Diện tích hình thoi $S = AB \\cdot AD \\cdot \\sin \\widehat{BAD} = a \\cdot a \\cdot \\sin 30^\\circ = \\frac{a^2}{2}$."
+    },
+    {
+      "id": 1785904261395,
+      "question": "Cho tam giác $ABC$ có $b=7, c=5, \\cos A = \\frac{3}{5}$. Độ dài đường cao $h_a$ của tam giác $ABC$ là:",
+      "options": [
+        "$\\frac{7\\sqrt{2}}{2}$",
+        "$8$",
+        "$\\frac{8}{\\sqrt{3}}$",
+        "$\\frac{80}{3}$"
+      ],
+      "correct": 0,
+      "explanation": "Ta có $\\sin^2 A = 1 - \\cos^2 A = 1 - (3/5)^2 = 16/25 \\Rightarrow \\sin A = 4/5$. Diện tích $S = \\frac{1}{2} bc \\sin A = \\frac{1}{2} \\cdot 7 \\cdot 5 \\cdot \\frac{4}{5} = 14$. Cạnh $a^2 = b^2 + c^2 - 2bc \\cos A = 49 + 25 - 2 \\cdot 35 \\cdot \\frac{3}{5} = 74 - 42 = 32 \\Rightarrow a = 4\\sqrt{2}$. Vậy $h_a = \\frac{2S}{a} = \\frac{28}{4\\sqrt{2}} = \\frac{7}{\\sqrt{2}} = \\frac{7\\sqrt{2}}{2}$."
+    },
+    {
+      "id": 1785904261396,
+      "question": "Tính diện tích tam giác $ABC$ biết $AB=3, BC=5, CA=6$.",
+      "options": [
+        "$56$",
+        "$48$",
+        "$\\sqrt{56}$",
+        "$\\sqrt{48}$"
+      ],
+      "correct": 2,
+      "explanation": "Sử dụng công thức Heron: Nửa chu vi $p = (3+5+6)/2 = 7$. Diện tích $S = \\sqrt{7(7-3)(7-5)(7-6)} = \\sqrt{7 \\cdot 4 \\cdot 2 \\cdot 1} = \\sqrt{56}$."
+    }
+  ]
+}

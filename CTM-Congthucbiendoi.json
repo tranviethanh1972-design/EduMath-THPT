@@ -1,0 +1,177 @@
+{
+  "id": "ctm2025-1786698923885",
+  "grade": "11",
+  "title": "ĐỀ THI CÔNG THỨC BIẾN ĐỔI TOÁN THPT 2025 (Cấu Trúc Mới)",
+  "duration": 45,
+  "description": "Đề thi Cấu Trúc Mới 2025 (Trắc nghiệm, Đúng/Sai, Trả lời ngắn)",
+  "isCTM2025": true,
+  "part1": [
+    {
+      "question": "Rút gọn biểu thức $A = \\frac{\\sin 3x + \\cos 2x - \\sin x}{\\cos x + \\sin 2x - \\cos 3x}$ với điều kiện biểu thức có nghĩa.",
+      "options": [
+        "A. $\\cot 6x$",
+        "B. $\\cot 3x$",
+        "C. $\\cot 2x$",
+        "D. $\\tan x + \\tan 2x + \\tan 3x$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Rút gọn biểu thức $P = \\sin\\left(a + \\frac{\\pi}{4}\\right) \\sin\\left(a - \\frac{\\pi}{4}\\right)$.",
+      "options": [
+        "A. $-\\frac{1}{2} \\cos 2a$",
+        "B. $\\frac{1}{2} \\cos 2a$",
+        "C. $-\\frac{3}{2} \\cos 2a$",
+        "D. $\\frac{1}{2} \\sin 2a$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Rút gọn biểu thức $P = \\frac{\\cos a + 2\\cos 3a + \\cos 5a}{\\sin a + 2\\sin 3a + \\sin 5a}$.",
+      "options": [
+        "A. $\\tan a$",
+        "B. $\\cot a$",
+        "C. $\\cot 3a$",
+        "D. $\\tan 3a$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Trong các khẳng định sau, khẳng định nào sai?",
+      "options": [
+        "A. $\\sin a - \\sin b = 2\\cos \\frac{a+b}{2} \\sin \\frac{a-b}{2}$",
+        "B. $\\cos(a-b) = \\cos a \\cos b - \\sin a \\sin b$",
+        "C. $\\sin(a-b) = \\sin a \\cos b - \\cos a \\sin b$",
+        "D. $2\\cos a \\cos b = \\cos(a-b) + \\cos(a+b)$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Giá trị lớn nhất của biểu thức $M = 5 + 2\\sin x$ là:",
+      "options": [
+        "A. 3",
+        "B. 5",
+        "C. 6",
+        "D. 7"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Giá trị nhỏ nhất của biểu thức $M = 3 - 2\\cos 2x$ là:",
+      "options": [
+        "A. 1",
+        "B. 5",
+        "C. -1",
+        "D. 7"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Tập giá trị $T$ của hàm số $y = 12\\sin x - 5\\cos x$ là:",
+      "options": [
+        "A. $T = [-1; 1]$",
+        "B. $T = [-7; 7]$",
+        "C. $T = [-13; 13]$",
+        "D. $T = [-17; 17]$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Giá trị lớn nhất của $M = \\sin^4 x + \\cos^4 x$ bằng:",
+      "options": [
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Tìm giá trị lớn nhất $M$ của hàm số $y = 7 - 3\\cos^2 x$.",
+      "options": [
+        "A. $M = 10$",
+        "B. $M = 7$",
+        "C. $M = 4$",
+        "D. $M = 0$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Mực nước của một con kênh được tính bởi công thức $h = 3\\cos\\left(\\frac{\\pi t}{8} + \\frac{\\pi}{4}\\right) + 12$. Mực nước cao nhất khi $t$ bằng:",
+      "options": [
+        "A. $t = 13$",
+        "B. $t = 14$",
+        "C. $t = 15$",
+        "D. $t = 16$"
+      ],
+      "correctAnswer": "B"
+    }
+  ],
+  "part2": [
+    {
+      "question": "Cho các công thức biến đổi lượng giác sau, xét tính Đúng/Sai của các mệnh đề:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "$\\cos a + \\cos b = 2\\cos \\frac{a+b}{2} \\cos \\frac{a-b}{2}$",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "$\\sin a \\sin b = \\frac{1}{2}[\\cos(a-b) - \\cos(a+b)]$",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "$\\sin a + \\sin b = 2\\cos \\frac{a+b}{2} \\sin \\frac{a-b}{2}$",
+          "isTrue": false
+        },
+        {
+          "label": "d",
+          "text": "$\\cos a \\sin b = \\frac{1}{2}[\\sin(a+b) - \\sin(a-b)]$",
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "question": "Xét biểu thức $M = \\sin^6 x + \\cos^6 x$. Khi đó:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Biểu thức có thể rút gọn thành $M = 1 - 3\\sin^2 x \\cos^2 x$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Giá trị của biểu thức luôn nằm trong đoạn $[0; 1]$.",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "Giá trị nhỏ nhất của biểu thức là $\\frac{1}{4}$.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "Giá trị lớn nhất của biểu thức là $\\frac{3}{4}$.",
+          "isTrue": false
+        }
+      ]
+    }
+  ],
+  "part3": [
+    {
+      "question": "Biết rằng $\\sin^6 x + \\cos^6 x = a + b \\sin^2 2x$ với $a, b$ là các số thực. Tính giá trị của biểu thức $T = 3a + 4b$.",
+      "correctAnswer": "0"
+    },
+    {
+      "question": "Gọi $M, m$ lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của hàm số $y = 8\\sin^2 x + 3\\cos 2x$. Tính giá trị của $P = 2M - m$.",
+      "correctAnswer": "7"
+    },
+    {
+      "question": "Cho biểu thức $M = 6\\cos^2 x + 5\\sin^2 x$. Tìm giá trị lớn nhất của $M$.",
+      "correctAnswer": "6"
+    }
+  ],
+  "questions": []
+}

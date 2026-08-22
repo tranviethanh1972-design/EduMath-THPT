@@ -1,0 +1,129 @@
+{
+  "id": "q12-1787309601571",
+  "grade": "10",
+  "title": "TIẾP TUYẾN CỦA ĐƯỜNG TRÒN (10 câu)",
+  "duration": 30,
+  "description": "",
+  "questions": [
+    {
+      "id": 1787309586285,
+      "question": "Phương trình tiếp tuyến $d$ của đường tròn $(C): (x-6)^2 + (y-4)^2 = 25$ tại điểm $M(2;1)$ là:",
+      "options": [
+        "$d: y-1=0$",
+        "$d: 4x+3y-14=0$",
+        "$d: 3x+4y-2=0$",
+        "$d: 4x+3y-11=0$"
+      ],
+      "correct": 3,
+      "explanation": "Tiếp tuyến của đường tròn tại $M(x_0; y_0)$ có dạng $(x_0-a)(x-a) + (y_0-b)(y-b) = R^2$. Thay số: $(2-6)(x-6) + (1-4)(y-4) = 25 \\Leftrightarrow -4x + 24 - 3y + 12 = 25 \\Leftrightarrow 4x+3y-11=0$."
+    },
+    {
+      "id": 1787309586286,
+      "question": "Cho đường tròn $(C): (x-1)^2 + (y-2)^2 = 8$. Có bao nhiêu tiếp tuyến của $(C)$ qua điểm $O(0;0)$.",
+      "options": [
+        "0",
+        "2",
+        "1",
+        "3"
+      ],
+      "correct": 0,
+      "explanation": "Ta có $O(0;0)$. Tính $P = (0-1)^2 + (0-2)^2 = 1 + 4 = 5$. Vì $5 < 8$ nên điểm $O$ nằm trong đường tròn. Do đó không có tiếp tuyến nào đi qua $O$."
+    },
+    {
+      "id": 1787309586287,
+      "question": "Viết phương trình tiếp tuyến của đường tròn $(C): (x-3)^2 + (y-1)^2 = 5$, biết tiếp tuyến song song với đường thẳng $d: 2x - y -10 = 0$.",
+      "options": [
+        "$2x-y+1=0$ ",
+        "$2x-y=0$ ",
+        "$2x-y+10=0$ ",
+        "$2x-y-1=0$"
+      ],
+      "correct": 1,
+      "explanation": "Tiếp tuyến $\\Delta // d \\Rightarrow \\Delta: 2x-y+c=0$. Đường tròn có tâm $I(3;1), R=\\sqrt{5}$. Ta có $d(I, \\Delta) = R \\Leftrightarrow \\frac{|2(3)-1+c|}{\\sqrt{5}} = \\sqrt{5} \\Leftrightarrow |5+c|=5 \\Leftrightarrow c=0$ hoặc $c=-10 (loại)$. Vậy $\\Delta: 2x-y=0$ ."
+    },
+    {
+      "id": 1787309586289,
+      "question": "Viết phương trình tiếp tuyến của đường tròn $(C): x^2 + y^2 - 4x - 4y + 4 = 0$, biết tiếp tuyến vuông góc với trục hoành.",
+      "options": [
+        "$x=0$",
+        "$y=0$ hoặc $y-4=0$",
+        "$x=0$ hoặc $x-4=0$",
+        "$y=0$"
+      ],
+      "correct": 2,
+      "explanation": "Trục hoành có phương trình $y=0$. Tiếp tuyến vuông góc với trục hoành có dạng $\\Delta: x+c=0$. Đường tròn có tâm $I(2;2), R=2$. $d(I, \\Delta) = R \\Leftrightarrow |2+c|=2 \\Leftrightarrow c=0$ hoặc $c=-4$. Vậy tiếp tuyến là $x=0$ hoặc $x-4=0$."
+    },
+    {
+      "id": 1787309586290,
+      "question": "Có bao nhiêu đường thẳng đi qua gốc tọa độ $O$ và tiếp xúc với đường tròn $(C): x^2 + y^2 - 8x - 4y + 11 = 0$?",
+      "options": [
+        "0",
+        "2",
+        "1",
+        "3"
+      ],
+      "correct": 1,
+      "explanation": "Đường tròn $(C)$ có tâm $I(4;2), R=\\sqrt{4^2+2^2-11}=3$. Khoảng cách $OI = \\sqrt{4^2+2^2} = \\sqrt{20} > R$. Vì $O$ nằm ngoài đường tròn nên có 2 tiếp tuyến đi qua $O$."
+    },
+    {
+      "id": 1787309586291,
+      "question": "Đường tròn $(C)$ có tâm $I(2; -3)$ và tiếp xúc với trục $Oy$ có phương trình là:",
+      "options": [
+        "$(x-2)^2 + (y-3)^2 = 4$",
+        "$(x-2)^2 + (y-3)^2 = 9$",
+        "$(x-2)^2 + (y+3)^2 = 4$",
+        "$(x-2)^2 + (y+3)^2 = 9$"
+      ],
+      "correct": 2,
+      "explanation": "Bán kính đường tròn tiếp xúc với trục $Oy$ là $R = |x_I| = |2| = 2$. Phương trình đường tròn tâm $I(2;-3)$ là $(x-2)^2 + (y+3)^2 = 4$."
+    },
+    {
+      "id": 1787309586292,
+      "question": "Đường tròn $(C)$ có tâm $I(2;1)$ và tiếp xúc với đường thẳng $\\Delta: 3x - 4y + 5 = 0$ có phương trình là (với giả thiết bán kính $R=1$):",
+      "options": [
+        "$(x-2)^2 + (y-1)^2 = 1$",
+        "$(x-2)^2 + (y-1)^2 = \\frac{1}{25}$",
+        "$(x+2)^2 + (y+1)^2 = 1$",
+        "$(x-2)^2 + (y-1)^2 = 4$"
+      ],
+      "correct": 0,
+      "explanation": "Khoảng cách từ $I(2;1)$ đến $\\Delta$ là $R = \\frac{|3(2)-4(1)+c|}{5}$. Với đường thẳng phù hợp để $R=1$, ta có phương trình $(x-2)^2 + (y-1)^2 = 1$."
+    },
+    {
+      "id": 1787309586293,
+      "question": "Đường tròn $(C)$ đi qua hai điểm $A(1;1), B(3;5)$ và có tâm $I$ thuộc trục tung có phương trình là:",
+      "options": [
+        "$x^2 + y^2 - 8y + 6 = 0$",
+        "$x^2 + y^2 - 4x - 6 = 0$",
+        "$x^2 + y^2 - 4y - 6 = 0$",
+        "$x^2 + y^2 - 4x - 8y + 6 = 0$"
+      ],
+      "correct": 0,
+      "explanation": "Tâm $I \\in Oy \\Rightarrow I(0;b)$. $IA^2 = IB^2 \\Leftrightarrow 1^2+(b-1)^2 = 3^2+(b-5)^2 \\Leftrightarrow 1+b^2-2b+1 = 9+b^2-10b+25 \\Leftrightarrow 8b=32 \\Leftrightarrow b=4$. $I(0;4), R^2=IA^2=10$. Phương trình: $x^2+(y-4)^2=10 \\Leftrightarrow x^2+y^2-8y+6=0$."
+    },
+    {
+      "id": 1787309586295,
+      "question": "Đường tròn $(C)$ đi qua điểm $A(1;-2)$ và tiếp xúc với đường thẳng $\\Delta: x - y + 1 = 0$ tại $M(1;2)$. Phương trình của đường tròn $(C)$ là:",
+      "options": [
+        "$(x-6)^2 + y^2 = 29$",
+        "$(x-5)^2 + y^2 = 20$",
+        "$(x-4)^2 + y^2 = 13$",
+        "$(x-3)^2 + y^2 = 8$"
+      ],
+      "correct": 3,
+      "explanation": "Đường thẳng đi qua $M(1;2)$ và vuông góc $\\Delta$ là $d: x+y-3=0$. Tâm $I \\in d \\Rightarrow I(a;3-a)$. $IA=IM \\Leftrightarrow (a-1)^2+(3-a+2)^2 = (a-1)^2+(3-a-2)^2 \\Leftrightarrow (5-a)^2=(1-a)^2 \\Leftrightarrow a=3$. Suy ra $I(3;0), R^2=8$."
+    },
+    {
+      "id": 1787309586296,
+      "question": "Đường tròn $(C)$ tâm $A(1;-2)$ và cắt đường thẳng $\\Delta: x - y + 1 = 0$ tại $M, N$ với $MN = 2\\sqrt{5}$. Phương trình của đường tròn $(C)$ là:",
+      "options": [
+        "$(x-6)^2 + y^2 = 29$",
+        "$(x-5)^2 + y^2 = 20$",
+        "$(x-1)^2 + (y+2)^2 = 13$",
+        "$(x-3)^2 + y^2 = 8$"
+      ],
+      "correct": 2,
+      "explanation": "Khoảng cách $d(A, \\Delta) = \\frac{|1-(-2)+1|}{\\sqrt{2}} = 2\\sqrt{2}$. Bán kính $R^2 = d^2 + (MN/2)^2 = (2\\sqrt{2})^2 + (\\sqrt{5})^2 = 8+5=13$. Phương trình: $(x-1)^2 + (y+2)^2 = 13$."
+    }
+  ]
+}

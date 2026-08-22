@@ -1,0 +1,369 @@
+{
+  "id": "q11-1787237361304",
+  "grade": "11",
+  "title": "CẤP SỐ CỘNG-CẤP SỐ NHÂN(30 câu)",
+  "duration": 60,
+  "description": "",
+  "questions": [
+    {
+      "id": 1787237304835,
+      "question": "Cho cấp số cộng $(u_n)$ có $u_2 = 2001$ và $u_5 = 1995$. Khi đó $u_{1001}$ bằng:",
+      "options": [
+        "4005",
+        "4003",
+        "3",
+        "1"
+      ],
+      "correct": 2,
+      "explanation": "Ta có $u_5 - u_2 = 3d = 1995 - 2001 = -6 \\Rightarrow d = -2$. Số hạng đầu $u_1 = u_2 - d = 2001 - (-2) = 2003$. Số hạng $u_{1001} = u_1 + 1000d = 2003 + 1000(-2) = 3$."
+    },
+    {
+      "id": 1787237304836,
+      "question": "Cho cấp số cộng $(u_n)$ có $u_1 = 123$ và $u_3 - u_{15} = 84$. Khi đó số hạng $u_{17}$ là:",
+      "options": [
+        "242",
+        "235",
+        "11",
+        "4"
+      ],
+      "correct": 2,
+      "explanation": "Ta có $u_3 - u_{15} = (u_1 + 2d) - (u_1 + 14d) = -12d = 84 \\Rightarrow d = -7$. Số hạng $u_{17} = u_1 + 16d = 123 + 16(-7) = 11$."
+    },
+    {
+      "id": 1787237304837,
+      "question": "Tổng 100 số hạng đầu tiên của cấp số cộng $(u_n)$ với $u_4 + u_{97} = 100$ bằng:",
+      "options": [
+        "5050",
+        "5500",
+        "5000",
+        "5005"
+      ],
+      "correct": 2,
+      "explanation": "Trong cấp số cộng, $u_k + u_{n-k+1} = u_1 + u_n$. Ở đây $4 + 97 = 101$, nên $u_4 + u_{97} = u_1 + u_{100} = 100$. Tổng $S_{100} = \\frac{100}{2}(u_1 + u_{100}) = 50 \\times 100 = 5000$."
+    },
+    {
+      "id": 1787237304838,
+      "question": "Cho cấp số cộng $(u_n)$ với $u_{17} = 33$ và $u_{33} = 65$ thì công sai bằng:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "-2"
+      ],
+      "correct": 1,
+      "explanation": "Công sai $d = \\frac{u_{33} - u_{17}}{33 - 17} = \\frac{65 - 33}{16} = 2$."
+    },
+    {
+      "id": 1787237304839,
+      "question": "Cho cấp số cộng $(u_n)$ biết $u_n = 5 - 2n$, khi đó công sai của cấp số cộng là:",
+      "options": [
+        "-2",
+        "1",
+        "3",
+        "2"
+      ],
+      "correct": 0,
+      "explanation": "Công sai của cấp số cộng có dạng $u_n = an + b$ chính là hệ số $a$. Ở đây $a = -2$."
+    },
+    {
+      "id": 1787237304840,
+      "question": "Nếu cấp số cộng $(u_n)$ biết $u_3 = 2$ và $u_{10} = 380$ thì $u_5 + u_8$ bằng:",
+      "options": [
+        "190",
+        "760",
+        "382",
+        "378"
+      ],
+      "correct": 2,
+      "explanation": "Vì $3 + 10 = 5 + 8 = 13$ nên $u_5 + u_8 = u_3 + u_{10} = 2 + 380 = 382$."
+    },
+    {
+      "id": 1787237304841,
+      "question": "Cho dãy $(u_n)$ xác định bởi $u_1 = \\frac{1}{2}$ và $u_n = u_{n-1} + n$ với mọi $n \\ge 2$. Khi đó số hạng $u_{50}$ bằng:",
+      "options": [
+        "1274,5",
+        "2548,5",
+        "5096,5",
+        "2550,5"
+      ],
+      "correct": 0,
+      "explanation": "Ta có $u_n = u_1 + (2 + 3 + ... + n) = \\frac{1}{2} + [\\frac{n(n+1)}{2} - 1]$. Với $n=50$, $u_{50} = 0,5 + [\\frac{50 \\times 51}{2} - 1] = 0,5 + 1275 - 1 = 1274,5$."
+    },
+    {
+      "id": 1787237304842,
+      "question": "Cho dãy số $(u_n)$ xác định bởi: $u_1 = 150$ và $u_n = u_{n-1} - 3$ với mọi $n \\ge 2$. Khi đó tổng 100 số hạng đầu tiên là:",
+      "options": [
+        "150",
+        "300",
+        "29850",
+        "59700"
+      ],
+      "correct": 0,
+      "explanation": "Dãy số là cấp số cộng với $u_1 = 150, d = -3$. $S_{100} = \\frac{100}{2}[2 \\times 150 + 99(-3)] = 50[300 - 297] = 150$."
+    },
+    {
+      "id": 1787237304843,
+      "question": "Cho dãy số $(u_n)$ với $u_n = 9 - 5n$. Tổng 100 số hạng đầu tiên của dãy là:",
+      "options": [
+        "1798",
+        "-24351",
+        "-24350",
+        "24350"
+      ],
+      "correct": 2,
+      "explanation": "Đây là cấp số cộng có $u_1 = 4$ và $u_{100} = 9 - 5(100) = -491$. $S_{100} = \\frac{100}{2}(4 - 491) = 50(-487) = -24350$."
+    },
+    {
+      "id": 1787237304844,
+      "question": "Cho tổng $S = 1+2+3+...+2017+2016+...+2+1$ có kết quả bằng:",
+      "options": [
+        "4068289",
+        "4086289",
+        "4067298",
+        "4076289"
+      ],
+      "correct": 0,
+      "explanation": "Tổng $S = 2(1+2+...+2016) + 2017 = 2\\frac{2016 \\times 2017}{2} + 2017 = 2017(2016 + 1) = 2017^2 = 4068289$."
+    },
+    {
+      "id": 1787237304845,
+      "question": "Thêm 6 số xen giữa hai số 3 và 24 ta được một cấp số cộng có 8 số hạng. Khi đó tổng các số hạng là:",
+      "options": [
+        "110",
+        "107",
+        "106",
+        "108"
+      ],
+      "correct": 3,
+      "explanation": "Cấp số cộng có $n=8, u_1=3, u_8=24$. Tổng $S_8 = \\frac{8}{2}(3 + 24) = 4 \\times 27 = 108$."
+    },
+    {
+      "id": 1787237304846,
+      "question": "Thêm 5 số xen giữa hai số 25 và 1 ta được một cấp số cộng có 7 số hạng. Số hạng thứ 50 là:",
+      "options": [
+        "-169",
+        "169",
+        "-171",
+        "171"
+      ],
+      "correct": 2,
+      "explanation": "Cấp số cộng có $u_1 = 25, u_7 = 1$. Ta có $u_1 + 6d = 1 \\Rightarrow 25 + 6d = 1 \\Rightarrow d = -4$. Số hạng $u_{50} = u_1 + 49d = 25 + 49(-4) = -171$."
+    },
+    {
+      "id": 1787237304847,
+      "question": "Tìm $x$ trong cấp số cộng $1, 6, 11, ...$ biết tổng $1+6+11+16+...+x=970$:",
+      "options": [
+        "96",
+        "69",
+        "97",
+        "7"
+      ],
+      "correct": 0,
+      "explanation": "Cấp số cộng có $u_1=1, d=5$. $S_n = \\frac{n}{2}[2(1) + (n-1)5] = 970 \\Rightarrow 5n^2 - 3n - 1940 = 0$. Giải phương trình bậc 2 ta được $n=20$. Vậy $x = u_{20} = 1 + 19(5) = 96$."
+    },
+    {
+      "id": 1787237304848,
+      "question": "Tìm $x$ biết: $(x+1)+(x+4)+(x+7)+...+(x+28)=155$:",
+      "options": [
+        "x=1",
+        "x=-1",
+        "x=2",
+        "x=-3"
+      ],
+      "correct": 0,
+      "explanation": "Dãy $1, 4, 7, ..., 28$ là cấp số cộng có $u_1=1, d=3, u_n=28 \\Rightarrow n=10$. Tổng là $10x + \\frac{10}{2}(1+28) = 155 \\Rightarrow 10x + 145 = 155 \\Rightarrow x = 1$."
+    },
+    {
+      "id": 1787237304849,
+      "question": "Chu vi của một đa giác là 158cm, số đo các cạnh nó lập thành một cấp số cộng với công sai $d=3$ cm. Biết cạnh lớn nhất là 44cm. Tính số cạnh của đa giác đó:",
+      "options": [
+        "6",
+        "3",
+        "5",
+        "4"
+      ],
+      "correct": 3,
+      "explanation": "Gọi $n$ là số cạnh. $u_n=44, d=3, S_n=158$. Ta có $u_1 = 44 - (n-1)3 = 47-3n$. $S_n = \\frac{n}{2}(47-3n + 44) = 158 \\Rightarrow 3n^2 - 91n + 316 = 0$. Phương trình có nghiệm nguyên $n=4$."
+    },
+    {
+      "id": 1787237304850,
+      "question": "Dãy nào sau đây là cấp số cộng:",
+      "options": [
+        "$u_n = n + 2^n$",
+        "$u_n = n^2 - 3$",
+        "$u_n = (\\frac{1}{3})^n$",
+        "$\\begin{cases} u_1 = 1 \\\\ u_{n+1} = u_n - 3 \\end{cases}$"
+      ],
+      "correct": 3,
+      "explanation": "Dãy số cho bởi công thức truy hồi $u_{n+1} = u_n + d$ là cấp số cộng. Ở đây $d = -3$."
+    },
+    {
+      "id": 1787237304851,
+      "question": "Tìm số hạng đầu $u_1$ và công sai $d$ của cấp số cộng $(u_n)$ biết hệ thức liên hệ các số hạng thỏa mãn để $u_1 = 8, d = -3$:",
+      "options": [
+        "$u_1=8, d=-3$",
+        "$u_1=8, d=2$",
+        "$u_1=-8, d=-3$",
+        "$u_1=-8, d=2$"
+      ],
+      "correct": 0,
+      "explanation": "Dựa vào các phương án lựa chọn trong đề bài."
+    },
+    {
+      "id": 1787237304852,
+      "question": "Tìm số hạng đầu $u_1$ và công sai $d$ của cấp số cộng $(u_n)$ biết: $\\begin{cases} u_1 - u_3 + u_5 = 10 \\\\ u_1 + u_6 = 7 \\end{cases}$:",
+      "options": [
+        "$u_1=33, d=12$",
+        "$u_1=36, d=-13$",
+        "$u_1=35, d=13$",
+        "$u_1=34, d=-13$"
+      ],
+      "correct": 1,
+      "explanation": "Hệ phương trình: $\\begin{cases} u_1 - (u_1+2d) + (u_1+4d) = 10 \\\\ u_1 + (u_1+5d) = 7 \\end{cases} \\Leftrightarrow \\begin{cases} u_1 + 2d = 10 \\\\ 2u_1 + 5d = 7 \\end{cases} \\Rightarrow \\begin{cases} u_1 = 36 \\\\ d = -13 \\end{cases}$."
+    },
+    {
+      "id": 1787237304853,
+      "question": "Cấp số cộng $(u_n)$ có $S_6 = 18, S_{10} = 110$ thì tổng 20 số hạng đầu là:",
+      "options": [
+        "620",
+        "280",
+        "360",
+        "153"
+      ],
+      "correct": 0,
+      "explanation": "Sử dụng công thức $S_n = \\frac{n}{2}[2u_1 + (n-1)d]$, ta tìm được $u_1 = -7, d = 4$. Khi đó $S_{20} = \\frac{20}{2}[2(-7) + 19(4)] = 620$."
+    },
+    {
+      "id": 1787237304854,
+      "question": "Cấp số nhân $(u_n)$ có $u_n = \\frac{3 \\cdot 2^n}{5}$. Tìm số hạng đầu tiên $u_1$ và công bội $q$:",
+      "options": [
+        "$u_1 = \\frac{6}{5}, q = 3$",
+        "$u_1 = \\frac{6}{5}, q = -2$",
+        "$u_1 = \\frac{6}{5}, q = 2$",
+        "$u_1 = \\frac{6}{5}, q = 5$"
+      ],
+      "correct": 2,
+      "explanation": "$u_1 = \\frac{3 \\cdot 2^1}{5} = \\frac{6}{5}$; $u_2 = \\frac{3 \\cdot 2^2}{5} = \\frac{12}{5} \\Rightarrow q = \\frac{u_2}{u_1} = 2$."
+    },
+    {
+      "id": 1787237304855,
+      "question": "Cấp số nhân $(u_n)$ có $u_n = \\frac{5}{2^n}$. Tổng 3 số hạng đầu tiên là:",
+      "options": [
+        "$\\frac{6}{35}$",
+        "$\\frac{5}{36}$",
+        "$\\frac{35}{8}$",
+        "$\\frac{6}{5}$"
+      ],
+      "correct": 2,
+      "explanation": "$u_1 = \\frac{5}{2}, u_2 = \\frac{5}{4}, u_3 = \\frac{5}{8}$. Tổng $S_3 = \\frac{5}{2} + \\frac{5}{4} + \\frac{5}{8} = \\frac{20+10+5}{8} = \\frac{35}{8}$."
+    },
+    {
+      "id": 1787237304856,
+      "question": "Cấp số nhân $(u_n)$ có $u_n = (\\frac{1}{2})^n$, số hạng thứ 15 là:",
+      "options": [
+        "$\\frac{1}{32786}$",
+        "$\\frac{1}{37286}$",
+        "$\\frac{1}{32768}$",
+        "$-\\frac{1}{32768}$"
+      ],
+      "correct": 2,
+      "explanation": "$u_{15} = (\\frac{1}{2})^{15} = \\frac{1}{32768}$."
+    },
+    {
+      "id": 1787237304857,
+      "question": "Cho cấp số nhân: $-4, x, -9$. Khi đó giá trị của $x$ là:",
+      "options": [
+        "$\\pm 5$",
+        "-6,5",
+        "$\\pm 6$",
+        "$\\pm 36$"
+      ],
+      "correct": 2,
+      "explanation": "Theo tính chất cấp số nhân: $x^2 = (-4)(-9) = 36 \\Rightarrow x = \\pm 6$."
+    },
+    {
+      "id": 1787237304858,
+      "question": "Cho dãy số $(u_n)$ biết $u_n = 3^n$. Hãy chọn phương án đúng:",
+      "options": [
+        "Dãy giảm",
+        "Dãy không giảm",
+        "Dãy tăng",
+        "Dãy không tăng"
+      ],
+      "correct": 2,
+      "explanation": "Vì $u_{n+1} = 3^{n+1} > 3^n = u_n$ với mọi $n \\ge 1$ nên dãy số là dãy tăng."
+    },
+    {
+      "id": 1787237304859,
+      "question": "Cho dãy $(u_n)$ biết $u_n = 3^n$. Số hạng $u_{n+1}$ bằng:",
+      "options": [
+        "$3^{n+1}$",
+        "$3^n + 3$",
+        "$3 \\cdot 3^n$",
+        "$3(n+1)$"
+      ],
+      "correct": 0,
+      "explanation": "Thay $n$ bằng $n+1$ vào công thức $u_n$, ta được $u_{n+1} = 3^{n+1}$."
+    },
+    {
+      "id": 1787237304860,
+      "question": "Cho dãy $(u_n)$ biết $u_n = 3^n$. Số hạng $u_{2n}$ bằng:",
+      "options": [
+        "$3^{n+3}$",
+        "$9^n$",
+        "$3 \\cdot 3^n$",
+        "$4^{2n}$"
+      ],
+      "correct": 1,
+      "explanation": "Thay $n$ bằng $2n$ vào công thức $u_n$, ta được $u_{2n} = 3^{2n} = (3^2)^n = 9^n$."
+    },
+    {
+      "id": 1787237304861,
+      "question": "Cho cấp số cộng $u_n = 5n - 2$, biết $S_n = 16040$. Số số hạng $n$ là:",
+      "options": [
+        "79",
+        "3024",
+        "80",
+        "100"
+      ],
+      "correct": 2,
+      "explanation": "$u_1 = 3, d = 5$. $S_n = \\frac{n}{2}[2(3) + (n-1)5] = 16040 \\Rightarrow 5n^2 + n - 32080 = 0$. Giải phương trình chọn nghiệm dương $n=80$."
+    },
+    {
+      "id": 1787237304862,
+      "question": "Cho cấp số nhân có bốn số hạng: $-2, x, -18, y$. Hãy chọn kết quả đúng:",
+      "options": [
+        "$x=-6, y=54$",
+        "$x=6, y=-54$",
+        "$x=-6, y=-54$",
+        "$x=-10, y=-26$"
+      ],
+      "correct": 2,
+      "explanation": "$x^2 = (-2)(-18) = 36$. Nếu $x = -6$ thì $q = 3$, khi đó $y = -18 \\times 3 = -54$."
+    },
+    {
+      "id": 1787237304863,
+      "question": "Xác định $x$ để 3 số $2x - 1, x, 2x + 1$ lập thành cấp số nhân:",
+      "options": [
+        "$x = \\pm \\frac{1}{\\sqrt{3}}$",
+        "$x = \\pm \\sqrt{3}$",
+        "$x = \\pm \\frac{1}{3}$",
+        "Không có giá trị nào"
+      ],
+      "correct": 0,
+      "explanation": "Để 3 số lập thành CSN thì $x^2 = (2x-1)(2x+1) \\Leftrightarrow x^2 = 4x^2 - 1 \\Leftrightarrow 3x^2 = 1 \\Leftrightarrow x = \\pm \\frac{1}{\\sqrt{3}}$."
+    },
+    {
+      "id": 1787237304864,
+      "question": "Trong các dãy sau đây dãy nào là cấp số cộng:",
+      "options": [
+        "$u_n = 3^n$",
+        "$u_n = (-3)^{n+1}$",
+        "$u_n = 3n + 1$",
+        "$u_n = 5n^2 + n$"
+      ],
+      "correct": 2,
+      "explanation": "Dãy số có dạng $u_n = an + b$ luôn là một cấp số cộng với công sai $d = a$."
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "ctm2025-1787195225641",
+  "grade": "11",
+  "title": "ĐỀ THI CÁC SỐ ĐẶC TRƯNG TOÁN THPT 2025 (Cấu Trúc Mới)",
+  "duration": 60,
+  "description": "Đề thi Cấu Trúc Mới 2025 (Trắc nghiệm, Đúng/Sai, Trả lời ngắn)",
+  "isCTM2025": true,
+  "part1": [
+    {
+      "question": "Một mẫu số liệu ghép nhóm có độ lệch chuẩn bằng $s = 3$ thì có phương sai bằng bao nhiêu?",
+      "options": [
+        "A. $s^2 = 3$",
+        "B. $s^2 = \\sqrt{3}$",
+        "C. $s^2 = 9$",
+        "D. $s^2 = 6$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Một mẫu số liệu ghép nhóm có phương sai bằng $25$ thì có độ lệch chuẩn bằng bao nhiêu?",
+      "options": [
+        "A. $4$",
+        "B. $5$",
+        "C. $256$",
+        "D. $50$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Người ta tiến hành phỏng vấn $40$ người về một mẫu quần mới. Kết quả được trình bày theo mẫu số liệu ghép nhóm trong đó có nhóm $[70; 80)$. Giá trị đại diện của nhóm này là bao nhiêu?",
+      "options": [
+        "A. $70$",
+        "B. $75$",
+        "C. $40$",
+        "D. $80$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Số tiền mà $85$ khách mua nước rửa chén tại một cửa hàng được cho bởi mẫu số liệu ghép nhóm, trong đó có nhóm $[80; 90)$. Độ dài của nhóm này là bao nhiêu?",
+      "options": [
+        "A. $10$",
+        "B. $60$",
+        "C. $80$",
+        "D. $90$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Kết quả thu thập điểm số môn Toán của $25$ học sinh có các nhóm: $[4;8)$, $[8;12)$, $[12;16)$, $[16;20)$. Khoảng biến thiên $R$ của mẫu số liệu ghép nhóm này là bao nhiêu?",
+      "options": [
+        "A. $R = 4$",
+        "B. $R = 20$",
+        "C. $R = 16$",
+        "D. $R = 12$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Đại lượng nào sau đây đo độ phân tán của nửa giữa của mẫu số liệu và không bị ảnh hưởng nhiều bởi các giá trị ngoại lệ?",
+      "options": [
+        "A. Khoảng biến thiên",
+        "B. Khoảng tứ phân vị",
+        "C. Phương sai",
+        "D. Độ lệch chuẩn"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Cho mẫu số liệu ghép nhóm gồm các nhóm $[a_1; a_2), [a_2; a_3), ..., [a_m; a_{m+1})$. Khoảng biến thiên $R$ được tính theo công thức nào?",
+      "options": [
+        "A. $R = a_{m} - a_1$",
+        "B. $R = a_{m+1} - a_m$",
+        "C. $R = a_{m+1} - a_1$",
+        "D. $R = a_2 - a_1$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Khảo sát thời gian tập thể dục trong ngày của $42$ học sinh với các nhóm: $[0;20): 5$, $[20;40): 9$, $[40;60): 12$, $[60;80): 10$, $[80;100): 6$. Nhóm chứa tứ phân vị thứ ba $Q_3$ là nhóm nào?",
+      "options": [
+        "A. $[20;40)$",
+        "B. $[40;60)$",
+        "C. $[60;80)$",
+        "D. $[80;100)$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Số đặc trưng nào sau đây không sử dụng thông tin của nhóm số liệu đầu tiên và nhóm số liệu cuối cùng?",
+      "options": [
+        "A. Khoảng biến thiên",
+        "B. Khoảng tứ phân vị",
+        "C. Phương sai",
+        "D. Độ lệch chuẩn"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Cho mẫu số liệu ghép nhóm có bộ ba tứ phân vị là $Q_1 = 11,5$; $Q_2 = 14,5$; $Q_3 = 21,3$. Khoảng tứ phân vị $\\Delta_Q$ của mẫu số liệu là bao nhiêu?",
+      "options": [
+        "A. $\\Delta_Q = 3,0$",
+        "B. $\\Delta_Q = 6,8$",
+        "C. $\\Delta_Q = 9,8$",
+        "D. $\\Delta_Q = 32,8$"
+      ],
+      "correctAnswer": "C"
+    }
+  ],
+  "part2": [
+    {
+      "question": "Cho mẫu số liệu ghép nhóm về tuổi thọ (năm) của $20$ con hổ như sau: $[14;15): 1$; $[15;16): 3$; $[16;17): 8$; $[17;18): 6$; $[18;19): 2$. Xét tính Đúng/Sai của các mệnh đề sau:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Giá trị đại diện của nhóm $[16;17)$ là $16,5$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Khoảng biến thiên của mẫu số liệu là $R = 5$.",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "Nhóm chứa tứ phân vị thứ nhất $Q_1$ là $[15;16)$.",
+          "isTrue": false
+        },
+        {
+          "label": "d",
+          "text": "Khoảng tứ phân vị được tính bằng công thức $\\Delta_Q = Q_3 - Q_1$.",
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "question": "Về các số đặc trưng đo độ phân tán của mẫu số liệu ghép nhóm, xét tính Đúng/Sai của các mệnh đề sau:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Để so sánh mức độ phân tán của các mẫu số liệu ghép nhóm có cùng số trung bình, ta có thể dùng độ lệch chuẩn.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Phương sai luôn là một số không âm.",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "Độ lệch chuẩn là bình phương của phương sai.",
+          "isTrue": false
+        },
+        {
+          "label": "d",
+          "text": "Khoảng tứ phân vị $\\Delta_Q$ càng lớn thì mẫu số liệu càng tập trung quanh trung vị.",
+          "isTrue": false
+        }
+      ]
+    }
+  ],
+  "part3": [
+    {
+      "question": "Tính khoảng biến thiên $R$ của mẫu số liệu ghép nhóm về thời gian truy bài có các nhóm từ $[9,5; 12,5)$ đến $[21,5; 24,5)$.",
+      "correctAnswer": "15"
+    },
+    {
+      "question": "Một mẫu số liệu ghép nhóm có phương sai bằng $144$. Tính độ lệch chuẩn của mẫu số liệu đó.",
+      "correctAnswer": "12"
+    },
+    {
+      "question": "Khảo sát thời gian chơi thể thao của học sinh theo các tần số nhóm: $5, 9, 12, 10, 6$. Tổng số học sinh tham gia khảo sát là bao nhiêu?",
+      "correctAnswer": "42"
+    }
+  ],
+  "questions": []
+}

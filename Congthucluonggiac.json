@@ -1,0 +1,249 @@
+{
+  "id": "q10-1785808615007",
+  "grade": "11",
+  "title": "Công thức lượng giác (20 câu)",
+  "duration": 20,
+  "description": "",
+  "questions": [
+    {
+      "id": 1785808598533,
+      "question": "Biểu thức $\\sin x \\cos y - \\cos x \\sin y$ bằng:",
+      "options": [
+        "$\\cos(x - y)$",
+        "$\\cos(x + y)$",
+        "$\\sin(x - y)$",
+        "$\\sin(y - x)$"
+      ],
+      "correct": 2,
+      "explanation": "Áp dụng công thức cộng lượng giác cho hàm số sin: $\\sin(a - b) = \\sin a \\cos b - \\cos a \\sin b$. Thay $a = x$ và $b = y$, ta có $\\sin x \\cos y - \\cos x \\sin y = \\sin(x - y)$."
+    },
+    {
+      "id": 1785808598534,
+      "question": "Chọn khẳng định sai trong các khẳng định sau:",
+      "options": [
+        "$\\cos(a + b) = \\cos a \\cos b + \\sin a \\sin b$",
+        "$\\sin(a + b) = \\sin a \\cos b + \\cos a \\sin b$",
+        "$\\sin(a - b) = \\sin a \\cos b - \\cos a \\sin b$",
+        "$\\cos 2a = 1 - 2\\sin^2 a$"
+      ],
+      "correct": 0,
+      "explanation": "Công thức đúng phải là $\\cos(a + b) = \\cos a \\cos b - \\sin a \\sin b$. Do đó phương án A là sai."
+    },
+    {
+      "id": 1785808598535,
+      "question": "Biểu thức $\\sin(a + b) \\sin(a - b)$ bằng biểu thức nào sau đây?",
+      "options": [
+        "$\\sin^2 a +  \\sin^2 b$",
+        "$\\sin^2 a - \\sin^2 b$",
+        "$\\tan^2 a - \\tan^2 b$",
+        "$\\cot^2 a - \\cot^2 b$"
+      ],
+      "correct": 1,
+      "explanation": "Ta có: $\\sin(a + b) \\sin(a - b) = (\\sin a \\cos b + \\cos a \\sin b)(\\sin a \\cos b - \\cos a \\sin b) = \\sin^2 a \\cos^2 b - \\cos^2 a \\sin^2 b = \\sin^2 a(1 - \\sin^2 b) - (1 - \\sin^2 a)\\sin^2 b = \\sin^2 a - \\sin^2 a \\sin^2 b - \\sin^2 b + \\sin^2 a \\sin^2 b = \\sin^2 a - \\sin^2 b$."
+    },
+    {
+      "id": 1785808598536,
+      "question": "Cho $\\tan \\alpha = 2$. Tính $\\tan\\left(\\frac{\\pi}{4} - \\alpha\\right)$.",
+      "options": [
+        "$-\\frac{1}{3}$",
+        "$1$",
+        "$\\frac{2}{3}$",
+        "$\\frac{1}{3}$"
+      ],
+      "correct": 0,
+      "explanation": "Áp dụng công thức $\\tan(a - b) = \\frac{\\tan a - \\tan b}{1 + \\tan a \\tan b}$ với $a = \\frac{\\pi}{4}$ và $b = \\alpha$: $\\tan\\left(\\frac{\\pi}{4} - \\alpha\\right) = \\frac{\\tan(\\frac{\\pi}{4}) - \\tan \\alpha}{1 + \\tan(\\frac{\\pi}{4}) \\tan \\alpha} = \\frac{1 - 2}{1 + 1 \\cdot 2} = -\\frac{1}{3}$."
+    },
+    {
+      "id": 1785808598537,
+      "question": "Cho hai góc $\\alpha, \\beta$ thỏa mãn $\\sin \\alpha = \\frac{5}{13}, \\frac{\\pi}{2} < \\alpha < \\pi$ và $\\cos \\beta = \\frac{3}{5}, 0 < \\beta < \\frac{\\pi}{2}$. Tính giá trị đúng của $\\cos(\\alpha - \\beta)$.",
+      "options": [
+        "$\\frac{16}{65}$",
+        "$-\\frac{18}{65}$",
+        "$\\frac{18}{65}$",
+        "$-\\frac{16}{65}$"
+      ],
+      "correct": 3,
+      "explanation": "1. Vì $\\frac{\\pi}{2} < \\alpha < \\pi$ nên $\\cos \\alpha < 0$. Ta có $\\cos \\alpha = -\\sqrt{1 - \\sin^2 \\alpha} = -\\sqrt{1 - (\\frac{5}{13})^2} = -\\frac{12}{13}$.\n2. Vì $0 < \\beta < \\frac{\\pi}{2}$ nên $\\sin \\beta > 0$. Ta có $\\sin \\beta = \\sqrt{1 - \\cos^2 \\beta} = \\sqrt{1 - (\\frac{3}{5})^2} = \\frac{4}{5}$.\n3. Áp dụng công thức: $\\cos(\\alpha - \\beta) = \\cos \\alpha \\cos \\beta + \\sin \\alpha \\sin \\beta = (-\\frac{12}{13})(\\frac{3}{5}) + (\\frac{5}{13})(\\frac{4}{5}) = -\\frac{36}{65} + \\frac{20}{65} = -\\frac{16}{65}$."
+    },
+    {
+      "id": 1785808598538,
+      "question": "Cho góc lượng giác $\\frac{\\pi}{2} < \\alpha < \\pi$. Xét dấu $\\sin\\left(\\alpha + \\frac{\\pi}{2}\\right)$ và $\\tan(-\\alpha)$. Chọn kết quả đúng.",
+      "options": [
+        "$\\sin\\left(\\alpha + \\frac{\\pi}{2}\\right) < 0$ và $\\tan(-\\alpha) < 0$",
+        "$\\sin\\left(\\alpha + \\frac{\\pi}{2}\\right) > 0$ và $\\tan(-\\alpha) < 0$",
+        "$\\sin\\left(\\alpha + \\frac{\\pi}{2}\\right) < 0$ và $\\tan(-\\alpha) > 0$",
+        "$\\sin\\left(\\alpha + \\frac{\\pi}{2}\\right) > 0$ và $\\tan(-\\alpha) > 0$"
+      ],
+      "correct": 2,
+      "explanation": "1. Ta có $\\sin\\left(\\alpha + \\frac{\\pi}{2}\\right) = \\cos \\alpha$. Với $\\alpha \\in (\\frac{\\pi}{2}; \\pi)$ (góc phần tư thứ II), $\\cos \\alpha < 0$. Suy ra $\\sin\\left(\\alpha + \\frac{\\pi}{2}\\right) < 0$.\n2. Ta có $\\tan(-\\alpha) = -\\tan \\alpha$. Với $\\alpha \\in (\\frac{\\pi}{2}; \\pi)$, $\\tan \\alpha < 0$. Suy ra $-\\tan \\alpha > 0$. Do đó $\\tan(-\\alpha) > 0$."
+    },
+    {
+      "id": 1785808598539,
+      "question": "Rút gọn biểu thức $A = \\sin(a + 17^\\circ) \\cos(13^\\circ - a) + \\sin(13^\\circ - a) \\cos(a + 17^\\circ)$, ta được:",
+      "options": [
+        "$\\sin 2a$",
+        "$\\cos 2a$",
+        "$-\\frac{1}{2}$",
+        "$\\frac{1}{2}$"
+      ],
+      "correct": 3,
+      "explanation": "Áp dụng công thức $\\sin x \\cos y + \\cos x \\sin y = \\sin(x + y)$ với $x = a + 17^\\circ$ và $y = 13^\\circ - a$. Ta có: $A = \\sin((a + 17^\\circ) + (13^\\circ - a)) = \\sin(30^\\circ) = \\frac{1}{2}$."
+    },
+    {
+      "id": 1785808598540,
+      "question": "Cho hai góc $\\alpha$ và $\\beta$ thỏa mãn $\\sin \\alpha = \\frac{3}{5}, \\frac{\\pi}{2} < \\alpha < \\pi$ và $\\cos \\beta = \\frac{12}{13}, 0 < \\beta < \\frac{\\pi}{2}$. Giá trị của $\\sin(\\alpha - \\beta)$ là:",
+      "options": [
+        "$-\\frac{56}{65}$",
+        "$\\frac{56}{65}$",
+        "$\\frac{16}{65}$",
+        "$-\\frac{16}{65}$"
+      ],
+      "correct": 1,
+      "explanation": "1. $\\sin \\alpha = \\frac{3}{5}, \\alpha \\in (\\frac{\\pi}{2}; \\pi) \\Rightarrow \\cos \\alpha = -\\sqrt{1 - (3/5)^2} = -4/5$.\n2. $\\cos \\beta = \\frac{12}{13}, \\beta \\in (0; \\frac{\\pi}{2}) \\Rightarrow \\sin \\beta = \\sqrt{1 - (12/13)^2} = 5/13$.\n3. $\\sin(\\alpha - \\beta) = \\sin \\alpha \\cos \\beta - \\cos \\alpha \\sin \\beta = (\\frac{3}{5})(\\frac{12}{13}) - (-\\frac{4}{5})(\\frac{5}{13}) = \\frac{36}{65} + \\frac{20}{65} = \\frac{56}{65}$."
+    },
+    {
+      "id": 1785808598541,
+      "question": "Tính giá trị $\\cos\\left(\\alpha - \\frac{\\pi}{6}\\right)$ biết $\\sin \\alpha = \\frac{1}{3}, \\frac{\\pi}{2} < \\alpha < \\pi$.",
+      "options": [
+        "$\\frac{2 - \\sqrt{3}}{6}$",
+        "$\\frac{1 - 2\\sqrt{6}}{6}$",
+        "$\\frac{1 - \\sqrt{6}}{6}$",
+        "$\\frac{1 + 2\\sqrt{6}}{6}$"
+      ],
+      "correct": 1,
+      "explanation": "1. Vì $\\frac{\\pi}{2} < \\alpha < \\pi$ nên $\\cos \\alpha = -\\sqrt{1 - (1/3)^2} = -\\frac{2\\sqrt{2}}{3}$.\n2. $\\cos\\left(\\alpha - \\frac{\\pi}{6}\\right) = \\cos \\alpha \\cos\\frac{\\pi}{6} + \\sin \\alpha \\sin\\frac{\\pi}{6} = (-\\frac{2\\sqrt{2}}{3})(\\frac{\\sqrt{3}}{2}) + (\\frac{1}{3})(\\frac{1}{2}) = -\\frac{2\\sqrt{6}}{6} + \\frac{1}{6} = \\frac{1 - 2\\sqrt{6}}{6}$."
+    },
+    {
+      "id": 1785808598542,
+      "question": "Cho $\\sin \\alpha = \\frac{2}{\\sqrt{5}}$ với $0 < \\alpha < \\frac{\\pi}{2}$. Biết giá trị của $\\cos\\left(\\alpha + \\frac{\\pi}{3}\\right) = \\frac{a\\sqrt{5} - b\\sqrt{15}}{10}$ với $a, b \\in \\mathbb{Z}$. Tính $a + b$.",
+      "options": [
+        "$4$",
+        "$10$",
+        "$7$",
+        "$3$"
+      ],
+      "correct": 3,
+      "explanation": "1. Vì $0 < \\alpha < \\frac{\\pi}{2}$ nên $\\cos \\alpha = \\sqrt{1 - (2/\\sqrt{5})^2} = \\frac{1}{\\sqrt{5}}$.\n2. $\\cos\\left(\\alpha + \\frac{\\pi}{3}\\right) = \\cos \\alpha \\cos\\frac{\\pi}{3} - \\sin \\alpha \\sin\\frac{\\pi}{3} = \\frac{1}{\\sqrt{5}} \\cdot \\frac{1}{2} - \\frac{2}{\\sqrt{5}} \\cdot \\frac{\\sqrt{3}}{2} = \\frac{1 - 2\\sqrt{3}}{2\\sqrt{5}} = \\frac{\\sqrt{5} - 2\\sqrt{15}}{10}$.\n3. Suy ra $a = 1, b = 2 \\Rightarrow a + b = 3$."
+    },
+    {
+      "id": 1785808598543,
+      "question": "Cho $\\cos \\alpha = -\\frac{3}{5}, \\pi < \\alpha < \\frac{3\\pi}{2}$. Giá trị của $A = \\cos\\left(\\alpha - \\frac{\\pi}{2}\\right) + \\sin(\\alpha - \\pi)$ bằng:",
+      "options": [
+        "$\\frac{4}{5}$",
+        "$\\frac{8}{5}$",
+        "$1$",
+        "$0$"
+      ],
+      "correct": 3,
+      "explanation": "1. Ta có $\\cos\\left(\\alpha - \\frac{\\pi}{2}\\right) = \\sin \\alpha$ và $\\sin(\\alpha - \\pi) = -\\sin(\\pi - \\alpha) = -\\sin \\alpha$.\n2. Vậy $A = \\sin \\alpha + (-\\sin \\alpha) = 0$."
+    },
+    {
+      "id": 1785808598544,
+      "question": "Cho $x, y$ là các góc nhọn, $\\cot x = \\frac{4}{3}, \\cot y = 7$. Tổng $x + y$ bằng:",
+      "options": [
+        "$\\frac{\\pi}{3}$",
+        "$\\frac{\\pi}{4}$",
+        "$\\frac{\\pi}{6}$",
+        "$\\frac{2\\pi}{3}$"
+      ],
+      "correct": 1,
+      "explanation": "1. $\\tan x = \\frac{3}{4}, \\tan y = \\frac{1}{7}$.\n2. $\\tan(x + y) = \\frac{\\tan x + \\tan y}{1 - \\tan x \\tan y} = \\frac{3/4 + 1/7}{1 - (3/4)(1/7)} = \\frac{25/28}{25/28} = 1$.\n3. Vì $x, y$ nhọn nên $0 < x+y < \\pi$. Do $\\tan(x+y)=1$ nên $x+y = \\frac{\\pi}{4}$."
+    },
+    {
+      "id": 1785808598545,
+      "question": "Cho $\\sin \\alpha = \\frac{3}{5}, \\frac{\\pi}{2} < \\alpha < \\pi$. Tính $\\tan\\left(\\alpha + \\frac{\\pi}{3}\\right)$.",
+      "options": [
+        "$\\frac{48 + 25\\sqrt{3}}{11}$",
+        "$\\frac{8 - 5\\sqrt{3}}{11}$",
+        "$\\frac{8 - 3\\sqrt{11}}{2}$",
+        "$\\frac{48 - 25\\sqrt{3}}{11}$"
+      ],
+      "correct": 3,
+      "explanation": "1. $\\cos \\alpha = -\\sqrt{1 - (3/5)^2} = -4/5$. Suy ra $\\tan \\alpha = -3/4$.\n2. $\\tan\\left(\\alpha + \\frac{\\pi}{3}\\right) = \\frac{\\tan \\alpha + \\sqrt{3}}{1 - \\sqrt{3}\\tan \\alpha} = \\frac{-3/4 + \\sqrt{3}}{1 + 3\\sqrt{3}/4} = \\frac{4\\sqrt{3}-3}{4+3\\sqrt{3}}$.\n3. Trục căn thức ở mẫu: $\\frac{(4\\sqrt{3}-3)(3\\sqrt{3}-4)}{27-16} = \\frac{36 - 16\\sqrt{3} - 9\\sqrt{3} + 12}{11} = \\frac{48 - 25\\sqrt{3}}{11}$."
+    },
+    {
+      "id": 1785808598546,
+      "question": "Biết $\\sin a = \\frac{5}{13}, \\cos b = \\frac{3}{5}, \\frac{\\pi}{2} < a < \\pi, 0 < b < \\frac{\\pi}{2}$. Hãy tính $\\sin(a + b)$.",
+      "options": [
+        "$-\\frac{33}{65}$",
+        "$\\frac{63}{65}$",
+        "$\\frac{56}{65}$",
+        "$0$"
+      ],
+      "correct": 0,
+      "explanation": "1. $\\cos a = -\\sqrt{1 - (5/13)^2} = -12/13$.\n2. $\\sin b = \\sqrt{1 - (3/5)^2} = 4/5$.\n3. $\\sin(a + b) = \\sin a \\cos b + \\cos a \\sin b = (\\frac{5}{13})(\\frac{3}{5}) + (-\\frac{12}{13})(\\frac{4}{5}) = \\frac{15}{65} - \\frac{48}{65} = -\\frac{33}{65}$."
+    },
+    {
+      "id": 1785808598547,
+      "question": "Cho hai góc nhọn $a, b$ với $\\sin a = \\frac{1}{3}, \\sin b = \\frac{1}{2}$. Giá trị của $\\sin(2a + b)$ bằng $\\frac{7 + 4\\sqrt{6}}{18}$ (giả sử biểu thức tương đương). Tính $m + n$ nếu kết quả có dạng $\\frac{m + n\\sqrt{6}}{18}$?",
+      "options": [
+        "$3$",
+        "$11$",
+        "$5$",
+        "$9$"
+      ],
+      "correct": 1,
+      "explanation": "1. $a$ nhọn, $\\sin a = 1/3 \\Rightarrow \\cos a = 2\\sqrt{2}/3, \\sin 2a = 2\\sin a \\cos a = 4\\sqrt{2}/9, \\cos 2a = 1 - 2\\sin^2 a = 7/9$.\n2. $b$ nhọn, $\\sin b = 1/2 \\Rightarrow \\cos b = \\sqrt{3}/2$.\n3. $\\sin(2a + b) = \\sin 2a \\cos b + \\cos 2a \\sin b = (\\frac{4\\sqrt{2}}{9})(\\frac{\\sqrt{3}}{2}) + (\\frac{7}{9})(\\frac{1}{2}) = \\frac{4\\sqrt{6} + 7}{18}$.\n4. So sánh với $\\frac{m + n\\sqrt{6}}{18}$, ta có $m = 7, n = 4$. Vậy $m + n = 11$."
+    },
+    {
+      "id": 1785808598548,
+      "question": "Đẳng thức nào không đúng với mọi $x$?",
+      "options": [
+        "$\\cos^2 3x = \\frac{1 + \\cos 6x}{2}$",
+        "$\\cos 2x = 1 - 2\\sin^2 x$",
+        "$\\sin 2x = 2\\sin x \\cos x$",
+        "$\\sin^2 2x = \\frac{1 + \\cos 4x}{2}$"
+      ],
+      "correct": 3,
+      "explanation": "Theo công thức hạ bậc: $\\sin^2 2x = \\frac{1 - \\cos 4x}{2}$. Do đó đẳng thức ở phương án D là sai vì ghi dấu '+'."
+    },
+    {
+      "id": 1785808598549,
+      "question": "Cho $\\cos x = \\frac{4}{5}, x \\in (-\\frac{\\pi}{2}; 0)$. Giá trị của $\\sin 2x$ là:",
+      "options": [
+        "$\\frac{24}{25}$",
+        "$-\\frac{24}{25}$",
+        "$-\\frac{1}{5}$",
+        "$\\frac{1}{5}$"
+      ],
+      "correct": 1,
+      "explanation": "1. Vì $x \\in (-\\frac{\\pi}{2}; 0)$ nên $\\sin x < 0$. Ta có $\\sin x = -\\sqrt{1 - (4/5)^2} = -3/5$.\n2. $\\sin 2x = 2\\sin x \\cos x = 2(-\\frac{3}{5})(\\frac{4}{5}) = -\\frac{24}{25}$."
+    },
+    {
+      "id": 1785808598550,
+      "question": "Cho $\\cos \\alpha = \\frac{2}{3}$, tính $\\cos 2\\alpha$.",
+      "options": [
+        "$-\\frac{1}{9}$",
+        "$-\\frac{4}{3}$",
+        "$\\frac{4}{3}$",
+        "$-\\frac{2}{3}$"
+      ],
+      "correct": 0,
+      "explanation": "Ta có $\\cos 2\\alpha = 2\\cos^2 \\alpha - 1 = 2(\\frac{2}{3})^2 - 1 = 2 \\cdot \\frac{4}{9} - 1 = \\frac{8}{9} - 1 = -\\frac{1}{9}$."
+    },
+    {
+      "id": 1785808598551,
+      "question": "Cho $\\sin 2\\alpha = -\\frac{4}{5}$ và $\\frac{3\\pi}{4} < \\alpha < \\pi$. Giá trị của $\\sin \\alpha$ là:",
+      "options": [
+        "$\\frac{2}{5}$",
+        "$\\frac{1}{5}$",
+        "$\\frac{2\\sqrt{5}}{5}$",
+        "$\\frac{\\sqrt{5}}{5}$"
+      ],
+      "correct": 3,
+      "explanation": "1. $\\frac{3\\pi}{4} < \\alpha < \\pi \\Rightarrow \\frac{3\\pi}{2} < 2\\alpha < 2\\pi$. Suy ra $\\cos 2\\alpha > 0$.\n2. $\\cos 2\\alpha = \\sqrt{1 - (-4/5)^2} = 3/5$.\n3. Ta có $\\cos 2\\alpha = 1 - 2\\sin^2 \\alpha \\Rightarrow 2\\sin^2 \\alpha = 1 - 3/5 = 2/5 \\Rightarrow \\sin^2 \\alpha = 1/5$.\n4. Vì $\\frac{3\\pi}{4} < \\alpha < \\pi$ nên $\\sin \\alpha > 0$. Vậy $\\sin \\alpha = \\frac{1}{\\sqrt{5}} = \\frac{\\sqrt{5}}{5}$."
+    },
+    {
+      "id": 1785808598552,
+      "question": "Cho $a, b$ là hai góc nhọn. Biết $\\cos a = \\frac{1}{3}, \\cos b = \\frac{1}{4}$. Giá trị của biểu thức $\\cos(a + b) \\cos(a - b)$ bằng:",
+      "options": [
+        "$-\\frac{119}{144}$",
+        "$-\\frac{115}{144}$",
+        "$-\\frac{113}{144}$",
+        "$-\\frac{117}{144}$"
+      ],
+      "correct": 0,
+      "explanation": "1. $\\sin^2 a = 1 - (1/3)^2 = 8/9, \\sin^2 b = 1 - (1/4)^2 = 15/16$.\n2. Sử dụng công thức: $\\cos(a + b) \\cos(a - b) = \\frac{1}{2}(\\cos 2a + \\cos 2b) = \\frac{1}{2}(2\\cos^2 a - 1 + 2\\cos^2 b - 1) = \\cos^2 a + \\cos^2 b - 1$.\n3. Hoặc: $\\cos(a + b) \\cos(a - b) = \\cos^2 a \\cos^2 b - \\sin^2 a \\sin^2 b = (1/9)(1/16) - (8/9)(15/16) = \\frac{1 - 120}{144} = -\\frac{119}{144}$."
+    }
+  ]
+}

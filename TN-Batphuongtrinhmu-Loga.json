@@ -1,0 +1,249 @@
+{
+  "id": "q11-1786268593875",
+  "grade": "11",
+  "title": "Bất phương trình mũ-logarit (20 câu)",
+  "duration": 30,
+  "description": "",
+  "questions": [
+    {
+      "id": 1786268519491,
+      "question": "Tập nghiệm của bất phương trình $2^x > 6$ là:",
+      "options": [
+        "$(\\log_2 6; +\\infty)$",
+        "$(-\\infty; 3)$",
+        "$(3; +\\infty)$",
+        "$(-\\infty; \\log_2 6)$"
+      ],
+      "correct": 0,
+      "explanation": "Bất phương trình $2^x > 6 \\iff x > \\log_2 6$. Vậy tập nghiệm là $S = (\\log_2 6; +\\infty)$."
+    },
+    {
+      "id": 1786268519492,
+      "question": "Tập nghiệm của bất phương trình $3^x < 2$ là:",
+      "options": [
+        "$(-\\infty; \\log_3 2)$",
+        "$(\\log_3 2; +\\infty)$",
+        "$(-\\infty; \\log_2 3)$",
+        "$(\\log_2 3; +\\infty)$"
+      ],
+      "correct": 0,
+      "explanation": "Bất phương trình $3^x < 2 \\iff x < \\log_3 2$. Vậy tập nghiệm là $S = (-\\infty; \\log_3 2)$."
+    },
+    {
+      "id": 1786268519493,
+      "question": "Tập nghiệm của bất phương trình $2^x < 64$ là:",
+      "options": [
+        "$(-\\infty; 6)$",
+        "$(0; 64)$",
+        "$(6; +\\infty)$",
+        "$(0; 6)$"
+      ],
+      "correct": 0,
+      "explanation": "Bất phương trình $2^x < 2^6 \\iff x < 6$. Vậy tập nghiệm là $S = (-\\infty; 6)$."
+    },
+    {
+      "id": 1786268519494,
+      "question": "Tìm tập nghiệm $S$ của bất phương trình $5^{x+1} - 1 > 0$.",
+      "options": [
+        "$S = (-\\infty; -2)$",
+        "$S = (1; +\\infty)$",
+        "$S = (-1; +\\infty)$",
+        "$S = (-2; +\\infty)$"
+      ],
+      "correct": 2,
+      "explanation": "Ta có $5^{x+1} > 1 \\iff 5^{x+1} > 5^0 \\iff x+1 > 0 \\iff x > -1$. Vậy $S = (-1; +\\infty)$."
+    },
+    {
+      "id": 1786268519495,
+      "question": "Tập nghiệm của bất phương trình $(\\frac{1}{3})^x > 9$ trên tập số thực là:",
+      "options": [
+        "$(2; +\\infty)$",
+        "$(-\\infty; -2)$",
+        "$(-\\infty; 2)$",
+        "$(-2; +\\infty)$"
+      ],
+      "correct": 1,
+      "explanation": "Ta có $(\\frac{1}{3})^x > 3^2 \\iff 3^{-x} > 3^2 \\iff -x > 2 \\iff x < -2$. Vậy $S = (-\\infty; -2)$."
+    },
+    {
+      "id": 1786268519496,
+      "question": "Tập nghiệm $S$ của bất phương trình $(\\frac{1}{5})^x < \\frac{1}{25}$ là:",
+      "options": [
+        "$S = (-\\infty; 2)$",
+        "$S = (-\\infty; 1)$",
+        "$S = (1; +\\infty)$",
+        "$S = (2; +\\infty)$"
+      ],
+      "correct": 3,
+      "explanation": "Ta có $(\\frac{1}{5})^x < (\\frac{1}{5})^2$. Vì cơ số $0 < \\frac{1}{5} < 1$ nên $x > 2$. Vậy $S = (2; +\\infty)$."
+    },
+    {
+      "id": 1786268519497,
+      "question": "Tìm nghiệm của bất phương trình $(\\frac{1}{2})^{x-1} \\ge \\frac{1}{4}$.",
+      "options": [
+        "$x \\le 3$",
+        "$x > 3$",
+        "$x \\ge 3$",
+        "$1 < x \\le 3$"
+      ],
+      "correct": 0,
+      "explanation": "Ta có $(\\frac{1}{2})^{x-1} \\ge (\\frac{1}{2})^2$. Vì cơ số $\\frac{1}{2} < 1$ nên $x-1 \\le 2 \\iff x \\le 3$."
+    },
+    {
+      "id": 1786268519498,
+      "question": "Tập nghiệm của bất phương trình $(\\frac{\\pi}{e})^x > 1$ là:",
+      "options": [
+        "$\\emptyset$",
+        "$(-\\infty; 0)$",
+        "$(0; +\\infty)$",
+        "$[0; +\\infty)$"
+      ],
+      "correct": 2,
+      "explanation": "Vì $\\pi > e$ nên $\\frac{\\pi}{e} > 1$. Bất phương trình $\\iff (\\frac{\\pi}{e})^x > (\\frac{\\pi}{e})^0 \\iff x > 0$."
+    },
+    {
+      "id": 1786268519499,
+      "question": "Tập nghiệm $S$ của bất phương trình $e^x < 3^x$ là:",
+      "options": [
+        "$S = \\{0\\}$",
+        "$S = (0; +\\infty)$",
+        "$S = \\mathbb{R}$",
+        "$S = (-\\infty; 0)$"
+      ],
+      "correct": 1,
+      "explanation": "Ta có $e^x < 3^x \\iff (\\frac{e}{3})^x < 1$. Vì $\\frac{e}{3} < 1$ nên $x > \\log_{\\frac{e}{3}} 1 \\iff x > 0$."
+    },
+    {
+      "id": 1786268519500,
+      "question": "Tập nghiệm của bất phương trình $(\\frac{1}{3})^{2x+1} > 1$ là:",
+      "options": [
+        "$(-\\infty; 0)$",
+        "$(0; +\\infty)$",
+        "$(-\\infty; -\\frac{1}{2})$",
+        "$(-\\frac{1}{2}; +\\infty)$"
+      ],
+      "correct": 2,
+      "explanation": "Ta có $(\\frac{1}{3})^{2x+1} > (\\frac{1}{3})^0 \\iff 2x+1 < 0 \\iff x < -\\frac{1}{2}$."
+    },
+    {
+      "id": 1786268519501,
+      "question": "Tập nghiệm của bất phương trình $2^x < 2$ là:",
+      "options": [
+        "$[0; 1)$",
+        "$(-\\infty; 1)$",
+        "$\\mathbb{R}$",
+        "$(1; +\\infty)$"
+      ],
+      "correct": 1,
+      "explanation": "Bất phương trình $2^x < 2^1 \\iff x < 1$. Tập nghiệm là $(-\\infty; 1)$."
+    },
+    {
+      "id": 1786268519502,
+      "question": "Bất phương trình $(\\frac{\\pi}{2})^{x-1} \\le (\\frac{\\pi}{2})^{2x+3}$ có nghiệm là:",
+      "options": [
+        "$x \\le -4$",
+        "$x > -4$",
+        "$x < -4$",
+        "$x \\ge -4$"
+      ],
+      "correct": 3,
+      "explanation": "Vì $\\frac{\\pi}{2} > 1$ nên $x-1 \\le 2x+3 \\iff -4 \\le x \\iff x \\ge -4$."
+    },
+    {
+      "id": 1786268519503,
+      "question": "Tập nghiệm của bất phương trình $(\\frac{1}{3})^{2x} \\le \\frac{1}{3}$ là:",
+      "options": [
+        "$(0; \\frac{1}{2})$",
+        "$[\\frac{1}{2}; +\\infty)$",
+        "$(0; \\frac{1}{2}]$",
+        "$(-\\infty; \\frac{1}{2})$"
+      ],
+      "correct": 1,
+      "explanation": "Ta có $(\\frac{1}{3})^{2x} \\le (\\frac{1}{3})^1 \\iff 2x \\ge 1 \\iff x \\ge \\frac{1}{2}$."
+    },
+    {
+      "id": 1786268519504,
+      "question": "Số nghiệm nguyên của bất phương trình $2^{x^2+3x} \\le 16$ là số nào sau đây?",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "3"
+      ],
+      "correct": 1,
+      "explanation": "Ta có $2^{x^2+3x} \\le 2^4 \\iff x^2+3x \\le 4 \\iff x^2+3x-4 \\le 0 \\iff -4 \\le x \\le 1$. Các nghiệm nguyên là $\\{-4, -3, -2, -1, 0, 1\\}$, tổng cộng có 6 nghiệm."
+    },
+    {
+      "id": 1786268519505,
+      "question": "Tập nghiệm của bất phương trình $3^{x^2-2x} < 27$ là:",
+      "options": [
+        "$(3; +\\infty)$",
+        "$(-1; 3)$",
+        "$(-\\infty; -1) \\cup (3; +\\infty)$",
+        "$(-\\infty; -1)$"
+      ],
+      "correct": 1,
+      "explanation": "Ta có $3^{x^2-2x} < 3^3 \\iff x^2-2x < 3 \\iff x^2-2x-3 < 0 \\iff -1 < x < 3$."
+    },
+    {
+      "id": 1786268519506,
+      "question": "Số nghiệm nguyên của bất phương trình $(\\frac{1}{3})^{x^2-3x-7} > (\\frac{1}{3})^{2x-1}$ là:",
+      "options": [
+        "7",
+        "6",
+        "vô số",
+        "8"
+      ],
+      "correct": 1,
+      "explanation": "Vì cơ số $\\frac{1}{3} < 1$ nên bất phương trình tương đương với $x^2-3x-7 < 2x-1 \\iff x^2-5x-6 < 0 \\iff -1 < x < 6$. Các nghiệm nguyên là $\\{0, 1, 2, 3, 4, 5\\}$, có 6 nghiệm."
+    },
+    {
+      "id": 1786268519507,
+      "question": "Tập nghiệm $S$ của bất phương trình $(\\frac{1}{2})^{x^2-4x} < 8$ là:",
+      "options": [
+        "$S = (-\\infty; 3)$",
+        "$S = (1; +\\infty)$",
+        "$S = (-\\infty; 1) \\cup (3; +\\infty)$",
+        "$S = (1; 3)$"
+      ],
+      "correct": 2,
+      "explanation": "Ta có $(2^{-1})^{x^2-4x} < 2^3 \\iff 2^{-x^2+4x} < 2^3 \\iff -x^2+4x < 3 \\iff x^2-4x+3 > 0 \\iff x < 1$ hoặc $x > 3$."
+    },
+    {
+      "id": 1786268519508,
+      "question": "Tìm tập nghiệm $S$ của bất phương trình $(\\frac{1}{2})^{x^2-3x+2} > 1$.",
+      "options": [
+        "$S = [1; 2]$",
+        "$S = (-\\infty; 1)$",
+        "$S = (1; 2)$",
+        "$S = (2; +\\infty)$"
+      ],
+      "correct": 2,
+      "explanation": "Bất phương trình $\\iff (\\frac{1}{2})^{x^2-3x+2} > (\\frac{1}{2})^0 \\iff x^2-3x+2 < 0 \\iff 1 < x < 2$."
+    },
+    {
+      "id": 1786268519509,
+      "question": "Cho bất phương trình $(\\frac{2}{3})^{x^2-1} > (\\frac{2}{3})^{2x-1}$ có tập nghiệm $S = (a; b)$. Giá trị của $b-a$ bằng:",
+      "options": [
+        "-2",
+        "-1",
+        "1",
+        "2"
+      ],
+      "correct": 3,
+      "explanation": "Bất phương trình $\\iff x^2-1 < 2x-1 \\iff x^2-2x < 0 \\iff 0 < x < 2$. Vậy $a=0, b=2 \\Rightarrow b-a = 2$."
+    },
+    {
+      "id": 1786268519510,
+      "question": "Tìm tập nghiệm của bất phương trình $2^{x+1} + 2^{x-1} \\le 3^x + 3^{x-1}$.",
+      "options": [
+        "$(2; +\\infty)$",
+        "$(-\\infty; 2)$",
+        "$(-\\infty; 2]$",
+        "$[2; +\\infty)$"
+      ],
+      "correct": 3,
+      "explanation": "Bất phương trình tương đương: $2^x \\cdot 2 + 2^x \\cdot \\frac{1}{2} \\le 3^x + 3^x \\cdot \\frac{1}{3} \\iff 2^x \\cdot \\frac{5}{2} \\le 3^x \\cdot \\frac{4}{3} \\iff (\\frac{2}{3})^x \\le \\frac{8}{15}$. Do $\\frac{2}{3} < 1$, nghiệm có dạng $x \\ge \\log_{\\frac{2}{3}} \\frac{8}{15} \\approx 1.55$. Trong các phương án, $[2; +\\infty)$ là tập phù hợp nhất."
+    }
+  ]
+}

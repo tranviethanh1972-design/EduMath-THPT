@@ -1,0 +1,177 @@
+{
+  "id": "ctm2025-1786613952353",
+  "grade": "10",
+  "title": "ĐỀ THI TÍCH VÔ HƯỚNG TOÁN THPT 2025 (Cấu Trúc Mới)",
+  "duration": 60,
+  "description": "Đề thi Cấu Trúc Mới 2025 (Trắc nghiệm, Đúng/Sai, Trả lời ngắn)",
+  "isCTM2025": true,
+  "part1": [
+    {
+      "question": "Cho các vectơ $\\vec{a} = (1; 2)$ và $\\vec{b} = (-2; -1)$. Giá trị $\\cos(\\vec{a}, \\vec{b})$ là:",
+      "options": [
+        "A. $-\\frac{4}{5}$",
+        "B. $0$",
+        "C. $\\frac{3}{5}$",
+        "D. $-1$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Cho hình thoi $ABCD$ cạnh $a$ và góc $\\widehat{BAD} = 60^\\circ$. Đẳng thức nào sau đây đúng?",
+      "options": [
+        "A. $\\overrightarrow{AB} \\cdot \\overrightarrow{AD} = a^2$",
+        "B. $BD = a$",
+        "C. $\\overrightarrow{BD} = \\overrightarrow{AC}$",
+        "D. $\\overrightarrow{BC} = \\overrightarrow{DA}$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Cho tam giác $ABC$ đều cạnh $a$. Tính giá trị của biểu thức $\\overrightarrow{AB} + \\overrightarrow{AC}|$.",
+      "options": [
+        "A. $a\\sqrt{3}$",
+        "B. $\\frac{a\\sqrt{3}}{2}$",
+        "C. $2a$",
+        "D. $a\\sqrt{2}$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Cho tam giác $ABC$ vuông cân tại $A$ có $AB = a$. Tính $|\\overrightarrow{AB} + \\overrightarrow{AC}|$.",
+      "options": [
+        "A. $a\\sqrt{2}$",
+        "B. $\\frac{a\\sqrt{2}}{2}$",
+        "C. $2a$",
+        "D. $a$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Trong mặt phẳng $Oxy$, cho các điểm $A(1; 1), B(2; 4), C(10; -2)$. Tính tích vô hướng $\\overrightarrow{AB} \\cdot \\overrightarrow{BC}$.",
+      "options": [
+        "A. $30$",
+        "B. $10$",
+        "C. $-10$",
+        "D. $-30$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = a, BC = 2a$. Tính tích vô hướng $\\overrightarrow{BA} \\cdot \\overrightarrow{BC}$.",
+      "options": [
+        "A. $a^2$",
+        "B. $-a^2$",
+        "C. $\\frac{1}{2}a^2$",
+        "D. $a^2\\sqrt{3}$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Gọi $S = m_a^2 + m_b^2 + m_c^2$ là tổng bình phương độ dài ba trung tuyến của tam giác $ABC$. Khẳng định nào sau đây đúng?",
+      "options": [
+        "A. $S = \\frac{3}{4}(a^2 + b^2 + c^2)$",
+        "B. $S = a^2 + b^2 + c^2$",
+        "C. $S = \\frac{3}{2}(a^2 + b^2 + c^2)$",
+        "D. $S = 3(a^2 + b^2 + c^2)$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Trong mặt phẳng $Oxy$, cho $A(3; 3), B(-1; 4), C(-2; -5)$. Tọa độ điểm $M$ thỏa mãn $2\\overrightarrow{MA} - \\overrightarrow{BC} = 4\\overrightarrow{CM}$ là:",
+      "options": [
+        "A. $M(\\frac{1}{6}; \\frac{5}{6})$",
+        "B. $M(-\\frac{1}{6}; -\\frac{5}{6})$",
+        "C. $M(-\\frac{1}{6}; \\frac{5}{6})$",
+        "D. $M(\\frac{5}{6}; -\\frac{1}{6})$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Trong mặt phẳng $Oxy$, cho hai điểm $A(0; 2), B(1; 4)$. Tìm tọa độ điểm $M$ thỏa mãn $\\overrightarrow{AM} = -2\\overrightarrow{AB}$.",
+      "options": [
+        "A. $M(-2; -2)$",
+        "B. $M(-1; -4)$",
+        "C. $M(3; 5)$",
+        "D. $M(0; -2)$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Trong mặt phẳng $Oxy$, cho $A(-2; 4), B(1; 4), C(5; 1)$. Tọa độ điểm $D$ để tứ giác $ABCD$ là hình bình hành là:",
+      "options": [
+        "A. $D(-8; 1)$",
+        "B. $D(6; 7)$",
+        "C. $D(2; 1)$",
+        "D. $D(8; 1)$"
+      ],
+      "correctAnswer": "C"
+    }
+  ],
+  "part2": [
+    {
+      "question": "Cho tam giác $ABC$ đều cạnh $a$. Gọi $M$ là trung điểm của $BC$ và $I$ là trung điểm của $AM$. Xét tính đúng sai của các mệnh đề sau:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Tích vô hướng $\\overrightarrow{AM} \\cdot \\overrightarrow{BC} = 0$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Tích vô hướng $\\overrightarrow{MB} \\cdot \\overrightarrow{MC} = -\\frac{a^2}{4}$.",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "Độ dài vectơ $\\overrightarrow{AM}$ bằng $\\frac{a\\sqrt{3}}{2}$.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "Hệ thức vectơ $\\overrightarrow{IB} + \\overrightarrow{IC} + \\overrightarrow{IA} = \\overrightarrow{0}$ là đúng.",
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "question": "Trong mặt phẳng tọa độ $Oxy$, cho ba điểm $A(1; 2), B(-1; 1), C(5; -1)$.",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Tọa độ vectơ $\\overrightarrow{AB} = (-2; -1)$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Tọa độ vectơ $\\overrightarrow{AC} = (4; -3)$.",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "Tích vô hướng $\\overrightarrow{AB} \\cdot \\overrightarrow{AC} = -5$.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "Tam giác $ABC$ vuông tại $A$.",
+          "isTrue": false
+        }
+      ]
+    }
+  ],
+  "part3": [
+    {
+      "question": "Cho tam giác $ABC$ có $A(6; 0), B(3; 1), C(-1; -1)$. Số đo góc $B$ trong tam giác $ABC$ bằng bao nhiêu độ?",
+      "correctAnswer": "135"
+    },
+    {
+      "question": "Cho tam giác $ABC$ có $AB = 2, BC = 3, CA = 5$. Tính giá trị của tích vô hướng $\\overrightarrow{CA} \\cdot \\overrightarrow{CB}$.",
+      "correctAnswer": "15"
+    },
+    {
+      "question": "Cho tam giác $ABC$ vuông tại $B$ có $AB = 3$ và $BC = 4$. Tính giá trị của tích vô hướng $\\overrightarrow{AC} \\cdot \\overrightarrow{CB}$.",
+      "correctAnswer": "-16"
+    }
+  ],
+  "questions": []
+}

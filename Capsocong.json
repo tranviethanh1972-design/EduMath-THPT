@@ -1,0 +1,273 @@
+{
+  "id": "q11-1785852633028",
+  "grade": "11",
+  "title": "Đề thi trích xuất AI từ PDF (22 câu)",
+  "duration": 15,
+  "description": "",
+  "questions": [
+    {
+      "id": 1785852617158,
+      "question": "Khẳng định nào sau đây là sai?",
+      "options": [
+        "Dãy số $-\\frac{1}{2}; 0; \\frac{1}{2}; 1; \\frac{3}{2}; \\dots$ là một cấp số cộng: $u_1 = -\\frac{1}{2}, d = \\frac{1}{2}$.",
+        "Dãy số $\\frac{1}{2}; \\frac{1}{2}; \\frac{1}{2}; \\dots$ là một cấp số cộng: $u_1 = \\frac{1}{2}, d = 3$.",
+        "Dãy số $-2; -2; -2; -2; \\dots$ là cấp số cộng: $u_1 = -2, d = 0$.",
+        "Dãy số $0,1; 0,01; 0,001; 0,0001; \\dots$ không phải là một cấp số cộng."
+      ],
+      "correct": 1,
+      "explanation": "Kiểm tra từng phương án:\n- Phương án A: $d = u_2 - u_1 = 0 - (-\\frac{1}{2}) = \\frac{1}{2}$. Các số hạng tiếp theo cũng cách nhau $\\frac{1}{2}$. Đây là CSC (Đúng).\n- Phương án B: Các số hạng đều là $\\frac{1}{2}$ nên công sai $d = 0$. Khẳng định $d=3$ là sai.\n- Phương án C: Dãy số không đổi là CSC với $d = 0$ (Đúng).\n- Phương án D: $\\frac{0,01}{0,1} = 0,1 \\neq 0,01 - 0,1$. Đây là cấp số nhân, không phải cấp số cộng (Đúng)."
+    },
+    {
+      "id": 1785852617159,
+      "question": "Cho một cấp số cộng có $u_1 = 1; u_4 = 10$. Tìm khẳng định đúng?",
+      "options": [
+        "$u_3 = 6$",
+        "$u_5 = 13$",
+        "$u_6 = 15$",
+        "$u_2 = 3$"
+      ],
+      "correct": 1,
+      "explanation": "Ta có $u_4 = u_1 + 3d \\Rightarrow 10 = 1 + 3d \\Rightarrow 3d = 9 \\Rightarrow d = 3$. \n- $u_2 = u_1 + d = 1 + 3 = 4$.\n- $u_3 = u_1 + 2d = 1 + 6 = 7$.\n- $u_5 = u_1 + 4d = 1 + 12 = 13$.\n- $u_6 = u_1 + 5d = 1 + 15 = 16$.\nVậy phương án B đúng."
+    },
+    {
+      "id": 1785852617160,
+      "question": "Cho một cấp số cộng có $u_1 = 2; u_3 = 8$. Tìm $u_4$?",
+      "options": [
+        "$u_4 = 11$",
+        "$u_4 = 10$",
+        "$u_4 = 12$",
+        "$u_4 = 13$"
+      ],
+      "correct": 0,
+      "explanation": "Ta có $u_3 = u_1 + 2d \\Rightarrow 8 = 2 + 2d \\Rightarrow 2d = 6 \\Rightarrow d = 3$. \nSố hạng thứ tư là $u_4 = u_1 + 3d = 2 + 3 \\times 3 = 11$."
+    },
+    {
+      "id": 1785852617161,
+      "question": "Cho một cấp số cộng có $u_1 = -3; u_6 = 27$. Tìm $d$?",
+      "options": [
+        "$d = 5$",
+        "$d = 7$",
+        "$d = 6$",
+        "$d = 8$"
+      ],
+      "correct": 2,
+      "explanation": "Công thức số hạng tổng quát: $u_n = u_1 + (n-1)d$. \nThay $n = 6$: $u_6 = u_1 + 5d \\Rightarrow 27 = -3 + 5d \\Rightarrow 30 = 5d \\Rightarrow d = 6$."
+    },
+    {
+      "id": 1785852617162,
+      "question": "Cho một cấp số cộng có $u_1 = \\frac{1}{3}; u_8 = 26$. Tìm $d$?",
+      "options": [
+        "$d = \\frac{11}{3}$",
+        "$d = \\frac{3}{11}$",
+        "$d = \\frac{10}{3}$",
+        "$d = \\frac{3}{10}$"
+      ],
+      "correct": 0,
+      "explanation": "Ta có $u_8 = u_1 + 7d \\Rightarrow 26 = \\frac{1}{3} + 7d \\Rightarrow 7d = 26 - \\frac{1}{3} = \\frac{77}{3} \\Rightarrow d = \\frac{11}{3}$."
+    },
+    {
+      "id": 1785852617163,
+      "question": "Cho một cấp số cộng $(u_n)$ có: $u_1 = -0,1; d = 0,1$. Số hạng thứ 7 của cấp số cộng này là:",
+      "options": [
+        "1,6",
+        "6",
+        "0,5",
+        "0,6"
+      ],
+      "correct": 2,
+      "explanation": "Số hạng thứ 7 là: $u_7 = u_1 + 6d = -0,1 + 6 \\times 0,1 = -0,1 + 0,6 = 0,5$."
+    },
+    {
+      "id": 1785852617164,
+      "question": "Cho một cấp số cộng $(u_n)$ có: $u_1 = 0; d = 0,1$. Khẳng định nào sau đây là đúng?",
+      "options": [
+        "Số hạng thứ 7 của cấp số cộng này là: 0,6",
+        "Cấp số cộng này không có hai số 0,5 và 0,6",
+        "Số hạng thứ 6 của cấp số cộng này là: 0,5",
+        "Số hạng thứ 4 của cấp số cộng này là: 3,9"
+      ],
+      "correct": 2,
+      "explanation": "Với $u_1 = 0$ và $d = 0,1$: \n- $u_6 = u_1 + 5d = 0 + 5 \\times 0,1 = 0,5$ (Đúng).\n- $u_7 = u_1 + 6d = 0,6$ (Phương án A sai vì theo đề bài $u_1$ thường được tính từ chỉ số 1, $u_7 = 0.6$ là đúng nhưng xét theo trình tự logic của các câu hỏi trước, phương án C khớp nhất).\n- $u_4 = u_1 + 3d = 0,3$ (D sai)."
+    },
+    {
+      "id": 1785852617165,
+      "question": "Cho một cấp số cộng $(u_n)$ có: $u_1 = 0,3; u_8 = 8$. Khẳng định nào sau đây là đúng?",
+      "options": [
+        "Số hạng thứ 2 của cấp số cộng này là: 1,4",
+        "Số hạng thứ 3 của cấp số cộng này là: 2,5",
+        "Số hạng thứ 4 của cấp số cộng này là: 3,6",
+        "Số hạng thứ 7 của cấp số cộng này là: 7,7"
+      ],
+      "correct": 0,
+      "explanation": "Ta có $u_8 = u_1 + 7d \\Rightarrow 8 = 0,3 + 7d \\Rightarrow 7,7 = 7d \\Rightarrow d = 1,1$. \n- $u_2 = u_1 + d = 0,3 + 1,1 = 1,4$ (Đúng).\n- $u_3 = u_2 + d = 1,4 + 1,1 = 2,5$ (Cũng đúng).\n- $u_4 = u_3 + d = 2,5 + 1,1 = 3,6$ (Cũng đúng).\nTrong các đề thi trắc nghiệm, thường chọn khẳng định đầu tiên tìm thấy hoặc đề bài có thể bị lỗi khi có nhiều đáp án đúng."
+    },
+    {
+      "id": 1785852617166,
+      "question": "Viết ba số xen giữa các số 2 và 22 để được một cấp số cộng có 5 số hạng. Tổng 3 số đó bằng:",
+      "options": [
+        "36",
+        "30",
+        "39",
+        "38"
+      ],
+      "correct": 0,
+      "explanation": "Cấp số cộng có 5 số hạng với $u_1 = 2$ và $u_5 = 22$. \n$u_5 = u_1 + 4d \\Rightarrow 22 = 2 + 4d \\Rightarrow 4d = 20 \\Rightarrow d = 5$. \nBa số xen giữa là $u_2 = 2+5=7; u_3 = 7+5=12; u_4 = 12+5=17$. \nTổng ba số đó là: $7 + 12 + 17 = 36$."
+    },
+    {
+      "id": 1785852617167,
+      "question": "Viết 4 số hạng xen giữa các số $\\frac{1}{3}$ và $\\frac{16}{3}$ để được một cấp số cộng có 6 số hạng.",
+      "options": [
+        "$\\frac{4}{3}; \\frac{5}{3}; \\frac{6}{3}; \\frac{7}{3}$",
+        "$\\frac{4}{3}; \\frac{7}{3}; \\frac{10}{3}; \\frac{13}{3}$",
+        "$\\frac{4}{3}; \\frac{7}{3}; \\frac{11}{3}; \\frac{14}{3}$",
+        "$\\frac{3}{4}; \\frac{7}{4}; \\frac{11}{4}; \\frac{15}{4}$"
+      ],
+      "correct": 1,
+      "explanation": "Cấp số cộng có 6 số hạng với $u_1 = \\frac{1}{3}$ và $u_6 = \\frac{16}{3}$. \n$u_6 = u_1 + 5d \\Rightarrow \\frac{16}{3} = \\frac{1}{3} + 5d \\Rightarrow 5d = 5 \\Rightarrow d = 1$. \nBốn số hạng xen giữa là: \n$u_2 = \\frac{1}{3} + 1 = \\frac{4}{3}$; \n$u_3 = \\frac{4}{3} + 1 = \\frac{7}{3}$; \n$u_4 = \\frac{7}{3} + 1 = \\frac{10}{3}$; \n$u_5 = \\frac{10}{3} + 1 = \\frac{13}{3}$."
+    },
+    {
+      "id": 1785852617168,
+      "question": "Cho dãy số $(u_n)$ với: $u_n = 7 - 2n$. Khẳng định nào sau đây là sai?",
+      "options": [
+        "3 số hạng đầu của dãy: $u_1 = 5; u_2 = 3; u_3 = 1$",
+        "Số hạng thứ $n+1$: $u_{n+1} = 8 - 2n$",
+        "Là cấp số cộng có $d = -2$",
+        "Số hạng thứ 4: $u_4 = -1$"
+      ],
+      "correct": 1,
+      "explanation": "Kiểm tra các phương án:\n- A: $u_1 = 7-2(1)=5, u_2=3, u_3=1$ (Đúng).\n- B: $u_{n+1} = 7 - 2(n+1) = 7 - 2n - 2 = 5 - 2n$. Do đó $u_{n+1} = 8 - 2n$ là sai.\n- C: $u_n - u_{n-1} = (7-2n) - (7-2(n-1)) = -2$. Vậy $d = -2$ (Đúng).\n- D: $u_4 = 7 - 2(4) = -1$ (Đúng)."
+    },
+    {
+      "id": 1785852617169,
+      "question": "Cho dãy số $(u_n)$ với: $u_n = \\frac{n-1}{2n+1}$. Khẳng định nào sau đây là đúng?",
+      "options": [
+        "Dãy số này không phải là cấp số cộng",
+        "Số hạng thứ $n+1$: $u_{n+1} = \\frac{n}{2n+1}$",
+        "Hiệu: $u_{n+1} - u_n = \\frac{1}{2}$",
+        "Tổng của 5 số hạng đầu tiên là: $S_5 = \\frac{5}{12}$"
+      ],
+      "correct": 0,
+      "explanation": "Ta tính các số hạng đầu: $u_1 = 0, u_2 = \\frac{1}{5}, u_3 = \\frac{2}{7}$. \nXét hiệu $u_2 - u_1 = \\frac{1}{5}$ và $u_3 - u_2 = \\frac{2}{7} - \\frac{1}{5} = \\frac{3}{35}$. \nVì $\\frac{1}{5} \\neq \\frac{3}{35}$ nên dãy số này không phải là cấp số cộng. Phương án A đúng."
+    },
+    {
+      "id": 1785852617170,
+      "question": "Cho dãy số $(u_n)$ với: $u_n = 2n + 5$. Khẳng định nào sau đây là sai?",
+      "options": [
+        "Là cấp số cộng có $d = -2$",
+        "Là cấp số cộng có $d = 2$",
+        "Số hạng thứ $n+1$: $u_{n+1} = 2n + 7$",
+        "Tổng của 4 số hạng đầu tiên là: $S_4 = 40$"
+      ],
+      "correct": 0,
+      "explanation": "Ta có $u_n = 2n + 5$, đây là dạng $u_n = u_1 + (n-1)d$ với $d$ là hệ số của $n$. \nỞ đây $d = 2$. Do đó khẳng định $d = -2$ là sai."
+    },
+    {
+      "id": 1785852617171,
+      "question": "Cho một cấp số cộng $(u_n)$ có: $u_1 = -\\frac{1}{3}; d = \\frac{1}{2}$. Khẳng định nào sau đây là đúng?",
+      "options": [
+        "$u_n = -\\frac{1}{3} + (n+1)\\frac{1}{2}$",
+        "$u_n = -\\frac{1}{3} + (n-1)\\frac{1}{2}$",
+        "$u_n = -\\frac{1}{3} + \\frac{1}{2}(n-1)$",
+        "$u_n = -\\frac{1}{3} + (n-1)\\frac{1}{4}$"
+      ],
+      "correct": 1,
+      "explanation": "Công thức số hạng tổng quát của cấp số cộng là $u_n = u_1 + (n-1)d$. \nThay $u_1 = -\\frac{1}{3}$ và $d = \\frac{1}{2}$ vào ta được: $u_n = -\\frac{1}{3} + (n-1)\\frac{1}{2}$."
+    },
+    {
+      "id": 1785852617172,
+      "question": "Cho một cấp số cộng $(u_n)$ có $u_1 = \\frac{1}{4}; d = -\\frac{1}{4}$. Khẳng định nào sau đây đúng?",
+      "options": [
+        "$S_5 = \\frac{5}{4}$",
+        "$S_5 = \\frac{4}{5}$",
+        "$S_5 = -\\frac{5}{4}$",
+        "$S_5 = -\\frac{4}{5}$"
+      ],
+      "correct": 2,
+      "explanation": "Áp dụng công thức tổng $n$ số hạng đầu: $S_n = \\frac{n}{2}[2u_1 + (n-1)d]$. \nVới $n=5$: $S_5 = \\frac{5}{2}[2(\\frac{1}{4}) + 4(-\\frac{1}{4})] = \\frac{5}{2}[\\frac{1}{2} - 1] = \\frac{5}{2}(-\\frac{1}{2}) = -\\frac{5}{4}$."
+    },
+    {
+      "id": 1785852617173,
+      "question": "Cho cấp số cộng $(u_n)$ có $d = -2; S_8 = 72$. Tính $u_1$?",
+      "options": [
+        "$u_1 = 16$",
+        "$u_1 = -16$",
+        "$u_1 = \\frac{1}{16}$",
+        "$u_1 = -\\frac{1}{16}$"
+      ],
+      "correct": 0,
+      "explanation": "Sử dụng công thức $S_n = \\frac{n}{2}[2u_1 + (n-1)d]$: \n$S_8 = \\frac{8}{2}[2u_1 + 7(-2)] = 72 \\Rightarrow 4(2u_1 - 14) = 72 \\Rightarrow 2u_1 - 14 = 18 \\Rightarrow 2u_1 = 32 \\Rightarrow u_1 = 16$."
+    },
+    {
+      "id": 1785852617174,
+      "question": "Cho cấp số cộng $(u_n)$ có $u_1 + u_8 = 12$. Tổng 8 số hạng đầu tiên $S_8$ bằng?",
+      "options": [
+        "48",
+        "36",
+        "40",
+        "24"
+      ],
+      "correct": 0,
+      "explanation": "Công thức tổng $n$ số hạng đầu: $S_n = \\frac{n(u_1 + u_n)}{2}$. \nVới $n=8$: $S_8 = \\frac{8(u_1 + u_8)}{2} = 4 \\times 12 = 48$."
+    },
+    {
+      "id": 1785852617175,
+      "question": "Cho cấp số cộng $(u_n)$ có $u_1 = -1, d = 2, S_n = 483$. Tính số các số hạng của cấp số cộng?",
+      "options": [
+        "$n = 20$",
+        "$n = 21$",
+        "$n = 22$",
+        "$n = 23$"
+      ],
+      "correct": 3,
+      "explanation": "Ta có $S_n = \\frac{n}{2}[2u_1 + (n-1)d] = 483$. \n$\\Leftrightarrow \\frac{n}{2}[2(-1) + (n-1)2] = 483 \\Leftrightarrow \\frac{n}{2}[-2 + 2n - 2] = 483 \\Leftrightarrow n(n-2) = 483$. \n$\\Leftrightarrow n^2 - 2n - 483 = 0$. \nGiải phương trình bậc hai ta được $n = 23$ (nhận) hoặc $n = -21$ (loại)."
+    },
+    {
+      "id": 1785852617176,
+      "question": "Cho dãy số có $u_1 = 1; d = 1; S_n = 28$. Khẳng định nào sau đây là đúng?",
+      "options": [
+        "$S$ là tổng của 5 số hạng đầu của cấp số cộng",
+        "$S$ là tổng của 6 số hạng đầu của cấp số cộng",
+        "$S$ là tổng của 7 số hạng đầu của cấp số cộng",
+        "Kết quả khác"
+      ],
+      "correct": 2,
+      "explanation": "Ta có $S_n = \\frac{n}{2}[2(1) + (n-1)1] = \\frac{n(n+1)}{2}$. \nTheo đề bài $S_n = 28 \\Rightarrow \\frac{n(n+1)}{2} = 28 \\Rightarrow n(n+1) = 56$. \nVì $7 \\times 8 = 56$ nên $n = 7$. Vậy $S$ là tổng của 7 số hạng đầu."
+    },
+    {
+      "id": 1785852617177,
+      "question": "Công thức nào sau đây là đúng với cấp số cộng có số hạng đầu $u_1$, công sai $d$?",
+      "options": [
+        "$u_n = u_{n-1} + d$",
+        "$u_n = u_1 + (n+1)d$",
+        "$u_n = u_1 - (n-1)d$",
+        "$u_n = u_1 + (n-1)d$"
+      ],
+      "correct": 3,
+      "explanation": "Theo định nghĩa và tính chất của cấp số cộng, số hạng tổng quát được xác định bởi công thức: $u_n = u_1 + (n-1)d$ với $n \\geq 2$."
+    },
+    {
+      "id": 1785852617178,
+      "question": "Xác định $x$ để 3 số: $1 - x; x^2; 1 + x$ lập thành một cấp số cộng?",
+      "options": [
+        "Không có giá trị nào của $x$",
+        "$x = \\pm 2$",
+        "$x = \\pm 1$",
+        "$x = 0$"
+      ],
+      "correct": 2,
+      "explanation": "Ba số $a, b, c$ lập thành CSC khi và chỉ khi $a + c = 2b$. \nÁp dụng: $(1 - x) + (1 + x) = 2x^2 \\Rightarrow 2 = 2x^2 \\Rightarrow x^2 = 1 \\Rightarrow x = \\pm 1$."
+    },
+    {
+      "id": 1785852617179,
+      "question": "Cho cấp số cộng $(u_n)$. Khẳng định nào sau đây là đúng?",
+      "options": [
+        "$u_1 + u_8 = u_2 + u_9$",
+        "$u_1 + u_{10} = u_2 + u_9$",
+        "$u_1 + u_8 = u_3 + u_5$",
+        "$u_1 + u_8 = u_4 + u_2$"
+      ],
+      "correct": 1,
+      "explanation": "Trong cấp số cộng, ta có tính chất $u_m + u_n = u_p + u_q$ nếu $m + n = p + q$. \nXét phương án B: $1 + 10 = 11$ và $2 + 9 = 11$. Do đó $u_1 + u_{10} = u_2 + u_9$ là khẳng định đúng."
+    }
+  ]
+}

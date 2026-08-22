@@ -1,0 +1,177 @@
+{
+  "id": "ctm2025-1787310808683",
+  "grade": "10",
+  "title": "ĐỀ THI TIẾP TUYẾN ĐƯỜNG TRÒN TOÁN THPT 2025 (Cấu Trúc Mới)",
+  "duration": 60,
+  "description": "Đề thi Cấu Trúc Mới 2025 (Trắc nghiệm, Đúng/Sai, Trả lời ngắn)",
+  "isCTM2025": true,
+  "part1": [
+    {
+      "question": "Phương trình tiếp tuyến của đường tròn $(C): (x-6)^2 + (y-4)^2 = 25$ tại điểm $M(2; 1)$ là:",
+      "options": [
+        "$4x + 3y + 11 = 0$",
+        "$3x + 4y - 14 = 0$",
+        "$3x - 4y - 2 = 0$",
+        "$4x + 3y - 11 = 0$"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Số tiếp tuyến của đường tròn $(C): (x-1)^2 + (y-2)^2 = 8$ đi qua điểm $O(0; 0)$ là:",
+      "options": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "$3$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Phương trình tiếp tuyến của đường tròn $(C): (x-3)^2 + (y-1)^2 = 5$ biết tiếp tuyến song song với đường thẳng $d: 2x - y + 7 = 0$ là:",
+      "options": [
+        "$2x - y = 0$ hoặc $2x - y - 10 = 0$",
+        "$2x - y + 10 = 0$ hoặc $2x - y + 1 = 0$",
+        "$2x - y - 10 = 0$ hoặc $2x - y + 10 = 0$",
+        "$2x - y = 0$ hoặc $2x - y + 10 = 0$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Viết phương trình tiếp tuyến của đường tròn $(C): x^2 + y^2 - 4x - 4y - 17 = 0$, biết tiếp tuyến song song với đường thẳng $d: 3x - 4y + 2018 = 0$.",
+      "options": [
+        "$3x - 4y + 23 = 0$ hoặc $3x - 4y - 27 = 0$",
+        "$3x - 4y - 23 = 0$ hoặc $3x - 4y + 27 = 0$",
+        "$3x - 4y + 23 = 0$ hoặc $3x - 4y + 27 = 0$",
+        "$3x - 4y - 23 = 0$ hoặc $3x - 4y - 27 = 0$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Đường thẳng nào sau đây tiếp xúc với đường tròn $(C): x^2 + y^2 = 25$?",
+      "options": [
+        "$4x - 3y + 5 = 0$",
+        "$4x + 3y + 25 = 0$",
+        "$4x + 3y + 3 = 0$",
+        "$4x + 3y - 21 = 0$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Viết phương trình tiếp tuyến của đường tròn $(C): x^2 + y^2 - 4x - 4y + 4 = 0$, biết tiếp tuyến vuông góc với trục hoành.",
+      "options": [
+        "$x = 0$",
+        "$y = 0$ hoặc $y = 4$",
+        "$x = 0$ hoặc $x = 4$",
+        "$y = 0$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Đường tròn $(C)$ có tâm $I(2; -3)$ và tiếp xúc với trục $Oy$ có phương trình là:",
+      "options": [
+        "$(x - 2)^2 + (y + 3)^2 = 4$",
+        "$(x - 2)^2 + (y + 3)^2 = 9$",
+        "$(x + 2)^2 + (y - 3)^2 = 4$",
+        "$(x - 2)^2 + (y - 3)^2 = 4$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Đường tròn $(C)$ có tâm $I(2; 1)$ và tiếp xúc với đường thẳng $\\Delta: 3x - 4y - 7 = 0$ có phương trình là:",
+      "options": [
+        "$(x - 2)^2 + (y - 1)^2 = 1.96$",
+        "$(x - 2)^2 + (y - 1)^2 = 1$",
+        "$(x + 2)^2 + (y + 1)^2 = 1$",
+        "$(x - 2)^2 + (y - 1)^2 = 4$"
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Đường tròn $(C)$ đi qua hai điểm $A(1; 1)$, $B(3; 5)$ và có tâm $I$ thuộc trục tung có phương trình là:",
+      "options": [
+        "$x^2 + y^2 - 4y + 6 = 0$",
+        "$x^2 + y^2 - 4x - 6 = 0$",
+        "$x^2 + y^2 - 8y - 6 = 0$",
+        "$x^2 + y^2 - 8y + 6 = 0$"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Đường tròn $(C)$ có tâm $A(1; -2)$ và cắt đường thẳng $d: x - y + 1 = 0$ tại hai điểm $M, N$ sao cho $MN = 2\\sqrt{10}$. Phương trình của đường tròn $(C)$ là:",
+      "options": [
+        "$(x - 1)^2 + (y + 2)^2 = 18$",
+        "$(x - 1)^2 + (y + 2)^2 = 20$",
+        "$(x - 1)^2 + (y + 2)^2 = 13$",
+        "$(x - 1)^2 + (y + 2)^2 = 8$"
+      ],
+      "correctAnswer": "A"
+    }
+  ],
+  "part2": [
+    {
+      "question": "Cho đường tròn $(C)$ có tâm $I$ thuộc đường thẳng $d: 5x - y - 12 = 0$ và tiếp xúc với hai trục tọa độ $Ox, Oy$.",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Có đúng hai đường tròn thỏa mãn các điều kiện đã cho.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Cả hai đường tròn đều có tâm nằm trong góc phần tư thứ nhất.",
+          "isTrue": false
+        },
+        {
+          "label": "c",
+          "text": "Một trong hai đường tròn có bán kính bằng $3$.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "Tổng bán kính của tất cả các đường tròn thỏa mãn bằng $5$.",
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "question": "Xét đường tròn $(C)$ có phương trình $x^2 + y^2 - 4x - 4y + 4 = 0$.",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Đường tròn $(C)$ có tâm $I(2; 2)$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Bán kính của đường tròn $(C)$ là $R = 4$.",
+          "isTrue": false
+        },
+        {
+          "label": "c",
+          "text": "Đường tròn $(C)$ tiếp xúc với cả hai trục tọa độ $Ox$ và $Oy$.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "Đường thẳng $x + y = 0$ là một tiếp tuyến của đường tròn $(C)$.",
+          "isTrue": false
+        }
+      ]
+    }
+  ],
+  "part3": [
+    {
+      "question": "Có bao nhiêu tiếp tuyến của đường tròn $(C): x^2 + y^2 - 2x - 4y - 6 = 0$ đi qua điểm $M(1; 2)$?",
+      "correctAnswer": "0"
+    },
+    {
+      "question": "Tìm giá trị dương của tham số $m$ để đường thẳng $d: 3x + 4y + m = 0$ tiếp xúc với đường tròn $(C): x^2 + y^2 = 100$.",
+      "correctAnswer": "50"
+    },
+    {
+      "question": "Cho đường tròn $(C)$ đi qua hai điểm $A(1; 1)$, $B(3; 5)$ và có tâm $I$ thuộc trục tung. Tìm tung độ của tâm $I$.",
+      "correctAnswer": "4"
+    }
+  ],
+  "questions": []
+}

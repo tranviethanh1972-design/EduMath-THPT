@@ -1,0 +1,177 @@
+{
+  "id": "ctm2025-1786315029368",
+  "grade": "10",
+  "title": "ĐỀ THI DẤU TAM THỨC BẬC 2 TOÁN THPT 2025 (Cấu Trúc Mới)",
+  "duration": 45,
+  "description": "Đề thi Cấu Trúc Mới 2025 (Trắc nghiệm, Đúng/Sai, Trả lời ngắn)",
+  "isCTM2025": true,
+  "part1": [
+    {
+      "question": "Biểu thức nào sau đây là tam thức bậc hai?",
+      "options": [
+        "A. $y = 2x^2 - \\sqrt{x}$",
+        "B. $y = \\frac{x^2 - 1}{x}$",
+        "C. $y = 3x^3 + 2x^2 - 1$",
+        "D. $y = 3x^2 + 2x - 5$"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Cho tam thức $f(x) = ax^2 + bx + c$ ($a \\neq 0$), $\\Delta = b^2 - 4ac$. Ta có $f(x) \\leq 0$ với mọi $x \\in \\mathbb{R}$ khi và chỉ khi:",
+      "options": [
+        "A. $\\begin{cases} a < 0 \\\\ \\Delta \\leq 0 \\end{cases}$",
+        "B. $\\begin{cases} a \\leq 0 \\\\ \\Delta < 0 \\end{cases}$",
+        "C. $\\begin{cases} a < 0 \\\\ \\Delta \\geq 0 \\end{cases}$",
+        "D. $\\begin{cases} a > 0 \\\\ \\Delta \\leq 0 \\end{cases}$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Cho tam thức bậc hai $f(x) = -2x^2 + 8x - 8$. Khẳng định nào sau đây đúng?",
+      "options": [
+        "A. $f(x) < 0$ với mọi $x \\in \\mathbb{R}$",
+        "B. $f(x) \\geq 0$ với mọi $x \\in \\mathbb{R}$",
+        "C. $f(x) \\leq 0$ với mọi $x \\in \\mathbb{R}$",
+        "D. $f(x) > 0$ với mọi $x \\in \\mathbb{R}$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Tam thức nào dưới đây luôn âm với mọi giá trị của $x$?",
+      "options": [
+        "A. $x^2 - 10x + 3$",
+        "B. $x^2 - 3x - 10$",
+        "C. $-x^2 + 2x - 10$",
+        "D. $-x^2 + 3x - 10$"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Tập xác định của hàm số $y = \\sqrt{2x^2 - 5x + 2}$ là:",
+      "options": [
+        "A. $[2; +\\infty)$",
+        "B. $(-\\infty; \\frac{1}{2}]$",
+        "C. $[\\frac{1}{2}; 2]$",
+        "D. $(-\\infty; \\frac{1}{2}] \\cup [2; +\\infty)$"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Tam thức nào dưới đây luôn dương với mọi giá trị của $x$?",
+      "options": [
+        "A. $-x^2 + 10x - 2$",
+        "B. $-x^2 - 2x - 10$",
+        "C. $x^2 - 2x + 10$",
+        "D. $x^2 + 2x - 10$"
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Tam thức $f(x) = (m-2)x^2 - 2mx + m - 1$ nhận giá trị âm với mọi $x$ khi và chỉ khi:",
+      "options": [
+        "A. $m < \\frac{2}{3}$",
+        "B. $m < 2$",
+        "C. $m \\leq \\frac{2}{3}$",
+        "D. $m > 2$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Cho tam thức bậc hai $f(x) = x^2 - 2x - 3$. Tìm tập nghiệm của bất phương trình $f(x) > 0$.",
+      "options": [
+        "A. $(-\\infty; -1) \\cup (3; +\\infty)$",
+        "B. $(-1; 3)$",
+        "C. $(-\\infty; 1) \\cup (2; +\\infty)$",
+        "D. $(1; 2)$"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Số nghiệm nguyên của bất phương trình $x^2 - 9x - 10 \\leq 0$ là:",
+      "options": [
+        "A. 10",
+        "B. 13",
+        "C. 11",
+        "D. 12"
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "question": "Cho $f(x) = ax^2 + bx + c$ ($a \\neq 0$) có đồ thị là một parabol có bề lõm hướng lên, cắt trục tung tại điểm có tung độ dương và có đỉnh nằm bên phải trục tung. Khẳng định nào sau đây đúng?",
+      "options": [
+        "A. $a > 0, b < 0, c > 0$",
+        "B. $a < 0, b < 0, c > 0$",
+        "C. $a > 0, b > 0, c > 0$",
+        "D. $a > 0, b < 0, c < 0$"
+      ],
+      "correctAnswer": "A"
+    }
+  ],
+  "part2": [
+    {
+      "question": "Cho biểu thức $f(x) = (m-2)x^2 - 2(m-1)x + 3$. Xét tính đúng/sai của các mệnh đề sau:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "$f(x)$ là tam thức bậc hai khi $m \\neq 2$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Khi $m = 3$, $f(x) < 0 \\Leftrightarrow x \\in (1; 3)$.",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "Khi $m = 3$, $f(x) \\geq 0 \\Leftrightarrow x \\in (-\\infty; 1] \\cup [3; +\\infty)$.",
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "text": "$f(x) < 0$ với mọi $x \\in \\mathbb{R}$ khi và chỉ khi $m < 2$ và $\\Delta < 0$.",
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "question": "Cho tam thức bậc hai $f(x)$ có đồ thị là một parabol có đỉnh $S(2; 2)$ và đi qua điểm $A(1; 0)$. Xét tính đúng/sai của các mệnh đề sau:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Tam thức bậc hai $f(x)$ có $\\Delta > 0$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Tam thức bậc hai $f(x)$ có hai nghiệm phân biệt là $x_1 = 1$ và $x_2 = 3$.",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "Bất phương trình $f(x) \\geq 0$ có tập nghiệm là $(1; 3)$.",
+          "isTrue": false
+        },
+        {
+          "label": "d",
+          "text": "Bất phương trình $f(x) < 2$ có tập nghiệm là $\\mathbb{R}$.",
+          "isTrue": false
+        }
+      ]
+    }
+  ],
+  "part3": [
+    {
+      "question": "Số nghiệm nguyên của bất phương trình $2x^2 - 3x - 15 \\leq 0$ là bao nhiêu?",
+      "correctAnswer": "6"
+    },
+    {
+      "question": "Có bao nhiêu giá trị nguyên của tham số $m$ để tam thức $f(x) = x^2 + (m+2)x + m + 3$ luôn dương với mọi $x \\in \\mathbb{R}$?",
+      "correctAnswer": "5"
+    },
+    {
+      "question": "Có bao nhiêu giá trị nguyên của tham số $m$ thuộc đoạn $[-2025; 2025]$ để phương trình $(m^2+1)x^2 - 2(2m-1)x + 1 = 0$ có nghiệm?",
+      "correctAnswer": "4050"
+    }
+  ],
+  "questions": []
+}

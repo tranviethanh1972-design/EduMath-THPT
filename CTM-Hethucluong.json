@@ -1,0 +1,177 @@
+{
+  "id": "ctm2025-1786295050753",
+  "grade": "10",
+  "title": "ĐỀ THI HỆ THỨC LƯỢNG  TOÁN THPT 2025 (Cấu Trúc Mới)",
+  "duration": 45,
+  "description": "Đề thi Cấu Trúc Mới 2025 (Trắc nghiệm, Đúng/Sai, Trả lời ngắn)",
+  "isCTM2025": true,
+  "part1": [
+    {
+      "question": "Cho tam giác $ABC$ có các cạnh $a, b, c$ lần lượt đối diện với các góc $A, B, C$. Diện tích $S$ của tam giác $ABC$ được tính theo công thức nào sau đây?",
+      "options": [
+        " $S = \\frac{1}{2}ac \\sin C $",
+        " $S = \\frac{1}{2}bc \\sin B $",
+        " $S = \\frac{1}{2}ac \\sin B $",
+        " $S = \\frac{1}{2}bc \\sin C $"
+      ],
+      "correctAnswer": "S = \\frac{1}{2}ac \\sin B"
+    },
+    {
+      "question": "Cho tam giác $ABC$ có $a=8, b=10$ và góc $C = 60^\\circ$. Độ dài cạnh $c$ là:",
+      "options": [
+        " $c = 3\\sqrt{21} $",
+        " $c = 7\\sqrt{2} $",
+        " $c = 2\\sqrt{11} $",
+        " $c = 2\\sqrt{21} $"
+      ],
+      "correctAnswer": "c = 2\\sqrt{21}"
+    },
+    {
+      "question": "Cho tam giác $ABC$ có $AB=2, AC=1$ và góc $A = 60^\\circ$. Tính độ dài cạnh $BC$.",
+      "options": [
+        "BC = 2",
+        "BC = 1",
+        " $BC = \\sqrt{3} $",
+        " $BC = \\sqrt{2} $"
+      ],
+      "correctAnswer": "BC = \\sqrt{3}"
+    },
+    {
+      "question": "Cho tam giác $ABC$ có $a=8, c=3$ và góc $B = 60^\\circ$. Độ dài cạnh $b$ bằng bao nhiêu?",
+      "options": [
+        " $b = \\sqrt{49} $",
+        "b = 97",
+        "b = 7",
+        "b = 61"
+      ],
+      "correctAnswer": "b = 7"
+    },
+    {
+      "question": "Cho tam giác $ABC$ có $AB=4 \\text{ cm}, BC=7 \\text{ cm}, AC=9 \\text{ cm}$. Tính $\\cos A$.",
+      "options": [
+        " $\\cos A = -\\frac{2}{3} $",
+        " $\\cos A = \\frac{1}{2} $",
+        " $\\cos A = \\frac{1}{3} $",
+        " $\\cos A = \\frac{2}{3} $"
+      ],
+      "correctAnswer": "\\cos A = \\frac{2}{3}"
+    },
+    {
+      "question": "Cho tam giác $ABC$ có $AB=9 \\text{ cm}, BC=15 \\text{ cm}, AC=12 \\text{ cm}$. Tính độ dài đường trung tuyến $AM$ của tam giác.",
+      "options": [
+        " $10 \\text{ cm} $",
+        " $9 \\text{ cm} $",
+        " $7,5 \\text{ cm} $",
+        " $8 \\text{ cm} $"
+      ],
+      "correctAnswer": "7,5 \\text{ cm}"
+    },
+    {
+      "question": "Cho tam giác $ABC$ bất kỳ có $BC=a, AC=b, AB=c$. Đẳng thức nào sau đây là sai?",
+      "options": [
+        " $b^2 = a^2 + c^2 - 2ac \\cos B $",
+        " $a^2 = b^2 + c^2 - 2bc \\cos A $",
+        " $c^2 = b^2 + a^2 + 2ab \\cos C $",
+        " $c^2 = b^2 + a^2 - 2ab \\cos C $"
+      ],
+      "correctAnswer": "c^2 = b^2 + a^2 + 2ab \\cos C"
+    },
+    {
+      "question": "Cho tam giác $ABC$ có diện tích $S$, bán kính đường tròn ngoại tiếp là $R$. Mệnh đề nào sau đây là sai?",
+      "options": [
+        " $S = \\frac{abc}{4R} $",
+        " $\\sin A = \\frac{a}{R} $",
+        " $S = \\frac{1}{2}ab \\sin C $",
+        " $c^2 = a^2 + b^2 - 2ab \\cos C $"
+      ],
+      "correctAnswer": "\\sin A = \\frac{a}{R}"
+    },
+    {
+      "question": "Cho tam giác $ABC$ có $a=6, b=4\\sqrt{2}, c=2$. M là điểm trên cạnh $BC$ sao cho $BM=3$. Độ dài đoạn $AM$ bằng:",
+      "options": [
+        "9",
+        " $\\sqrt{9} $",
+        "3",
+        " $\\frac{1}{2}\\sqrt{108} $"
+      ],
+      "correctAnswer": "3"
+    },
+    {
+      "question": "Tính diện tích tam giác $ABC$ biết các cạnh $a=5, b=6, c=3$.",
+      "options": [
+        " $\\sqrt{56} $",
+        "48",
+        "6",
+        "8"
+      ],
+      "correctAnswer": "\\sqrt{56}"
+    }
+  ],
+  "part2": [
+    {
+      "question": "Cho tam giác $ABC$ có các cạnh $a, b, c$, bán kính đường tròn ngoại tiếp $R$, nội tiếp $r$ và nửa chu vi $p$. Xét tính đúng sai của các mệnh đề sau:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Định lý côsin được phát biểu là $a^2 = b^2 + c^2 - 2bc \\cos A$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Diện tích tam giác $ABC$ tính theo công thức Heron là $S = \\sqrt{p(p-a)(p-b)(p-c)}$.",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "Theo định lý sin, ta có $\\frac{a}{\\sin A} = R$.",
+          "isTrue": false
+        },
+        {
+          "label": "d",
+          "text": "Độ dài đường trung tuyến kẻ từ đỉnh $A$ là $m_a^2 = \\frac{2(b^2+c^2)-a^2}{4}$.",
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "question": "Cho tam giác $ABC$ có $b=7, c=5$ và $\\cos A = \\frac{3}{5}$. Khi đó:",
+      "statements": [
+        {
+          "label": "a",
+          "text": "Độ dài cạnh $a$ bằng $\\sqrt{32}$.",
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "text": "Giá trị của $\\sin A$ bằng $\\frac{4}{5}$.",
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "text": "Diện tích tam giác $ABC$ bằng $15$.",
+          "isTrue": false
+        },
+        {
+          "label": "d",
+          "text": "Độ dài đường cao $h_a$ kẻ từ đỉnh $A$ là $\\frac{7\\sqrt{2}}{2}$.",
+          "isTrue": true
+        }
+      ]
+    }
+  ],
+  "part3": [
+    {
+      "question": "Cho tam giác $ABC$ có $a=8, c=3$ và góc $B = 60^\\circ$. Tính độ dài cạnh $b$.",
+      "correctAnswer": "7"
+    },
+    {
+      "question": "Cho tam giác $ABC$ có $AB=3, BC=5$ và độ dài đường trung tuyến $BM = \\sqrt{13}$. Tính độ dài cạnh $AC$.",
+      "correctAnswer": "4"
+    },
+    {
+      "question": "Cho tam giác $ABC$ có ba cạnh lần lượt là $a=3, b=4, c=5$. Tính diện tích $S$ của tam giác đó.",
+      "correctAnswer": "6"
+    }
+  ],
+  "questions": []
+}
